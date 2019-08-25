@@ -39,11 +39,11 @@ Agradecemos como gente de bien que somos a las siguientes personas:
 * [@droter](https://github.com/droter). Por obvias razones.
 * María Riva. Mi hermana que en su inmensa generosidad ha traído mucha de la electrónica del proyecto en sus viajes.
 * Luciana Herraiz, que siempre me apoya en todo y mis hijos, que espero que usen esto como herramienta de aprendizaje y lo rompan.
-* Mi hermano Pablo Riva que me ayudo en varios aspectos del proyecto y me tapo baches durante la realizacion del mismo.
+* Mi hermano Pablo Riva que me ayudo en varios aspectos del proyecto y me tapo baches durante la realizacion del mismo, que de otra forma hubiera sido imposible.
 * [David Tolosa](https://github.com/davidtolosa). Porque fue el primero en sumarse y ponerse a trabajar.
 * Manuel Fossati. Siempre dando una mano y aprendiendo.
-* Casa Orsini.
-* Baterias Ares.
+* Laurita. Me ayudo con todo, hasta con los fusibles.
+* Casa Orsini y Baterias Ares, que en un momento complicado del pais nos abastecieron de insumos de trabajo.
 * Ekumen, nos invitaron a almorzar en BA y tuvimos una interesante charla sobre ROS.
 * Sebastian Carrazotti. Nos dio una mano con los contactos iniciales.
 
