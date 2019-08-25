@@ -1,17 +1,17 @@
 ![Logo ROS Agriculture](https://raw.githubusercontent.com/rje1974/Proyecto-Pochito/master/site/Imagenes_Site/18500762.png)
 
-# Proyecto Pochito.
-## Objetivo.
+# Proyecto Pochito
+## Objetivo
 Este proyecto tiene como objetivo lograr reproducir en Argentina todo el proceso de planificación, desarrollo y construcción del robot con el que Matt Dotter se presento en la [AgBot 2019](https://ag.purdue.edu/agBOT/). En su síntesis es un ejemplo de implementación de ROS sobre Mini-Tractor Corta Césped y por lo tanto se inicia como una [bifurcación](https://tinyurl.com/y37ajy6b) del proyecto [ROS Lawn Tractor](https://github.com/ros-agriculture/ros_lawn_tractor) de ROS Agriculture. Consideramos que la reproducción de ese proyecto es un ejercicio practico para que la academia, industria metal-mecánica y el sector agropecuarios de argentina vean el potencial de este conjuntos de tecnologías y se produzca la [apropiación este conjunto de tecnologías](https://es.wikipedia.org/wiki/Apropiaci%C3%B3n_tecnol%C3%B3gica). Con el objeto de lograr lo anterior se hará hincapié en la documentación y por esto le pedimos que navegue [nuestra wiki](https://github.com/rje1974/ros_lawn_tractor/wiki), que es el corazón del proyecto. Esas descripciones incluyen: el software, hardware, comentarios, esquemas del proceso y la experiencia misma de la implementación de ROS en un "tractorcito". [Documentar, documentar y documentar....](https://github.com/rje1974/ros_lawn_tractor/wiki)
 
 ![Tractor que presento Matt en la AgBot 2019](https://raw.githubusercontent.com/rje1974/Proyecto-Pochito/master/site/Imagenes_Site/ros_lawn_tractor.png)
 
 ![Tractor que presento Matt en la AgBot 2019](https://raw.githubusercontent.com/rje1974/Proyecto-Pochito/master/site/Imagenes_Site/lawn_tractor.png)
 
-## Contexto.
+## Contexto
 Durante los últimos tres años he asistido a la [AgBot](https://ag.purdue.edu/agBOT/), pude constatar personalmente el crecimiento de ROS en la escena de robotización de agro y en estas reuniones conocí a [Matt Droter](https://github.com/droter). Como una cosa lleva a la otra, Matt se ofreció a darnos una mano en el desarrollo de un prototipo.
 
-## Plan de trabajo. (25/08/2019)
+## Plan de trabajo (25/08/2019)
 El plan de trabajo esta marcado por la fecha de arribo de Droter a Argentina que es el viernes 16 de agosto de 2019 y su partida el día 25 de agosto de 2019. En las generales el plan de trabajo contempla lo siguiente:
 - Documentar el proceso y la ejecución del proyecto. (En proceso)
 - Organizar el viaje del Sr. Droter. (Hecho)
@@ -34,7 +34,7 @@ Este es un proyecto abierto en todos los sentidos. Usted esta invitado a trabaja
 ## Dudas...?
 Envie un [correo](mailto:juaneduardoriva@gmail.com) o [ Whatsapp](https://wa.me/5492392520561) al coordinador del grupo.
 
-## Agradecimientos.
+## Agradecimientos
 Agradecemos como gente de bien que somos a las siguientes personas:
 * [@droter](https://github.com/droter). Por obvias razones.
 * María Riva. Mi hermana que en su inmensa generosidad ha traído mucha de la electrónica del proyecto en sus viajes.
