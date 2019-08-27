@@ -54,7 +54,7 @@ Agradecemos como gente de bien que somos a las siguientes personas:
 - [David Tolosa](https://github.com/davidtolosa). Porque fue el primero en sumarse y ponerse a trabajar.
 - Manuel Fossati. Siempre dando una mano y aprendiendo.
 - Laurita. Me ayudo con todo, hasta con los fusibles.
-- Casa Orsini y Baterias Ares, que en un momento complicado del pais nos abastecieron de insumos de trabajo.
+- Leo Orsini de Casa Orsini, Carlos Ares de Baterias Ares y Ioio Maggio de SIDER OESTE, porque todo esto se realizó en un momento complicado del país y nos abastecieron de insumos para que pudieramos hacer el trabajo.
 - Ekumen, nos invitaron a almorzar en BA y tuvimos una interesante charla sobre ROS.
 - Sebastian Carrazotti. Nos dio una mano con los contactos iniciales.
 
