@@ -29,23 +29,19 @@ El plan de trabajo esta marcado por la fecha de arribo de Droter a Argentina que
 
 Si Usted quiere ver algo mas detallado, lo puede ver [aquí](https://github.com/rje1974/ros_lawn_tractor/wiki/Plan-De-Trabajo).
 
-## Participación
-
-Este es un proyecto abierto en todos los sentidos. Usted esta invitado a trabajar con el equipo y solo debe de presentarse en alguna de las siguientes plataformas: [Unirse al grupo de Whatsapp](https://chat.whatsapp.com/FK1hUuH3ac3ExXbGrR0gs1) o [al grupo SLACK](https://app.slack.com/client/T676UDNG3/GK8UTNMGS), enviar un [correo](mailto:juaneduardoriva@gmail.com) o [un Whatsapp](https://wa.me/5492392520561) al coordinador.
-
 ## Que nos esta haciendo falta
 
 -   Ayuda con la documentación.
 -   Devoluciones contrucctivas del proceso.
 -   Devoluciones contrucctivas de la documentación.
 
-## Dudas
+## Participación y dudas
 
-Envie un [correo](mailto:juaneduardoriva@gmail.com) o [Whatsapp](https://wa.me/5492392520561) al coordinador del grupo.
+Este es un proyecto abierto en todos los sentidos. Usted esta invitado a trabajar con el equipo y solo debe de presentarse en alguna de las siguientes plataformas: [Unirse al grupo de Whatsapp](https://chat.whatsapp.com/FK1hUuH3ac3ExXbGrR0gs1) o [al grupo SLACK](https://app.slack.com/client/T676UDNG3/GK8UTNMGS), enviar un [correo](mailto:juaneduardoriva@gmail.com) o [un Whatsapp](https://wa.me/5492392520561) al coordinador.
 
 ## Agradecimientos
 
-Agradecemos como gente de bien que somos a las siguientes personas:
+El proyecto fue posible gracias a Las siguientes:
 
 -   [Matt Droter](https://www.linkedin.com/in/droterville/). Por obvias razones.
 -   [María Riva](https://www.linkedin.com/in/maria-riva-aa78245a/). Mi hermana que en su inmensa generosidad ha traído mucha de la electrónica del proyecto en sus viajes.
