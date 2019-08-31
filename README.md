@@ -52,11 +52,13 @@ Agradecemos como gente de bien que somos a las siguientes personas:
 - Luciana Herraiz, que siempre me apoya en todo y mis hijos, que espero que usen esto como herramienta de aprendizaje y lo rompan.
 - Mi hermano Pablo Riva que me ayudo en varios aspectos del proyecto y me tapo baches durante la realizacion del mismo, que de otra forma hubiera sido imposible.
 - [David Tolosa](https://github.com/davidtolosa). Porque fue el primero en sumarse y ponerse a trabajar.
-- Manuel Fossati. Siempre dando una mano y aprendiendo.
+- Manuel Fossati. Siempre dando una mano y aprendiendo. Aporto muchas ideas de "como" y "porque".
+- Diego Barrios. Nos guió en la compra del tractor, hizo el mantenimiento toda la parte mecánica y nos enseño la parte eléctrica del mismo para adaptar la misma a la electrónica.
 - Laurita. Me ayudo con todo, hasta con los fusibles.
 - Leo Orsini de Casa Orsini, Carlos Ares de Baterias Ares y Ioio Maggio de SIDER OESTE, porque todo esto se realizó en un momento complicado del país y nos abastecieron de insumos para que pudieramos hacer el trabajo.
-- Ekumen, nos invitaron a almorzar en BA y tuvimos una interesante charla sobre ROS.
-- Sebastian Carrazotti. Nos dio una mano con los contactos iniciales.
+- Al equipo de [Ekumen](https://www.ekumenlabs.com/team/), que nos invitaron a almorzar en BA y tuvimos una interesante charla sobre ROS y varias cosas más; que aportaron al producto.
+- [Agustín Alba Chicar](https://www.linkedin.com/in/agustin-dario-alba-chicar-6b269846/). Nos dió y da muy buenos consejos.
+- Sebastian Carrazotti. Nos dio una mano con los contactos iniciales y aporto ideas para el producto inicial.
 
 ### Licenciamiento
 
