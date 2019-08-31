@@ -60,6 +60,4 @@ Agradecemos como gente de bien que somos a las siguientes personas:
 
 ### Licenciamiento
 
-ros_lawn_tractor esta bajo licencia MIT. Todo usuario de este software deberá indemnizar y mantener libre de daño y responsabilidad a ROS Agriculture y sus directores, oficiales, empleado, accionistas, afiliados, sub-contratistas, y clientes de y contra todo tipo de alegatos, reclamos, acciones legales, petición, demandas, daños, reclamos, obligaciones, perdidas, acuerdo, juicios, costos, expensas (incluidas comisiones y costos de abogados) que se pudieran generar de forma directa o indirecta del uso de este software por el usuario o quien fuera.
-
-ESTO ES SOFTWARE DE CALIDAD ALFA PARA USO EN INVESTIGACIÓN SOLAMENTE. ESTO NO ES UN PRODUCTO. USTED ES RESPONSABLE DE CUMPLIMENTAR LAS LEYES LOCALES Y REGULACIONES APLICABLES. NO HAY GARANTÍA DE NINGÚN TIPO SOBRE ESTOS PRODUCTOS.
+**ros_lawn_tractor** y **Proyecto Pochito** están bajo licencia MIT. Usted puede ver la misma [AQUÍ](https://github.com/rje1974/Proyecto-Pochito/blob/master/LICENSE) .
