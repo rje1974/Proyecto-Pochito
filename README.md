@@ -53,6 +53,7 @@ El proyecto fue posible gracias a Las siguientes:
 -   Al equipo de [Ekumen](https://www.ekumenlabs.com/team/), que nos invitaron a almorzar en BA y tuvimos una interesante charla sobre ROS y varias cosas más; que aportaron al producto.
 -   [Agustín Alba Chicar](https://www.linkedin.com/in/agustin-dario-alba-chicar-6b269846/). Nos dió y da muy buenos consejos.
 -   [Sebastian Carrazotti](https://www.linkedin.com/in/sebascarra/). Nos dio una mano con los contactos iniciales y aporto ideas para el producto inicial.
+-   [Municipalidad Trenque Lauquen](http://pct.trenquelauquen.gov.ar/). Especialmente a [Marcelo Ferreyra](https://www.linkedin.com/in/marcelo-ferreyra-3257232/) y [Laura Marchabalo](https://www.linkedin.com/in/laura-marchabalo-a497905/) que desde el punto digital nos acompañaron.
 
 ### Licenciamiento
 
