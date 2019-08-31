@@ -18,14 +18,14 @@ Durante los últimos tres años he asistido a la [AgBot](https://ag.purdue.edu/a
 
 El plan de trabajo esta marcado por la fecha de arribo de Droter a Argentina que es el viernes 16 de agosto de 2019 y su partida el día 25 de agosto de 2019. En las generales el plan de trabajo contempla lo siguiente:
 
-- Documentar el proceso y la ejecución del proyecto. (En proceso)
-- Organizar el viaje del Sr. Droter. (Hecho)
-- Comunicar el proyecto. (Hecho)
-- Planear el proyecto. (Hecho)
-- Acopiar los materiales. (Hecho)
-- Probar los materiales en Trenque Lauquen. (Hecho)
-- Reproducir el proceso en modo prueba en Trenque Lauquen. (Hecho)
-- Ejecutar el proyecto en el [punto digital de Trenque Lauquen](http://pct.trenquelauquen.gov.ar/). (Abandonado)
+-   Documentar el proceso y la ejecución del proyecto. (En proceso)
+-   Organizar el viaje del Sr. Droter. (Hecho)
+-   Comunicar el proyecto. (Hecho)
+-   Planear el proyecto. (Hecho)
+-   Acopiar los materiales. (Hecho)
+-   Probar los materiales en Trenque Lauquen. (Hecho)
+-   Reproducir el proceso en modo prueba en Trenque Lauquen. (Hecho)
+-   Ejecutar el proyecto en el [punto digital de Trenque Lauquen](http://pct.trenquelauquen.gov.ar/). (Abandonado)
 
 Si Usted quiere ver algo mas detallado, lo puede ver [aquí](https://github.com/rje1974/ros_lawn_tractor/wiki/Plan-De-Trabajo).
 
@@ -35,9 +35,9 @@ Este es un proyecto abierto en todos los sentidos. Usted esta invitado a trabaja
 
 ## Que nos esta haciendo falta
 
-- Ayuda con la documentación.
-- Devoluciones contrucctivas del proceso.
-- Devoluciones contrucctivas de la documentación.
+-   Ayuda con la documentación.
+-   Devoluciones contrucctivas del proceso.
+-   Devoluciones contrucctivas de la documentación.
 
 ## Dudas
 
@@ -47,18 +47,18 @@ Envie un [correo](mailto:juaneduardoriva@gmail.com) o [Whatsapp](https://wa.me/5
 
 Agradecemos como gente de bien que somos a las siguientes personas:
 
-- [@droter](https://github.com/droter). Por obvias razones.
-- María Riva. Mi hermana que en su inmensa generosidad ha traído mucha de la electrónica del proyecto en sus viajes.
-- Luciana Herraiz, que siempre me apoya en todo y mis hijos, que espero que usen esto como herramienta de aprendizaje y lo rompan.
-- Mi hermano Pablo Riva que me ayudo en varios aspectos del proyecto y me tapo baches durante la realizacion del mismo, que de otra forma hubiera sido imposible.
-- [David Tolosa](https://github.com/davidtolosa). Porque fue el primero en sumarse y ponerse a trabajar.
-- Manuel Fossati. Siempre dando una mano y aprendiendo. Aporto muchas ideas de "como" y "porque".
-- Diego Barrios. Nos guió en la compra del tractor, hizo el mantenimiento toda la parte mecánica y nos enseño la parte eléctrica del mismo para adaptar la misma a la electrónica.
-- Laurita. Me ayudo con todo, hasta con los fusibles.
-- Leo Orsini de Casa Orsini, Carlos Ares de Baterias Ares y Ioio Maggio de SIDER OESTE, porque todo esto se realizó en un momento complicado del país y nos abastecieron de insumos para que pudieramos hacer el trabajo.
-- Al equipo de [Ekumen](https://www.ekumenlabs.com/team/), que nos invitaron a almorzar en BA y tuvimos una interesante charla sobre ROS y varias cosas más; que aportaron al producto.
-- [Agustín Alba Chicar](https://www.linkedin.com/in/agustin-dario-alba-chicar-6b269846/). Nos dió y da muy buenos consejos.
-- Sebastian Carrazotti. Nos dio una mano con los contactos iniciales y aporto ideas para el producto inicial.
+-   [Matt Droter](https://www.linkedin.com/in/droterville/). Por obvias razones.
+-   [María Riva](https://www.linkedin.com/in/maria-riva-aa78245a/). Mi hermana que en su inmensa generosidad ha traído mucha de la electrónica del proyecto en sus viajes.
+-   [Luciana Herraiz](https://www.linkedin.com/in/luciana-herraiz-8958a1150/), que siempre me apoya en todo y mis hijos, que espero que usen esto como herramienta de aprendizaje y lo rompan.
+-   [Pablo Riva](https://www.linkedin.com/in/pablo-alfredo-riva/). Mi hermano que me ayudo en varios aspectos del proyecto y me tapo baches durante la realizacion del mismo, que de otra forma hubiera sido imposible.
+-   [David Tolosa](https://github.com/davidtolosa). Porque fue el primero en sumarse y ponerse a trabajar.
+-   [Manuel Fossati](https://www.linkedin.com/in/manuel-fossati-03026561/). Siempre dando una mano y aprendiendo. Aporto muchas ideas de "como" y "porque".
+-   [Diego Barrios](https://www.linkedin.com/in/diego-david-barrios-bb84b251/). Nos guió en la compra del tractor, hizo el mantenimiento toda la parte mecánica y nos enseño la parte eléctrica del mismo para adaptar la misma a la electrónica.
+-   Laurita. Me ayudo con todo, hasta con los fusibles.
+-   Leo Orsini de [Casa Orsini](https://es-la.facebook.com/casaorsini/), Carlos Ares de [Baterias Ares](https://es-la.facebook.com/pages/category/Automotive--Aircraft---Boat/Baterias-Ares-646753535515544/) y [Ioio Maggio](https://www.linkedin.com/in/gregorio-maggio-b92ab667/) de [SIDER OESTE](http://www.sideroeste.com.ar/index.php), porque todo esto se realizó en un momento complicado del país y nos abastecieron de insumos para que pudieramos hacer el trabajo.
+-   Al equipo de [Ekumen](https://www.ekumenlabs.com/team/), que nos invitaron a almorzar en BA y tuvimos una interesante charla sobre ROS y varias cosas más; que aportaron al producto.
+-   [Agustín Alba Chicar](https://www.linkedin.com/in/agustin-dario-alba-chicar-6b269846/). Nos dió y da muy buenos consejos.
+-   [Sebastian Carrazotti](https://www.linkedin.com/in/sebascarra/). Nos dio una mano con los contactos iniciales y aporto ideas para el producto inicial.
 
 ### Licenciamiento
 
