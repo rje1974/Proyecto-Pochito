@@ -54,7 +54,7 @@ El proyecto fue posible gracias a Las siguientes:
 -   [Agustín Alba Chicar](https://www.linkedin.com/in/agustin-dario-alba-chicar-6b269846/). Nos dió y da muy buenos consejos.
 -   [Sebastian Carrazotti](https://www.linkedin.com/in/sebascarra/). Nos dio una mano con los contactos iniciales y aporto ideas para el producto inicial.
 -   [Municipalidad Trenque Lauquen](http://pct.trenquelauquen.gov.ar/). Especialmente a [Marcelo Ferreyra](https://www.linkedin.com/in/marcelo-ferreyra-3257232/) y [Laura Marchabalo](https://www.linkedin.com/in/laura-marchabalo-a497905/) que desde el punto digital nos acompañaron.
--   Maria Fossati y Martin Varela. Que nos prestaron el predio para las pruebas.
+-   [Maria Fossati](https://www.linkedin.com/in/mar%C3%ADa-jos%C3%A9-fossati-151653160/) y [Martin Varela](). Que nos prestaron el predio para las pruebas.
 
 ### Licenciamiento
 
