@@ -30,8 +30,10 @@ Si Usted quiere ver algo mas detallado, lo puede ver [aquí](https://github.com/
 ## Que nos esta haciendo falta
 
 -   Ayuda con la documentación.
--   Devoluciones contrucctivas del proceso.
--   Devoluciones contrucctivas de la documentación.
+-   Devoluciones contructivas del proceso.
+-   Devoluciones contructivas de la documentación.
+-   Orden.
+
 
 ## Participación y dudas
 
