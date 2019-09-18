@@ -16,7 +16,6 @@ Durante los últimos tres años he asistido a la [AgBot](https://ag.purdue.edu/a
 
 El plan de trabajo esta marcado por la fecha de arribo de Droter a Argentina que es el viernes 16 de agosto de 2019 y su partida el día 25 de agosto de 2019. En las generales el plan de trabajo contempla lo siguiente:
 
--   Documentar el proceso y la ejecución del proyecto. (En proceso)
 -   Organizar el viaje del Sr. Droter. (Hecho)
 -   Comunicar el proyecto. (Hecho)
 -   Planear el proyecto. (Hecho)
@@ -24,6 +23,7 @@ El plan de trabajo esta marcado por la fecha de arribo de Droter a Argentina que
 -   Probar los materiales en Trenque Lauquen. (Hecho)
 -   Reproducir el proceso en modo prueba en Trenque Lauquen. (Hecho)
 -   Ejecutar el proyecto en el [punto digital de Trenque Lauquen](http://pct.trenquelauquen.gov.ar/). (Abandonado)
+-   Documentar el proceso y la ejecución del proyecto. (En proceso)
 
 Si Usted quiere ver algo mas detallado, lo puede ver [aquí](https://github.com/rje1974/ros_lawn_tractor/wiki/Plan-De-Trabajo).
 
