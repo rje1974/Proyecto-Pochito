@@ -25,7 +25,8 @@ El plan de trabajo esta marcado por la fecha de arribo de Droter a Argentina que
 -   Ejecutar el proyecto en el [punto digital de Trenque Lauquen](http://pct.trenquelauquen.gov.ar/). (Abandonado)
 -   Consolidar el armado. (Hecho)
 -   Manejo del tractor con control desde ROS. (Hecho)
--   Ejecutar un trayecto de waypoints. (En proceso)
+-   Ejecutar un trayecto de waypoints. (En proceso) [![Watch the video](/site/Imagenes_Site/youtube.png)](https://youtu.be/XLXWEX2-MHA)
+
 -   Documentar el proceso y la ejecución del proyecto. (En proceso)
 
 Si Usted quiere ver algo mas detallado, lo puede ver [aquí](https://github.com/rje1974/ros_lawn_tractor/wiki/Plan-De-Trabajo).
@@ -59,8 +60,6 @@ El proyecto fue posible gracias a Las siguientes:
 -   [Sebastian Carrazotti](https://www.linkedin.com/in/sebascarra/). Nos dio una mano con los contactos iniciales y aporto ideas para el producto inicial.
 -   [Municipalidad Trenque Lauquen](http://pct.trenquelauquen.gov.ar/). Especialmente a [Marcelo Ferreyra](https://www.linkedin.com/in/marcelo-ferreyra-3257232/) y [Laura Marchabalo](https://www.linkedin.com/in/laura-marchabalo-a497905/) que desde el punto digital nos acompañaron.
 -   [Maria Fossati](https://www.linkedin.com/in/mar%C3%ADa-jos%C3%A9-fossati-151653160/) y [Martin Varela](<>). Que nos prestaron el predio para las pruebas.
-
-[![Watch the video](/site/Imagenes_Site/youtube.png)](https://youtu.be/XLXWEX2-MHA)
 
 ### Licenciamiento
 
