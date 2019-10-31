@@ -60,6 +60,8 @@ El proyecto fue posible gracias a Las siguientes:
 -   [Municipalidad Trenque Lauquen](http://pct.trenquelauquen.gov.ar/). Especialmente a [Marcelo Ferreyra](https://www.linkedin.com/in/marcelo-ferreyra-3257232/) y [Laura Marchabalo](https://www.linkedin.com/in/laura-marchabalo-a497905/) que desde el punto digital nos acompañaron.
 -   [Maria Fossati](https://www.linkedin.com/in/mar%C3%ADa-jos%C3%A9-fossati-151653160/) y [Martin Varela](<>). Que nos prestaron el predio para las pruebas.
 
+[![Watch the video](/site/Imagenes_Site/youtube.png)](https://youtu.be/XLXWEX2-MHA)
+
 ### Licenciamiento
 
 **ros_lawn_tractor** y **Proyecto Pochito** están bajo licencia MIT. Usted puede ver la misma [AQUÍ](https://github.com/rje1974/Proyecto-Pochito/blob/master/LICENSE) .
