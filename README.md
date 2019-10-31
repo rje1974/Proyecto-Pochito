@@ -12,7 +12,7 @@ Este proyecto tiene como objetivo lograr reproducir en Argentina todo el proceso
 
 Durante los últimos tres años he asistido a la [AgBot](https://ag.purdue.edu/agBOT/), pude constatar personalmente el crecimiento de ROS en la escena de robotización de agro y en estas reuniones conocí a [Matt Droter](https://github.com/droter). Como una cosa lleva a la otra, Matt se ofreció a darnos una mano en el desarrollo de un prototipo.
 
-## Plan de trabajo (25/08/2019)
+## Plan de trabajo (31/10/2019)
 
 El plan de trabajo esta marcado por la fecha de arribo de Droter a Argentina que es el viernes 16 de agosto de 2019 y su partida el día 25 de agosto de 2019. En las generales el plan de trabajo contempla lo siguiente:
 
@@ -23,6 +23,9 @@ El plan de trabajo esta marcado por la fecha de arribo de Droter a Argentina que
 -   Probar los materiales en Trenque Lauquen. (Hecho)
 -   Reproducir el proceso en modo prueba en Trenque Lauquen. (Hecho)
 -   Ejecutar el proyecto en el [punto digital de Trenque Lauquen](http://pct.trenquelauquen.gov.ar/). (Abandonado)
+-   Consolidar el armado. (Hecho)
+-   Manejo del tractor con control desde ROS. (Hecho)
+-   Ejecutar un trayecto de waypoints. (En proceso)
 -   Documentar el proceso y la ejecución del proyecto. (En proceso)
 
 Si Usted quiere ver algo mas detallado, lo puede ver [aquí](https://github.com/rje1974/ros_lawn_tractor/wiki/Plan-De-Trabajo).
@@ -34,8 +37,7 @@ Si Usted quiere ver algo mas detallado, lo puede ver [aquí](https://github.com/
 -   Devoluciones contructivas de la documentación.
 -   Orden.
 
-
-## Participación y dudas
+## Participación
 
 Este es un proyecto abierto en todos los sentidos. Usted esta invitado a trabajar con el equipo y solo debe de presentarse en alguna de las siguientes plataformas: [Unirse al grupo de Whatsapp](https://chat.whatsapp.com/FK1hUuH3ac3ExXbGrR0gs1) o [al grupo SLACK](https://app.slack.com/client/T676UDNG3/GK8UTNMGS), enviar un [correo](mailto:juaneduardoriva@gmail.com) o [un Whatsapp](https://wa.me/5492392520561) al coordinador.
 
@@ -56,7 +58,7 @@ El proyecto fue posible gracias a Las siguientes:
 -   [Agustín Alba Chicar](https://www.linkedin.com/in/agustin-dario-alba-chicar-6b269846/). Nos dió y da muy buenos consejos.
 -   [Sebastian Carrazotti](https://www.linkedin.com/in/sebascarra/). Nos dio una mano con los contactos iniciales y aporto ideas para el producto inicial.
 -   [Municipalidad Trenque Lauquen](http://pct.trenquelauquen.gov.ar/). Especialmente a [Marcelo Ferreyra](https://www.linkedin.com/in/marcelo-ferreyra-3257232/) y [Laura Marchabalo](https://www.linkedin.com/in/laura-marchabalo-a497905/) que desde el punto digital nos acompañaron.
--   [Maria Fossati](https://www.linkedin.com/in/mar%C3%ADa-jos%C3%A9-fossati-151653160/) y [Martin Varela](). Que nos prestaron el predio para las pruebas.
+-   [Maria Fossati](https://www.linkedin.com/in/mar%C3%ADa-jos%C3%A9-fossati-151653160/) y [Martin Varela](<>). Que nos prestaron el predio para las pruebas.
 
 ### Licenciamiento
 
