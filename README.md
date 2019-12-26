@@ -12,7 +12,7 @@ Este proyecto tiene como objetivo lograr reproducir en Argentina todo el proceso
 
 Durante los últimos tres años he asistido a la [AgBot](https://ag.purdue.edu/agBOT/), pude constatar personalmente el crecimiento de ROS en la escena de robotización de agro y en estas reuniones conocí a [Matt Droter](https://github.com/droter). Como una cosa lleva a la otra, Matt se ofreció a darnos una mano en el desarrollo de un prototipo.
 
-## Plan de trabajo (31/10/2019)
+## Plan de trabajo (26/12/2019)
 
 El plan de trabajo esta marcado por la fecha de arribo de Droter a Argentina que es el viernes 16 de agosto de 2019 y su partida el día 25 de agosto de 2019. En las generales el plan de trabajo contempla lo siguiente:
 
@@ -25,7 +25,7 @@ El plan de trabajo esta marcado por la fecha de arribo de Droter a Argentina que
 -   Ejecutar el proyecto en el [punto digital de Trenque Lauquen](http://pct.trenquelauquen.gov.ar/). (Abandonado)
 -   Consolidar el armado. (Hecho)
 -   Manejo del tractor con control desde ROS. (Hecho)
--   Ejecutar un trayecto de waypoints. (En proceso) [![Watch the video](/site/Imagenes_Site/youtube.png)](https://youtu.be/XLXWEX2-MHA)
+-   Ejecutar un trayecto de waypoints. (En proceso) 26/12/2019 Sigo muy trabado con el tema de la navegación. Me propongo poner bien los scritps de las lauchfiles aquí para que el que pueda me de una mano. [![Watch the video](/site/Imagenes_Site/youtube.png)](https://youtu.be/XLXWEX2-MHA)
 
 -   Documentar el proceso y la ejecución del proyecto. (En proceso)
 
