@@ -2,6 +2,8 @@
 
 # Pochito Project
 
+ENG [ESP](https://github.com/rje1974/Proyecto-Pochito/blob/master/README.md)
+
 ## Objectives
 
 This project aims to reproduce in Argentina the entire process of planning, development and construction of the robot with which Matt Dotter presented at the [AgBot 2019] (https://ag.purdue.edu/agBOT/). In its synthesis it is an example of ROS implementation on the Lawn Mower Mini-Tractor and therefore it starts as a [fork] (https://tinyurl.com/y37ajy6b) of the [ROS Lawn Tractor] project (https: // github.com/ros-agriculture/ros_lawn_tractor) from ROS Agriculture. We consider that the reproduction of this project is a practical exercise so that the academy, metal-mechanical industry and the agricultural sector of Argentina see the potential of this set of technologies and the [appropriation of this set of technologies] occurs (https: // en.wikipedia.org/wiki/Appropriation% C3% B3n_tecnol% C3% B3gica). In order to achieve the above, the documentation will be emphasized and for this reason we ask you to browse [our wiki] (https://github.com/rje1974/ros_lawn_tractor/wiki), which is the heart of the project. Those descriptions include: the software, hardware, feedback, process schematics, and the very experience of ROS implementation in a "little tractor". [Document, document and document ....] (https://github.com/rje1974/Proyecto-Pochito/wiki)

@@ -2,7 +2,7 @@
 
 # Proyecto Pochito
 
-Usted puede leer esto en castellano o en ingles.
+ESP [ENG](https://github.com/rje1974/Proyecto-Pochito/blob/master/README_EN.md)
 
 ## Objetivo
 
