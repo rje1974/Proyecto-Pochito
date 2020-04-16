@@ -1,0 +1,29 @@
+[rospy.client][INFO] 2019-09-24 19:28:26,730: init_node, name[/rostopic_262_1569353306629], pid[262]
+[xmlrpc][INFO] 2019-09-24 19:28:26,732: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2019-09-24 19:28:26,735: ROS Slave URI: [http://juan:46089/]
+[xmlrpc][INFO] 2019-09-24 19:28:26,734: Started XML-RPC server [http://juan:46089/]
+[rospy.impl.masterslave][INFO] 2019-09-24 19:28:26,736: _ready: http://juan:46089/
+[rospy.registration][INFO] 2019-09-24 19:28:26,737: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2019-09-24 19:28:26,737: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-09-24 19:28:26,836: registered with master
+[rospy.rosout][INFO] 2019-09-24 19:28:26,836: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-09-24 19:28:26,861: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-09-24 19:28:26,881: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2019-09-24 19:28:27,186: topic[/piksi/navsatfix_best_fix] adding connection to [http://tractor:37785/], count 0
+[rospy.internal][INFO] 2019-09-24 19:28:28,112: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][WARNING] 2019-09-24 19:29:25,009: Unknown error initiating TCP/IP socket to tractor:42327 (http://tractor:37785/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2019-09-24 19:29:25,012: topic[/piksi/navsatfix_best_fix] removing connection to http://tractor:37785/
+[rospy.internal][INFO] 2019-09-24 19:29:42,485: topic[/piksi/navsatfix_best_fix] adding connection to [http://tractor:32951/], count 0
+[rospy.core][INFO] 2019-09-24 19:29:48,836: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-09-24 19:29:48,876: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-09-24 19:29:48,878: topic[/piksi/navsatfix_best_fix] removing connection to http://tractor:32951/
+[rospy.impl.masterslave][INFO] 2019-09-24 19:29:48,880: signal-2
+[rospy.core][INFO] 2019-09-24 19:29:48,982: signal_shutdown [atexit]

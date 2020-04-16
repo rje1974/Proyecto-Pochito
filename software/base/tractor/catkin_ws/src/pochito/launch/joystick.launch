@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+  <!--  Joystick Start -->
+  <arg name="joy_dev" default="/dev/input/js0" />
+  <arg name="config_filepath" default="$(find lawn_tractor_navigation)/params/logitech.yaml" />
+
+  <node pkg="joy" type="joy_node" name="joy_node" clear_params="true" >
+    <param name="dev" value="$(arg joy_dev)" />
+    <param name="autorepeat_rate" value="20" />
+  </node>
+</launch>

@@ -1,0 +1,42 @@
+[roslaunch][INFO] 2019-10-02 20:56:41,854: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2019-10-02 20:56:41,884: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2019-10-02 20:56:41,885: roslaunch starting with args ['/opt/ros/kinetic/bin/roslaunch', 'pochito', 'pure_pursuit.launch']
+[roslaunch][INFO] 2019-10-02 20:56:41,885: roslaunch env is {'PYTHONIOENCODING': 'UTF-8', 'ROS_DISTRO': 'kinetic', 'CATKIN_WS': '/root/tractor_ws', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'ROSLISP_PACKAGE_DIRECTORIES': '/root/catkin_ws/devel/share/common-lisp', 'PATH': '/root/catkin_ws/devel/bin:/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'juan', 'HOME': '/root', 'CMAKE_PREFIX_PATH': '/root/catkin_ws/devel:/opt/ros/kinetic', 'LD_LIBRARY_PATH': '/root/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'ROS_LOG_FILENAME': '/root/.ros/log/229c8f5c-e557-11e9-bfda-541379045209/roslaunch-juan-2821.log', 'SHLVL': '2', 'TERMINATOR_UUID': 'urn:uuid:44156b1e-9a2a-4b8e-b332-ce77e209cc1b', 'DISPLAY': ':0', 'WINDOWID': '104857604', '_': '/opt/ros/kinetic/bin/roslaunch', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'LC_ALL': 'C.UTF-8', 'COLORTERM': 'gnome-terminal', 'PYTHONPATH': '/root/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'QT_X11_NO_MITSHM': '1', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'IBUS_DISABLE_SNOOPER': '1', 'PKG_CONFIG_PATH': '/root/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PACKAGE_PATH': '/root/catkin_ws/src/catkin_simple:/root/catkin_ws/src/ethz_piksi_ros/ethz_piksi_ros:/root/catkin_ws/src/geodetic_utils:/root/catkin_ws/src/geonav_transform:/root/catkin_ws/src/ros_lawn_tractor/lawn_tractor:/root/catkin_ws/src/ros_lawn_tractor/lawn_tractor_navigation:/root/catkin_ws/src/ros_lawn_tractor/lawn_tractor_sim:/root/catkin_ws/src/ethz_piksi_ros/piksi_pps_sync:/root/catkin_ws/src/ethz_piksi_ros/piksi_rtk_msgs:/root/catkin_ws/src/ethz_piksi_ros/piksi_multi_rtk_ros:/root/catkin_ws/src/ethz_piksi_ros/piksi_rtk_kml:/root/catkin_ws/src/ethz_piksi_ros/piksi_v2_rtk_ros:/root/catkin_ws/src/pochito:/root/catkin_ws/src/pure_pursuit:/root/catkin_ws/src/ethz_piksi_ros/rqt_gps_rtk_plugin:/opt/ros/kinetic/share', 'ORBIT_SOCKETDIR': '/tmp/orbit-root', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'HOSTNAME': 'juan', 'ROS_IP': '192.168.5.210', 'PWD': '/root/catkin_ws/src/pochito/scripts', 'ROS_MASTER_URI': 'http://tractor:11311/', 'ROS_VERSION': '1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'}
+[roslaunch][INFO] 2019-10-02 20:56:41,886: starting in server mode
+[roslaunch.parent][INFO] 2019-10-02 20:56:41,887: starting roslaunch parent run
+[roslaunch][INFO] 2019-10-02 20:56:41,888: loading roscore config file /opt/ros/kinetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2019-10-02 20:56:43,178: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2019-10-02 20:56:43,179: loading config file /root/catkin_ws/src/pochito/launch/pure_pursuit.launch
+[roslaunch][INFO] 2019-10-02 20:56:43,192: Added node of type [pure_pursuit/pure_pursuit] in namespace [/]
+[roslaunch][INFO] 2019-10-02 20:56:43,910: ... selected machine [] for node of type [pure_pursuit/pure_pursuit]
+[roslaunch.pmon][INFO] 2019-10-02 20:56:43,913: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2019-10-02 20:56:43,914: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2019-10-02 20:56:43,915: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2019-10-02 20:56:43,915: starting parent XML-RPC server
+[roslaunch.server][INFO] 2019-10-02 20:56:43,915: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2019-10-02 20:56:43,916: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2019-10-02 20:56:43,916: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-10-02 20:56:43,917: Started XML-RPC server [http://juan:43319/]
+[xmlrpc][INFO] 2019-10-02 20:56:43,918: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2019-10-02 20:56:43,932: started roslaunch server http://juan:43319/
+[roslaunch.parent][INFO] 2019-10-02 20:56:43,932: ... parent XML-RPC server started
+[roslaunch][INFO] 2019-10-02 20:56:43,933: master.is_running[http://tractor:11311/]
+[roslaunch][ERROR] 2019-10-02 20:56:44,737: ERROR: unable to contact ROS master at [http://tractor:11311/]
+[roslaunch][ERROR] 2019-10-02 20:56:44,738: The traceback for the exception was written to the log file
+[roslaunch][ERROR] 2019-10-02 20:56:44,743: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/__init__.py", line 306, in main
+    p.start()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/parent.py", line 279, in start
+    self.runner.launch()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/launch.py", line 657, in launch
+    self._setup()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/launch.py", line 632, in _setup
+    launched = self._launch_master()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/launch.py", line 397, in _launch_master
+    validate_master_launch(m, self.is_core, self.is_rostest)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/launch.py", line 105, in validate_master_launch
+    raise RLException("ERROR: unable to contact ROS master at [%s]"%(m.uri))
+RLException: ERROR: unable to contact ROS master at [http://tractor:11311/]
+
+[rospy.core][INFO] 2019-10-02 20:56:44,744: signal_shutdown [atexit]

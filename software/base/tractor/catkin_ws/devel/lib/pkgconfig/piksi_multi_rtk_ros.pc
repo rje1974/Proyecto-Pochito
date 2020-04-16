@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/piksi_multi_rtk_ros/lib/pkgconfig/piksi_multi_rtk_ros.pc

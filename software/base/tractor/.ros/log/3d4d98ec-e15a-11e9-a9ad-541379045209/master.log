@@ -1,0 +1,369 @@
+[rosmaster.main][INFO] 2019-09-27 19:09:01,499: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-09-27 19:09:01,500: Starting ROS Master Node
+[xmlrpc][INFO] 2019-09-27 19:09:01,503: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2019-09-27 19:09:01,505: Started XML-RPC server [http://juan:11311/]
+[rosmaster.master][INFO] 2019-09-27 19:09:01,505: Master initialized: port[11311], uri[http://juan:11311/]
+[xmlrpc][INFO] 2019-09-27 19:09:01,506: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-09-27 19:09:05,975: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:05,980: +PARAM [/roslaunch/uris/host_juan__43827] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,836: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,836: +PARAM [/move_base/TebLocalPlannerROS/feasibility_check_no_poses] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,837: +PARAM [/move_base/local_costmap/footprint] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,837: +PARAM [/move_base/global_costmap/obstacle_layer/raytrace_range] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,838: +PARAM [/move_base/TebLocalPlannerROS/footprint_model/line_start] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,839: +PARAM [/move_base/local_costmap/transform_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,840: +PARAM [/move_base/no_outer_iterations] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,840: +PARAM [/move_base/TebLocalPlannerROS/acc_lim_theta] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,840: +PARAM [/move_base/global_costmap/inflation_layer/inflation_radius] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,841: +PARAM [/move_base/TebLocalPlannerROS/max_global_plan_lookahead_dist] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,841: +PARAM [/move_base/planner_frequency] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,841: +PARAM [/move_base/global_costmap/footprint] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,842: +PARAM [/move_base/global_costmap/obstacle_layer/laser_scan_sensor/clearing] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,842: +PARAM [/move_base/TebLocalPlannerROS/global_plan_overwrite_orientation] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,842: +PARAM [/move_base/controller_patience] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,842: +PARAM [/move_base/TebLocalPlannerROS/dt_ref] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,843: +PARAM [/move_base/local_costmap/static_map] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,843: +PARAM [/move_base/local_costmap/resolution] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,843: +PARAM [/move_base/global_costmap/plugins] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,843: +PARAM [/move_base/global_costmap/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,844: +PARAM [/move_base/local_costmap/width] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,844: +PARAM [/move_base/local_costmap/rolling_window] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,844: +PARAM [/move_base/TebLocalPlannerROS/dt_hysteresis] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,845: +PARAM [/move_base/controller_frequency] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,845: +PARAM [/move_base/TebLocalPlannerROS/footprint_model/line_end] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,845: +PARAM [/move_base/global_costmap/obstacle_layer/enabled] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,846: +PARAM [/move_base/TebLocalPlannerROS/teb_autosize] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,846: +PARAM [/move_base/TebLocalPlannerROS/min_turning_radius] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,846: +PARAM [/vehicle_state_publisher/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,847: +PARAM [/move_base/optimization_activate] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,847: +PARAM [/move_base/TebLocalPlannerROS/max_vel_theta] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,847: +PARAM [/move_base/base_global_planner] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,847: +PARAM [/move_base/global_costmap/inflation_layer/enabled] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,848: +PARAM [/move_base/TebLocalPlannerROS/acc_lim_x] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,848: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,848: +PARAM [/move_base/TebLocalPlannerROS/yaw_goal_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,848: +PARAM [/move_base/local_costmap/obstacle_layer/laser_scan_sensor/clearing] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,849: +PARAM [/move_base/optimization_verbose] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,849: +PARAM [/map_server/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,849: +PARAM [/move_base/TebLocalPlannerROS/max_vel_x] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,849: +PARAM [/move_base/local_costmap/obstacle_layer/raytrace_range] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,850: +PARAM [/move_base/local_costmap/obstacle_layer/track_unknown_space] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,850: +PARAM [/move_base/local_costmap/obstacle_layer/laser_scan_sensor/data_type] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,850: +PARAM [/move_base/global_costmap/obstacle_layer/laser_scan_sensor/data_type] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,850: +PARAM [/move_base/local_costmap/obstacle_layer/enabled] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,851: +PARAM [/move_base/global_costmap/static_map] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,851: +PARAM [/move_base/local_costmap/obstacle_layer/combination_method] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,851: +PARAM [/move_base/TebLocalPlannerROS/costmap_obstacles_behind_robot_dist] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,852: +PARAM [/move_base/TebLocalPlannerROS/weight_kinematics_turning_radius] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,852: +PARAM [/move_base/TebLocalPlannerROS/xy_goal_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,852: +PARAM [/move_base/global_costmap/robot_base_frame] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,852: +PARAM [/move_base/local_costmap/obstacle_layer/laser_scan_sensor/marking] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,853: +PARAM [/move_base/local_costmap/height] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,853: +PARAM [/move_base/no_inner_iterations] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,853: +PARAM [/move_base/TebLocalPlannerROS/max_vel_x_backwards] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,854: +PARAM [/move_base/global_costmap/obstacle_layer/track_unknown_space] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,854: +PARAM [/move_base/local_costmap/update_frequency] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,854: +PARAM [/move_base/local_costmap/plugins] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,854: +PARAM [/move_base/local_costmap/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,855: +PARAM [/move_base/TebLocalPlannerROS/footprint_model/type] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,855: +PARAM [/move_base/global_costmap/update_frequency] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,855: +PARAM [/move_base/local_costmap/map_type] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,855: +PARAM [/move_base/TebLocalPlannerROS/min_vel_x] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,856: +PARAM [/move_base/TebLocalPlannerROS/cmd_angle_instead_rotvel] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,856: +PARAM [/move_base/TebLocalPlannerROS/obstacle_poses_affected] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,856: +PARAM [/move_base/local_costmap/inflation_layer/inflation_radius] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,857: +PARAM [/move_base/global_costmap/static_layer/enabled] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,857: +PARAM [/move_base/local_costmap/inflation_layer/enabled] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,858: +PARAM [/move_base/local_costmap/robot_base_frame] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,858: +PARAM [/move_base/local_costmap/obstacle_layer/observation_sources] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,858: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,859: +PARAM [/move_base/global_costmap/transform_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,860: +PARAM [/move_base/global_costmap/obstacle_layer/laser_scan_sensor/marking] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,860: +PARAM [/move_base/global_costmap/obstacle_layer/obstacle_range] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,860: +PARAM [/move_base/TebLocalPlannerROS/wheelbase] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,860: +PARAM [/move_base/local_costmap/static_layer/enabled] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,861: +PARAM [/move_base/local_costmap/obstacle_layer/obstacle_range] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,861: +PARAM [/move_base/global_costmap/map_type] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,861: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,861: +PARAM [/move_base/local_costmap/global_frame] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,862: +PARAM [/move_base/global_costmap/global_frame] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,862: +PARAM [/move_base/TebLocalPlannerROS/allow_init_with_backwards_motion] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,862: +PARAM [/move_base/TebLocalPlannerROS/min_obstacle_dist] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,862: +PARAM [/move_base/base_local_planner] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,863: +PARAM [/move_base/planner_patience] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,863: +PARAM [/move_base/global_costmap/obstacle_layer/combination_method] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,863: +PARAM [/move_base/local_costmap/obstacle_layer/laser_scan_sensor/topic] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,863: +PARAM [/move_base/global_costmap/obstacle_layer/observation_sources] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:08,864: +PARAM [/move_base/global_costmap/obstacle_layer/laser_scan_sensor/topic] by /roslaunch
+[rosmaster.master][INFO] 2019-09-27 19:09:09,562: +SERVICE [/rosout/get_loggers] /rosout http://juan:40031/
+[rosmaster.master][INFO] 2019-09-27 19:09:09,566: +SERVICE [/rosout/set_logger_level] /rosout http://juan:40031/
+[rosmaster.master][INFO] 2019-09-27 19:09:09,590: +SUB [/clock] /rosout http://juan:40031/
+[rosmaster.master][INFO] 2019-09-27 19:09:09,593: +PUB [/rosout_agg] /rosout http://juan:40031/
+[rosmaster.master][INFO] 2019-09-27 19:09:09,610: +SUB [/rosout] /rosout http://juan:40031/
+[rosmaster.master][INFO] 2019-09-27 19:09:12,265: +PUB [/rosout] /stageros http://juan:42313/
+[rosmaster.master][INFO] 2019-09-27 19:09:12,268: +SERVICE [/stageros/get_loggers] /stageros http://juan:42313/
+[rosmaster.master][INFO] 2019-09-27 19:09:12,273: +SERVICE [/stageros/set_logger_level] /stageros http://juan:42313/
+[rosmaster.master][INFO] 2019-09-27 19:09:12,300: +SUB [/clock] /stageros http://juan:42313/
+[rosmaster.master][INFO] 2019-09-27 19:09:12,303: +PUB [/tf] /stageros http://juan:42313/
+[rosmaster.master][INFO] 2019-09-27 19:09:12,329: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/']
+[rosmaster.master][INFO] 2019-09-27 19:09:12,341: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-09-27 19:12:31,820: +PUB [/rosout] /path_publisher http://juan:43935/
+[rosmaster.master][INFO] 2019-09-27 19:12:40,620: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/']
+[rosmaster.master][INFO] 2019-09-27 19:12:58,525: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/']: sec=8.38, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-09-27 19:12:59,294: +PUB [/rosout] /map_to_odom http://juan:45955/
+[rosmaster.master][INFO] 2019-09-27 19:12:59,316: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45955/']
+[rosmaster.master][INFO] 2019-09-27 19:13:00,923: +PUB [/rosout] /vehicle_state_publisher http://juan:45607/
+[rosmaster.master][INFO] 2019-09-27 19:13:00,924: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45955/']: sec=1.16, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-09-27 19:13:00,925: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45955/', 'http://juan:45607/']
+[rosmaster.master][INFO] 2019-09-27 19:13:01,206: +PUB [/rosout] /move_base http://juan:35217/
+[rosmaster.master][INFO] 2019-09-27 19:13:01,211: +PUB [/rosout] /map_to_utm http://juan:35829/
+[rosmaster.master][INFO] 2019-09-27 19:13:01,216: +SERVICE [/map_to_odom/get_loggers] /map_to_odom http://juan:45955/
+[rosmaster.master][INFO] 2019-09-27 19:13:01,502: +PUB [/rosout] /map_server http://juan:43143/
+[rosmaster.master][INFO] 2019-09-27 19:13:01,506: +SERVICE [/vehicle_state_publisher/get_loggers] /vehicle_state_publisher http://juan:45607/
+[rosmaster.master][INFO] 2019-09-27 19:13:01,507: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45955/', 'http://juan:45607/']: sec=0.58, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-09-27 19:13:01,508: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45955/', 'http://juan:45607/', 'http://juan:35217/']
+[rosmaster.master][INFO] 2019-09-27 19:13:01,511: +SERVICE [/move_base/get_loggers] /move_base http://juan:35217/
+[rosmaster.master][INFO] 2019-09-27 19:13:01,544: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45955/', 'http://juan:45607/', 'http://juan:35217/']: sec=0.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-09-27 19:13:01,627: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45955/', 'http://juan:45607/', 'http://juan:35217/', 'http://juan:35829/']
+[rosmaster.master][INFO] 2019-09-27 19:13:01,630: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45955/', 'http://juan:45607/', 'http://juan:35217/', 'http://juan:35829/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-09-27 19:13:01,631: +SERVICE [/map_to_utm/get_loggers] /map_to_utm http://juan:35829/
+[rosmaster.master][INFO] 2019-09-27 19:13:01,632: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45955/', 'http://juan:45607/', 'http://juan:35217/', 'http://juan:35829/', 'http://juan:43143/']
+[rosmaster.master][INFO] 2019-09-27 19:13:01,635: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45955/', 'http://juan:45607/', 'http://juan:35217/', 'http://juan:35829/', 'http://juan:43143/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-09-27 19:13:01,637: +SERVICE [/map_to_odom/set_logger_level] /map_to_odom http://juan:45955/
+[rosmaster.master][INFO] 2019-09-27 19:13:01,643: +SERVICE [/map_server/get_loggers] /map_server http://juan:43143/
+[rosmaster.master][INFO] 2019-09-27 19:13:01,645: +SERVICE [/vehicle_state_publisher/set_logger_level] /vehicle_state_publisher http://juan:45607/
+[rosmaster.master][INFO] 2019-09-27 19:13:01,648: +SERVICE [/move_base/set_logger_level] /move_base http://juan:35217/
+[rosmaster.master][INFO] 2019-09-27 19:13:01,655: +SERVICE [/map_to_utm/set_logger_level] /map_to_utm http://juan:35829/
+[rosmaster.master][INFO] 2019-09-27 19:13:01,661: +SERVICE [/map_server/set_logger_level] /map_server http://juan:43143/
+[rosmaster.master][INFO] 2019-09-27 19:13:02,002: +SUB [/clock] /map_to_odom http://juan:45955/
+[rosmaster.master][INFO] 2019-09-27 19:13:02,006: +SUB [/clock] /vehicle_state_publisher http://juan:45607/
+[rosmaster.master][INFO] 2019-09-27 19:13:02,008: +SUB [/clock] /move_base http://juan:35217/
+[rosmaster.master][INFO] 2019-09-27 19:13:02,012: +SUB [/clock] /map_to_utm http://juan:35829/
+[rosmaster.master][INFO] 2019-09-27 19:13:02,014: +SUB [/clock] /map_server http://juan:43143/
+[rosmaster.master][INFO] 2019-09-27 19:13:02,759: +PUB [/tf] /map_to_utm http://juan:35829/
+[rosmaster.master][INFO] 2019-09-27 19:13:02,761: +PUB [/tf] /map_to_odom http://juan:45955/
+[rosmaster.master][INFO] 2019-09-27 19:13:05,297: +SUB [/tf] /move_base http://juan:35217/
+[rosmaster.master][INFO] 2019-09-27 19:13:05,314: +SUB [/tf_static] /move_base http://juan:35217/
+[rosmaster.master][INFO] 2019-09-27 19:13:06,389: +PUB [/tf] /vehicle_state_publisher http://juan:45607/
+[rosmaster.master][INFO] 2019-09-27 19:13:06,392: publisherUpdate[/tf] -> http://juan:35217/ ['http://juan:42313/', 'http://juan:35829/', 'http://juan:45955/', 'http://juan:45607/']
+[rosmaster.master][INFO] 2019-09-27 19:13:06,393: +PUB [/tf_static] /vehicle_state_publisher http://juan:45607/
+[rosmaster.master][INFO] 2019-09-27 19:13:08,432: publisherUpdate[/tf] -> http://juan:35217/ ['http://juan:42313/', 'http://juan:35829/', 'http://juan:45955/', 'http://juan:45607/']: sec=2.04, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-09-27 19:13:08,434: publisherUpdate[/tf_static] -> http://juan:35217/ ['http://juan:45607/']
+[rosmaster.master][INFO] 2019-09-27 19:13:08,438: publisherUpdate[/tf_static] -> http://juan:35217/ ['http://juan:45607/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-09-27 19:13:08,460: +SUB [/joint_states] /vehicle_state_publisher http://juan:45607/
+[rosmaster.master][INFO] 2019-09-27 19:13:08,573: +PUB [/rosout] /obstacles http://juan:41667/
+[rosmaster.master][INFO] 2019-09-27 19:13:08,577: +SERVICE [/obstacles/get_loggers] /obstacles http://juan:41667/
+[rosmaster.master][INFO] 2019-09-27 19:13:08,581: +SERVICE [/obstacles/set_logger_level] /obstacles http://juan:41667/
+[rosmaster.master][INFO] 2019-09-27 19:13:08,603: +SUB [/clock] /obstacles http://juan:41667/
+[rosmaster.master][INFO] 2019-09-27 19:13:08,609: +PUB [/visualization_marker] /obstacles http://juan:41667/
+[rosmaster.master][INFO] 2019-09-27 19:13:08,628: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45955/', 'http://juan:45607/', 'http://juan:35217/', 'http://juan:35829/', 'http://juan:43143/', 'http://juan:41667/']
+[rosmaster.master][INFO] 2019-09-27 19:13:08,635: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45955/', 'http://juan:45607/', 'http://juan:35217/', 'http://juan:35829/', 'http://juan:43143/', 'http://juan:41667/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-09-27 19:13:32,385: +SUB [/clock] /path_publisher http://juan:43935/
+[rosmaster.master][INFO] 2019-09-27 19:13:33,982: +SERVICE [/path_publisher/get_loggers] /path_publisher http://juan:43935/
+[rosmaster.master][INFO] 2019-09-27 19:13:34,880: +SERVICE [/path_publisher/set_logger_level] /path_publisher http://juan:43935/
+[rosmaster.master][INFO] 2019-09-27 19:13:36,182: +SUB [/got_path] /path_publisher http://juan:43935/
+[rosmaster.master][INFO] 2019-09-27 19:13:36,436: +PUB [/drive_path] /path_publisher http://juan:43935/
+[rosmaster.master][INFO] 2019-09-27 19:15:25,935: +PUB [/rosout] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:15:26,202: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45955/', 'http://juan:45607/', 'http://juan:35217/', 'http://juan:35829/', 'http://juan:43143/', 'http://juan:41667/', 'http://juan:36123/']
+[rosmaster.master][INFO] 2019-09-27 19:15:26,217: +SERVICE [/tractor_viz/get_loggers] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:15:26,221: +SERVICE [/tractor_viz/set_logger_level] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:15:26,243: +SUB [/clock] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:15:27,388: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45955/', 'http://juan:45607/', 'http://juan:35217/', 'http://juan:35829/', 'http://juan:43143/', 'http://juan:41667/', 'http://juan:36123/']: sec=1.18, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-09-27 19:15:35,641: +PUB [/cmd_vel] /move_base http://juan:35217/
+[rosmaster.master][INFO] 2019-09-27 19:15:35,644: +PUB [/move_base/current_goal] /move_base http://juan:35217/
+[rosmaster.master][INFO] 2019-09-27 19:15:35,646: +PUB [/move_base/goal] /move_base http://juan:35217/
+[rosmaster.master][INFO] 2019-09-27 19:15:35,665: +SUB [/move_base_simple/goal] /move_base http://juan:35217/
+[rosmaster.master][INFO] 2019-09-27 19:15:36,169: +PUB [/rosout] /odom_to_lla http://juan:41153/
+[rosmaster.master][INFO] 2019-09-27 19:15:36,220: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45955/', 'http://juan:45607/', 'http://juan:35217/', 'http://juan:35829/', 'http://juan:43143/', 'http://juan:41667/', 'http://juan:36123/', 'http://juan:41153/']
+[rosmaster.master][INFO] 2019-09-27 19:15:36,223: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45955/', 'http://juan:45607/', 'http://juan:35217/', 'http://juan:35829/', 'http://juan:43143/', 'http://juan:41667/', 'http://juan:36123/', 'http://juan:41153/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-09-27 19:15:36,340: +SUB [/clock] /odom_to_lla http://juan:41153/
+[rosmaster.master][INFO] 2019-09-27 19:15:36,345: +SERVICE [/odom_to_lla/get_loggers] /odom_to_lla http://juan:41153/
+[rosmaster.master][INFO] 2019-09-27 19:15:36,349: +SERVICE [/odom_to_lla/set_logger_level] /odom_to_lla http://juan:41153/
+[rosmaster.master][INFO] 2019-09-27 19:15:36,356: +SUB [/odom] /odom_to_lla http://juan:41153/
+[rosmaster.master][INFO] 2019-09-27 19:16:16,152: +SUB [/tf] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:16:16,170: +SUB [/tf_static] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:16:21,836: +PUB [/initialpose] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:16:21,988: +PUB [/goal] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:17:42,972: +SUB [/gps_odom] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:18:00,271: +SUB [/scan] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:18:00,469: +SUB [/map] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:18:00,484: +SUB [/map_updates] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:18:00,498: +SUB [/move_base_flex/controller/local_plan] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:18:00,514: +SUB [/drive_path] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:18:00,532: +SUB [/path] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:18:00,552: +SUB [/visualization_marker] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:18:00,568: +SUB [/visualization_marker_array] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:18:01,130: -SUB [/visualization_marker] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:18:01,135: -SUB [/visualization_marker_array] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:18:01,684: +SUB [/visualization_marker] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:18:01,700: +SUB [/visualization_marker_array] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:18:03,719: -PUB [/goal] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:18:03,950: -PUB [/initialpose] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:18:04,698: +PUB [/initialpose] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:18:04,702: +PUB [/goal] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:18:04,706: +PUB [/move_base_simple/goal] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:18:04,709: -PUB [/goal] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:18:04,712: +PUB [/clicked_point] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:18:04,721: publisherUpdate[/move_base_simple/goal] -> http://juan:35217/ ['http://juan:36123/']
+[rosmaster.master][INFO] 2019-09-27 19:18:05,053: publisherUpdate[/move_base_simple/goal] -> http://juan:35217/ ['http://juan:36123/']: sec=0.33, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-09-27 19:18:35,907: +SERVICE [/tractor_viz/reload_shaders] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:25:46,612: -SUB [/path] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:25:49,928: -SUB [/drive_path] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:25:50,148: -SUB [/gps_odom] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:25:50,878: -SUB [/scan] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:25:51,180: -SUB [/visualization_marker] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:25:51,184: -SUB [/visualization_marker_array] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:25:52,109: -SUB [/move_base_flex/controller/local_plan] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:25:52,114: -SUB [/map] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:25:52,119: -SUB [/map_updates] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:25:53,511: -PUB [/clicked_point] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:25:53,728: -PUB [/move_base_simple/goal] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:25:53,729: publisherUpdate[/move_base_simple/goal] -> http://juan:35217/ []
+[rosmaster.master][INFO] 2019-09-27 19:25:53,755: -PUB [/initialpose] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:25:54,095: publisherUpdate[/move_base_simple/goal] -> http://juan:35217/ []: sec=0.36, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-09-27 19:25:54,963: -SUB [/tf_static] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:25:54,966: -SUB [/tf] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:26:05,804: -SERVICE [/tractor_viz/reload_shaders] /tractor_viz rosrpc://juan:48335
+[rosmaster.master][INFO] 2019-09-27 19:26:08,015: -PUB [/rosout] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:26:08,020: -SUB [/clock] /tractor_viz http://juan:36123/
+[rosmaster.master][INFO] 2019-09-27 19:26:08,022: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45955/', 'http://juan:45607/', 'http://juan:35217/', 'http://juan:35829/', 'http://juan:43143/', 'http://juan:41667/', 'http://juan:41153/']
+[rosmaster.master][INFO] 2019-09-27 19:26:08,085: -SERVICE [/tractor_viz/get_loggers] /tractor_viz rosrpc://juan:48335
+[rosmaster.master][INFO] 2019-09-27 19:26:08,089: -SERVICE [/tractor_viz/set_logger_level] /tractor_viz rosrpc://juan:48335
+[rosmaster.master][INFO] 2019-09-27 19:26:08,875: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45955/', 'http://juan:45607/', 'http://juan:35217/', 'http://juan:35829/', 'http://juan:43143/', 'http://juan:41667/', 'http://juan:41153/']: sec=0.85, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-09-27 19:28:37,568: -SUB [/clock] /odom_to_lla http://juan:41153/
+[rosmaster.master][INFO] 2019-09-27 19:28:37,569: -SUB [/odom] /odom_to_lla http://juan:41153/
+[rosmaster.master][INFO] 2019-09-27 19:28:37,570: -PUB [/rosout] /odom_to_lla http://juan:41153/
+[rosmaster.master][INFO] 2019-09-27 19:28:37,570: -SERVICE [/odom_to_lla/set_logger_level] /odom_to_lla rosrpc://juan:37795
+[rosmaster.master][INFO] 2019-09-27 19:28:37,571: -SERVICE [/odom_to_lla/get_loggers] /odom_to_lla rosrpc://juan:37795
+[rosmaster.master][INFO] 2019-09-27 19:28:37,580: -PUB [/rosout] /obstacles http://juan:41667/
+[rosmaster.master][INFO] 2019-09-27 19:28:37,587: -PUB [/visualization_marker] /obstacles http://juan:41667/
+[rosmaster.master][INFO] 2019-09-27 19:28:37,592: -SUB [/clock] /obstacles http://juan:41667/
+[rosmaster.master][INFO] 2019-09-27 19:28:37,595: -SERVICE [/obstacles/get_loggers] /obstacles rosrpc://juan:40149
+[rosmaster.master][INFO] 2019-09-27 19:28:37,599: -SERVICE [/obstacles/set_logger_level] /obstacles rosrpc://juan:40149
+[rosmaster.master][INFO] 2019-09-27 19:28:37,669: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45955/', 'http://juan:45607/', 'http://juan:35217/', 'http://juan:35829/', 'http://juan:43143/', 'http://juan:41667/']
+[rosmaster.master][INFO] 2019-09-27 19:28:37,672: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45955/', 'http://juan:45607/', 'http://juan:35217/', 'http://juan:35829/', 'http://juan:43143/', 'http://juan:41667/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-09-27 19:28:37,673: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45955/', 'http://juan:45607/', 'http://juan:35217/', 'http://juan:35829/', 'http://juan:43143/']
+[rosmaster.master][INFO] 2019-09-27 19:28:37,683: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45955/', 'http://juan:45607/', 'http://juan:35217/', 'http://juan:35829/', 'http://juan:43143/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-09-27 19:28:37,970: -PUB [/rosout] /map_to_odom http://juan:45955/
+[rosmaster.master][INFO] 2019-09-27 19:28:37,971: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45607/', 'http://juan:35217/', 'http://juan:35829/', 'http://juan:43143/']
+[rosmaster.master][INFO] 2019-09-27 19:28:37,973: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45607/', 'http://juan:35217/', 'http://juan:35829/', 'http://juan:43143/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-09-27 19:28:37,975: -PUB [/tf] /map_to_odom http://juan:45955/
+[rosmaster.master][INFO] 2019-09-27 19:28:37,977: publisherUpdate[/tf] -> http://juan:35217/ ['http://juan:42313/', 'http://juan:35829/', 'http://juan:45607/']
+[rosmaster.master][INFO] 2019-09-27 19:28:37,983: -SUB [/clock] /map_to_odom http://juan:45955/
+[rosmaster.master][INFO] 2019-09-27 19:28:37,986: -SERVICE [/map_to_odom/get_loggers] /map_to_odom rosrpc://juan:33445
+[rosmaster.master][INFO] 2019-09-27 19:28:37,990: -SERVICE [/map_to_odom/set_logger_level] /map_to_odom rosrpc://juan:33445
+[rosmaster.master][INFO] 2019-09-27 19:28:37,994: -PUB [/rosout] /map_to_utm http://juan:35829/
+[rosmaster.master][INFO] 2019-09-27 19:28:37,997: -PUB [/tf] /map_to_utm http://juan:35829/
+[rosmaster.master][INFO] 2019-09-27 19:28:38,001: -SUB [/clock] /map_to_utm http://juan:35829/
+[rosmaster.master][INFO] 2019-09-27 19:28:38,004: -SERVICE [/map_to_utm/get_loggers] /map_to_utm rosrpc://juan:39797
+[rosmaster.master][INFO] 2019-09-27 19:28:38,007: -SERVICE [/map_to_utm/set_logger_level] /map_to_utm rosrpc://juan:39797
+[rosmaster.master][INFO] 2019-09-27 19:28:38,074: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45607/', 'http://juan:35217/', 'http://juan:43143/']
+[rosmaster.master][INFO] 2019-09-27 19:28:38,076: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:45607/', 'http://juan:35217/', 'http://juan:43143/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-09-27 19:28:38,136: -PUB [/rosout] /vehicle_state_publisher http://juan:45607/
+[rosmaster.master][INFO] 2019-09-27 19:28:38,140: -PUB [/tf] /vehicle_state_publisher http://juan:45607/
+[rosmaster.master][INFO] 2019-09-27 19:28:38,146: -PUB [/tf_static] /vehicle_state_publisher http://juan:45607/
+[rosmaster.master][INFO] 2019-09-27 19:28:38,149: -SUB [/clock] /vehicle_state_publisher http://juan:45607/
+[rosmaster.master][INFO] 2019-09-27 19:28:38,152: -SUB [/joint_states] /vehicle_state_publisher http://juan:45607/
+[rosmaster.master][INFO] 2019-09-27 19:28:38,155: -SERVICE [/vehicle_state_publisher/get_loggers] /vehicle_state_publisher rosrpc://juan:34343
+[rosmaster.master][INFO] 2019-09-27 19:28:38,158: -SERVICE [/vehicle_state_publisher/set_logger_level] /vehicle_state_publisher rosrpc://juan:34343
+[rosmaster.master][INFO] 2019-09-27 19:28:38,177: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:35217/', 'http://juan:43143/']
+[rosmaster.master][INFO] 2019-09-27 19:28:38,179: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:35217/', 'http://juan:43143/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-09-27 19:28:38,190: publisherUpdate[/tf] -> http://juan:35217/ ['http://juan:42313/', 'http://juan:35829/', 'http://juan:45607/']: sec=0.21, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-09-27 19:28:38,191: publisherUpdate[/tf] -> http://juan:35217/ ['http://juan:42313/', 'http://juan:45607/']
+[rosmaster.master][INFO] 2019-09-27 19:28:38,193: -PUB [/rosout] /move_base http://juan:35217/
+[rosmaster.master][INFO] 2019-09-27 19:28:38,196: -PUB [/cmd_vel] /move_base http://juan:35217/
+[rosmaster.master][INFO] 2019-09-27 19:28:38,199: -PUB [/move_base/current_goal] /move_base http://juan:35217/
+[rosmaster.master][INFO] 2019-09-27 19:28:38,202: -PUB [/move_base/goal] /move_base http://juan:35217/
+[rosmaster.master][INFO] 2019-09-27 19:28:38,205: -SUB [/clock] /move_base http://juan:35217/
+[rosmaster.master][INFO] 2019-09-27 19:28:38,208: -SUB [/tf] /move_base http://juan:35217/
+[rosmaster.master][INFO] 2019-09-27 19:28:38,212: -SUB [/tf_static] /move_base http://juan:35217/
+[rosmaster.master][INFO] 2019-09-27 19:28:38,215: -SUB [/move_base_simple/goal] /move_base http://juan:35217/
+[rosmaster.master][INFO] 2019-09-27 19:28:38,218: -SERVICE [/move_base/get_loggers] /move_base rosrpc://juan:46285
+[rosmaster.master][INFO] 2019-09-27 19:28:38,221: -SERVICE [/move_base/set_logger_level] /move_base rosrpc://juan:46285
+[rosmaster.master][INFO] 2019-09-27 19:28:38,519: publisherUpdate[/tf] -> http://juan:35217/ ['http://juan:42313/', 'http://juan:45607/']: sec=0.33, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2019-09-27 19:28:38,519: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:43143/']
+[rosmaster.master][INFO] 2019-09-27 19:28:39,137: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/', 'http://juan:43143/']: sec=0.54, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-09-27 19:28:39,138: publisherUpdate[/tf] -> http://juan:35217/ ['http://juan:42313/']
+[rosmaster.master][INFO] 2019-09-27 19:28:39,141: -PUB [/rosout] /map_server http://juan:43143/
+[rosmaster.master][INFO] 2019-09-27 19:28:39,143: -PUB [/rosout] /stageros http://juan:42313/
+[rosmaster.master][INFO] 2019-09-27 19:28:39,147: -PUB [/tf] /stageros http://juan:42313/
+[rosmaster.master][INFO] 2019-09-27 19:28:39,149: -SUB [/clock] /map_server http://juan:43143/
+[rosmaster.master][INFO] 2019-09-27 19:28:39,152: -SUB [/clock] /stageros http://juan:42313/
+[rosmaster.master][INFO] 2019-09-27 19:28:39,155: -SERVICE [/map_server/get_loggers] /map_server rosrpc://juan:40815
+[rosmaster.master][INFO] 2019-09-27 19:28:39,159: -SERVICE [/stageros/get_loggers] /stageros rosrpc://juan:58651
+[rosmaster.master][INFO] 2019-09-27 19:28:39,161: -SERVICE [/map_server/set_logger_level] /map_server rosrpc://juan:40815
+[rosmaster.master][INFO] 2019-09-27 19:28:39,164: -SERVICE [/stageros/set_logger_level] /stageros rosrpc://juan:58651
+[rosmaster.master][INFO] 2019-09-27 19:28:39,238: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/']
+[rosmaster.master][INFO] 2019-09-27 19:28:39,240: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:42313/', 'http://juan:43935/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-09-27 19:28:39,241: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:43935/']
+[rosmaster.master][INFO] 2019-09-27 19:28:39,242: publisherUpdate[/rosout] -> http://juan:40031/ ['http://juan:43935/']: sec=0.00, result=[1, '', 0]
+[rosmaster.threadpool][ERROR] 2019-09-27 19:28:43,346: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2019-09-27 19:28:43,771: -SUB [/clock] /path_publisher http://juan:43935/
+[rosmaster.master][INFO] 2019-09-27 19:28:43,772: -SUB [/got_path] /path_publisher http://juan:43935/
+[rosmaster.master][INFO] 2019-09-27 19:28:43,772: -PUB [/rosout] /path_publisher http://juan:43935/
+[rosmaster.master][INFO] 2019-09-27 19:28:43,773: -PUB [/drive_path] /path_publisher http://juan:43935/
+[rosmaster.master][INFO] 2019-09-27 19:28:43,773: -SERVICE [/path_publisher/set_logger_level] /path_publisher rosrpc://juan:37103
+[rosmaster.master][INFO] 2019-09-27 19:28:43,773: -SERVICE [/path_publisher/get_loggers] /path_publisher rosrpc://juan:37103
+[rosmaster.master][INFO] 2019-09-27 19:28:44,142: publisherUpdate[/rosout] -> http://juan:40031/ []
+[rosmaster.master][INFO] 2019-09-27 19:28:44,423: publisherUpdate[/rosout] -> http://juan:40031/ []: sec=0.28, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-09-27 19:28:52,371: +PARAM [/move_base/global_costmap/static_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,374: +PARAM [/move_base/global_costmap/static_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,393: +PARAM [/move_base/global_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,423: +PARAM [/move_base/global_costmap/transform_tolerance] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,425: +PARAM [/move_base/global_costmap/update_frequency] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,428: +PARAM [/move_base/global_costmap/publish_frequency] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,431: +PARAM [/move_base/global_costmap/width] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,434: +PARAM [/move_base/global_costmap/height] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,437: +PARAM [/move_base/global_costmap/resolution] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,440: +PARAM [/move_base/global_costmap/origin_x] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,443: +PARAM [/move_base/global_costmap/origin_y] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,446: +PARAM [/move_base/global_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,449: +PARAM [/move_base/global_costmap/robot_radius] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,452: +PARAM [/move_base/global_costmap/footprint_padding] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,563: +PARAM [/move_base/global_costmap/transform_tolerance] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,566: +PARAM [/move_base/global_costmap/update_frequency] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,573: +PARAM [/move_base/global_costmap/publish_frequency] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,576: +PARAM [/move_base/global_costmap/width] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,579: +PARAM [/move_base/global_costmap/height] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,583: +PARAM [/move_base/global_costmap/resolution] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,586: +PARAM [/move_base/global_costmap/origin_x] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,589: +PARAM [/move_base/global_costmap/origin_y] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,592: +PARAM [/move_base/global_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,596: +PARAM [/move_base/global_costmap/robot_radius] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,599: +PARAM [/move_base/global_costmap/footprint_padding] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,735: +PARAM [/move_base/GlobalPlanner/lethal_cost] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,737: +PARAM [/move_base/GlobalPlanner/neutral_cost] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,741: +PARAM [/move_base/GlobalPlanner/cost_factor] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,744: +PARAM [/move_base/GlobalPlanner/publish_potential] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,747: +PARAM [/move_base/GlobalPlanner/orientation_mode] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,751: +PARAM [/move_base/GlobalPlanner/lethal_cost] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,753: +PARAM [/move_base/GlobalPlanner/neutral_cost] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,757: +PARAM [/move_base/GlobalPlanner/cost_factor] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,760: +PARAM [/move_base/GlobalPlanner/publish_potential] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:52,763: +PARAM [/move_base/GlobalPlanner/orientation_mode] by /move_base
+[rosmaster.master][INFO] 2019-09-27 19:28:55,167: -PUB [/rosout_agg] /rosout http://juan:40031/
+[rosmaster.master][INFO] 2019-09-27 19:28:55,172: -SUB [/clock] /rosout http://juan:40031/
+[rosmaster.master][INFO] 2019-09-27 19:28:55,175: -SUB [/rosout] /rosout http://juan:40031/
+[rosmaster.master][INFO] 2019-09-27 19:28:55,178: -SERVICE [/rosout/get_loggers] /rosout rosrpc://juan:47731
+[rosmaster.master][INFO] 2019-09-27 19:28:55,181: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://juan:47731
+[rosmaster.main][INFO] 2019-09-27 19:28:55,713: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2019-09-27 19:28:55,868: stopping master...
+[rospy.core][INFO] 2019-09-27 19:28:56,484: signal_shutdown [atexit]

@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target shapes[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/shapes.dir/src/shapes.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/lawn_tractor_sim/lib/lawn_tractor_sim/shapes[0m
+[100%] Built target shapes

@@ -1,0 +1,44 @@
+[rospy.client][INFO] 2019-10-03 18:22:51,980: init_node, name[/rostopic_247_1570126971865], pid[247]
+[xmlrpc][INFO] 2019-10-03 18:22:51,982: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-10-03 18:22:51,984: Started XML-RPC server [http://juan:45861/]
+[rospy.impl.masterslave][INFO] 2019-10-03 18:22:51,986: _ready: http://juan:45861/
+[rospy.init][INFO] 2019-10-03 18:22:51,987: ROS Slave URI: [http://juan:45861/]
+[rospy.registration][INFO] 2019-10-03 18:22:51,989: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2019-10-03 18:22:51,989: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-10-03 18:22:52,089: registered with master
+[rospy.rosout][INFO] 2019-10-03 18:22:52,091: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-10-03 18:22:52,115: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-10-03 18:22:52,138: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2019-10-03 18:22:52,320: topic[/rosout] adding connection to [http://juan:45861/], count 0
+[rospy.internal][INFO] 2019-10-03 18:22:52,344: topic[/rosout] adding connection to [http://tractor:34895/], count 1
+[rospy.internal][INFO] 2019-10-03 18:22:52,352: topic[/rosout] adding connection to [http://tractor:39619/], count 2
+[rospy.internal][INFO] 2019-10-03 18:22:52,361: topic[/rosout] adding connection to [http://tractor:36135/], count 3
+[rospy.internal][INFO] 2019-10-03 18:22:52,366: topic[/rosout] adding connection to [http://tractor:38359/], count 4
+[rospy.internal][INFO] 2019-10-03 18:22:52,392: topic[/rosout] adding connection to [http://tractor:44013/], count 5
+[rospy.internal][INFO] 2019-10-03 18:22:52,396: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-10-03 18:22:52,401: topic[/rosout] adding connection to [/rostopic_247_1570126971865], count 1
+[rospy.core][INFO] 2019-10-03 18:25:38,797: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-10-03 18:25:38,829: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-10-03 18:25:38,834: topic[/rosout] removing connection to /rostopic_247_1570126971865
+[rospy.internal][ERROR] 2019-10-03 18:25:38,836: Unable to initiate TCP/IP socket to juan:39695 (http://juan:45861/): Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2019-10-03 18:25:38,836: topic[/rosout] removing connection to http://juan:45861/
+[rospy.internal][INFO] 2019-10-03 18:25:38,838: topic[/rosout] removing connection to http://tractor:34895/
+[rospy.internal][INFO] 2019-10-03 18:25:38,838: topic[/rosout] removing connection to http://tractor:39619/
+[rospy.internal][INFO] 2019-10-03 18:25:38,839: topic[/rosout] removing connection to http://tractor:36135/
+[rospy.internal][INFO] 2019-10-03 18:25:38,840: topic[/rosout] removing connection to http://tractor:38359/
+[rospy.internal][INFO] 2019-10-03 18:25:38,840: topic[/rosout] removing connection to http://tractor:44013/
+[rospy.impl.masterslave][INFO] 2019-10-03 18:25:38,841: signal-2
+[rospy.internal][WARNING] 2019-10-03 18:25:38,842: Unknown error initiating TCP/IP socket to tractor:35839 (http://tractor:34895/): Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2019-10-03 18:25:39,461: signal_shutdown [atexit]

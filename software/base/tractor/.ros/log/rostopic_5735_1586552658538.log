@@ -1,0 +1,56 @@
+[rospy.client][INFO] 2020-04-10 21:04:18,595: init_node, name[/rostopic_5735_1586552658538], pid[5735]
+[xmlrpc][INFO] 2020-04-10 21:04:18,596: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 21:04:18,596: Started XML-RPC server [http://juan:35675/]
+[rospy.init][INFO] 2020-04-10 21:04:18,597: ROS Slave URI: [http://juan:35675/]
+[rospy.impl.masterslave][INFO] 2020-04-10 21:04:18,597: _ready: http://juan:35675/
+[rospy.registration][INFO] 2020-04-10 21:04:18,598: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2020-04-10 21:04:18,598: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-04-10 21:04:18,697: registered with master
+[rospy.rosout][INFO] 2020-04-10 21:04:18,698: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 21:04:18,710: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 21:04:18,720: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 21:04:18,824: topic[/heading] adding connection to [http://juan:33407/], count 0
+[rospy.internal][INFO] 2020-04-10 21:04:18,936: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-04-10 21:05:12,059: topic[/heading] adding connection to [http://juan:34975/], count 1
+[rospy.core][INFO] 2020-04-10 21:35:32,288: signal_shutdown [signal-2]
+[rospy.core][INFO] 2020-04-10 21:35:34,324: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2020-04-10 21:35:34,338: unclean shutdown
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/registration.py", line 372, in cleanup
+    multi()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1006, in __call__
+    return MultiCallIterator(self.__server.system.multicall(marshalled_list))
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1069, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 907, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 869, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 846, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 4] Interrupted system call
+
+[rospy.internal][INFO] 2020-04-10 21:35:34,339: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-04-10 21:35:34,340: topic[/heading] removing connection to http://juan:33407/
+[rospy.internal][INFO] 2020-04-10 21:35:34,341: topic[/heading] removing connection to http://juan:34975/
+[rospy.impl.masterslave][INFO] 2020-04-10 21:35:34,341: signal-2
+[rospy.internal][WARNING] 2020-04-10 21:35:34,342: Unknown error initiating TCP/IP socket to juan:33329 (http://juan:33407/): Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2020-04-10 21:35:34,959: signal_shutdown [atexit]

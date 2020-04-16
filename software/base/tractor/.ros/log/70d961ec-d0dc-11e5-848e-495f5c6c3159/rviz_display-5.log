@@ -1,0 +1,47 @@
+[rospy.client][INFO] 2019-09-25 00:51:29,392: init_node, name[/rviz_display], pid[560]
+[xmlrpc][INFO] 2019-09-25 00:51:29,403: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-09-25 00:51:29,404: Started XML-RPC server [http://juan:44903/]
+[rospy.init][INFO] 2019-09-25 00:51:29,405: ROS Slave URI: [http://juan:44903/]
+[rospy.impl.masterslave][INFO] 2019-09-25 00:51:29,405: _ready: http://juan:44903/
+[xmlrpc][INFO] 2019-09-25 00:51:29,411: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-09-25 00:51:29,412: Registering with master node http://tractor:11311/
+[rospy.init][INFO] 2019-09-25 00:51:29,506: registered with master
+[rospy.rosout][INFO] 2019-09-25 00:51:29,508: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-09-25 00:51:29,544: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-09-25 00:51:29,622: initializing /clock core topic
+[rospy.simtime][INFO] 2019-09-25 00:51:29,726: connected to core topic /clock
+[rospy.internal][INFO] 2019-09-25 00:51:29,874: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-09-25 00:51:42,790: topic[/clock] adding connection to [http://juan:34397/], count 0
+[rospy.core][INFO] 2019-09-25 01:02:41,770: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2019-09-25 01:02:45,017: unclean shutdown
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/registration.py", line 374, in cleanup
+    multi()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1006, in __call__
+    return MultiCallIterator(self.__server.system.multicall(marshalled_list))
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1069, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 907, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 869, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 846, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 113] No route to host
+
+[rospy.internal][INFO] 2019-09-25 01:02:45,018: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-09-25 01:02:45,018: topic[/clock] removing connection to http://juan:34397/
+[rospy.impl.masterslave][INFO] 2019-09-25 01:02:45,030: signal-2
+[rospy.core][INFO] 2019-09-25 01:02:45,447: signal_shutdown [atexit]

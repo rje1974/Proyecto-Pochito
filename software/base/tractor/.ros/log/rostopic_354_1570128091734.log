@@ -1,0 +1,23 @@
+[rospy.client][INFO] 2019-10-03 18:41:31,852: init_node, name[/rostopic_354_1570128091734], pid[354]
+[xmlrpc][INFO] 2019-10-03 18:41:31,854: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-10-03 18:41:31,858: Started XML-RPC server [http://juan:33329/]
+[rospy.init][INFO] 2019-10-03 18:41:31,859: ROS Slave URI: [http://juan:33329/]
+[rospy.impl.masterslave][INFO] 2019-10-03 18:41:31,860: _ready: http://juan:33329/
+[rospy.registration][INFO] 2019-10-03 18:41:31,862: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2019-10-03 18:41:31,862: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-10-03 18:41:31,961: registered with master
+[rospy.rosout][INFO] 2019-10-03 18:41:31,963: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-10-03 18:41:31,991: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-10-03 18:41:32,026: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2019-10-03 18:41:32,672: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-10-03 18:41:33,386: topic[/diagnostics] adding connection to [http://tractor:36135/], count 0
+[rospy.core][INFO] 2019-10-03 18:41:57,082: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-10-03 18:41:57,140: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-10-03 18:41:57,141: topic[/diagnostics] removing connection to http://tractor:36135/
+[rospy.impl.masterslave][INFO] 2019-10-03 18:41:57,142: signal-2
+[rospy.internal][WARNING] 2019-10-03 18:41:57,159: Unknown error initiating TCP/IP socket to tractor:43977 (http://tractor:36135/): Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2019-10-03 18:41:57,764: signal_shutdown [atexit]

@@ -1,0 +1,52 @@
+[roslaunch][INFO] 2019-09-25 17:14:43,237: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2019-09-25 17:14:43,320: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2019-09-25 17:14:43,321: roslaunch starting with args ['/opt/ros/kinetic/bin/roslaunch', 'lawn_tractor_sim', 'lawn_tractor_sim_pure.launch']
+[roslaunch][INFO] 2019-09-25 17:14:43,322: roslaunch env is {'PYTHONIOENCODING': 'UTF-8', 'ROS_DISTRO': 'kinetic', 'CATKIN_WS': '/root/tractor_ws', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'ROS_IP': '192.168.5.210', 'ROS_PACKAGE_PATH': '/root/tractor_ws/src/geonav_transform:/root/tractor_ws/src/ros_lawn_tractor/lawn_tractor:/root/tractor_ws/src/ros_lawn_tractor/lawn_tractor_navigation:/root/tractor_ws/src/ros_lawn_tractor/lawn_tractor_sim:/opt/ros/kinetic/share', 'ROS_HOSTNAME': 'juan', 'PATH': '/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/root/tractor_ws/devel:/opt/ros/kinetic', 'LD_LIBRARY_PATH': '/root/tractor_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'ROS_LOG_FILENAME': '/root/.ros/log/f6f4a6ea-dfb7-11e9-bef8-541379045209/roslaunch-juan-289.log', 'SHLVL': '1', 'DISPLAY': ':0', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'HOME': '/root', 'PYTHONPATH': '/root/tractor_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'QT_X11_NO_MITSHM': '1', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'PKG_CONFIG_PATH': '/root/tractor_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'LC_ALL': 'C.UTF-8', '_': '/opt/ros/kinetic/bin/roslaunch', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'HOSTNAME': 'juan', 'ROSLISP_PACKAGE_DIRECTORIES': '/root/tractor_ws/devel/share/common-lisp', 'PWD': '/root/tractor_ws', 'ROS_MASTER_URI': 'http://tractor:11311/', 'ROS_VERSION': '1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'}
+[roslaunch][INFO] 2019-09-25 17:14:43,322: starting in server mode
+[roslaunch.parent][INFO] 2019-09-25 17:14:43,323: starting roslaunch parent run
+[roslaunch][INFO] 2019-09-25 17:14:43,332: loading roscore config file /opt/ros/kinetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2019-09-25 17:14:44,609: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2019-09-25 17:14:44,611: loading config file /root/tractor_ws/src/ros_lawn_tractor/lawn_tractor_sim/launch/lawn_tractor_sim_pure.launch
+[roslaunch][INFO] 2019-09-25 17:14:44,748: Added node of type [stage_ros/stageros] in namespace [/]
+[roslaunch][INFO] 2019-09-25 17:14:45,514: Added node of type [map_server/map_server] in namespace [/]
+[roslaunch][INFO] 2019-09-25 17:14:45,515: Added node of type [tf/static_transform_publisher] in namespace [/]
+[roslaunch][INFO] 2019-09-25 17:14:45,515: Added node of type [lawn_tractor_navigation/odom_to_path.py] in namespace [/]
+[roslaunch][INFO] 2019-09-25 17:14:45,516: Added node of type [lawn_tractor_navigation/rviz_display.py] in namespace [/]
+[roslaunch][INFO] 2019-09-25 17:14:45,518: Added node of type [rviz/rviz] in namespace [/]
+[roslaunch][INFO] 2019-09-25 17:14:45,518: ... selected machine [] for node of type [stage_ros/stageros]
+[roslaunch][INFO] 2019-09-25 17:14:45,519: ... selected machine [] for node of type [map_server/map_server]
+[roslaunch][INFO] 2019-09-25 17:14:45,519: ... selected machine [] for node of type [tf/static_transform_publisher]
+[roslaunch][INFO] 2019-09-25 17:14:45,519: ... selected machine [] for node of type [lawn_tractor_navigation/odom_to_path.py]
+[roslaunch][INFO] 2019-09-25 17:14:45,519: ... selected machine [] for node of type [lawn_tractor_navigation/rviz_display.py]
+[roslaunch][INFO] 2019-09-25 17:14:45,520: ... selected machine [] for node of type [rviz/rviz]
+[roslaunch.pmon][INFO] 2019-09-25 17:14:45,535: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2019-09-25 17:14:45,536: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2019-09-25 17:14:45,538: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2019-09-25 17:14:45,540: starting parent XML-RPC server
+[roslaunch.server][INFO] 2019-09-25 17:14:45,542: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2019-09-25 17:14:45,543: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2019-09-25 17:14:45,544: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-09-25 17:14:45,546: Started XML-RPC server [http://juan:40105/]
+[xmlrpc][INFO] 2019-09-25 17:14:45,546: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2019-09-25 17:14:45,574: started roslaunch server http://juan:40105/
+[roslaunch.parent][INFO] 2019-09-25 17:14:45,575: ... parent XML-RPC server started
+[roslaunch][INFO] 2019-09-25 17:14:45,584: master.is_running[http://tractor:11311/]
+[roslaunch][ERROR] 2019-09-25 17:14:48,658: ERROR: unable to contact ROS master at [http://tractor:11311/]
+[roslaunch][ERROR] 2019-09-25 17:14:48,661: The traceback for the exception was written to the log file
+[roslaunch][ERROR] 2019-09-25 17:14:48,688: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/__init__.py", line 306, in main
+    p.start()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/parent.py", line 279, in start
+    self.runner.launch()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/launch.py", line 657, in launch
+    self._setup()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/launch.py", line 632, in _setup
+    launched = self._launch_master()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/launch.py", line 397, in _launch_master
+    validate_master_launch(m, self.is_core, self.is_rostest)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/launch.py", line 105, in validate_master_launch
+    raise RLException("ERROR: unable to contact ROS master at [%s]"%(m.uri))
+RLException: ERROR: unable to contact ROS master at [http://tractor:11311/]
+
+[rospy.core][INFO] 2019-09-25 17:14:48,689: signal_shutdown [atexit]

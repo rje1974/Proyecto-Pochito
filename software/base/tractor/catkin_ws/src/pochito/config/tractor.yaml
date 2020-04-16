@@ -1,0 +1,11 @@
+# Parameters for the garden tractor
+
+wheelbase: 1.0
+lookahead_distance: 2.0
+max_linear_velocity: 1.00
+steering_angle_limit: 0.3
+max_rotational_velocity: 0.3
+position_tolerance: 0.1
+map_frame_id: map
+robot_frame_id: base_link
+lookahead_frame_id: lookahead

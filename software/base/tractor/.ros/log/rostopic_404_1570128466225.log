@@ -1,0 +1,32 @@
+[rospy.client][INFO] 2019-10-03 18:47:46,354: init_node, name[/rostopic_404_1570128466225], pid[404]
+[xmlrpc][INFO] 2019-10-03 18:47:46,356: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-10-03 18:47:46,358: Started XML-RPC server [http://juan:36141/]
+[rospy.init][INFO] 2019-10-03 18:47:46,359: ROS Slave URI: [http://juan:36141/]
+[rospy.impl.masterslave][INFO] 2019-10-03 18:47:46,359: _ready: http://juan:36141/
+[rospy.registration][INFO] 2019-10-03 18:47:46,361: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2019-10-03 18:47:46,362: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-10-03 18:47:46,461: registered with master
+[rospy.rosout][INFO] 2019-10-03 18:47:46,462: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-10-03 18:47:46,491: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-10-03 18:47:46,512: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2019-10-03 18:47:46,720: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-10-03 18:47:47,756: topic[/piksi/gps_time] adding connection to [http://tractor:45447/], count 0
+[rospy.core][INFO] 2019-10-03 18:49:15,984: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-10-03 18:49:16,013: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-10-03 18:49:16,014: topic[/piksi/gps_time] removing connection to http://tractor:45447/
+[rospy.topics][ERROR] 2019-10-03 18:49:16,019: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/topics.py", line 307, in close
+    c.close()
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 807, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2019-10-03 18:49:16,020: signal-2
+[rospy.internal][WARNING] 2019-10-03 18:49:16,024: Unknown error initiating TCP/IP socket to tractor:37575 (http://tractor:45447/): Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2019-10-03 18:49:16,645: signal_shutdown [atexit]

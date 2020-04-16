@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/install
+
+Name: piksi_pps_sync
+Description: Description of piksi_pps_sync
+Version: 0.0.0
+Cflags: 
+Libs: -L/root/catkin_ws/install/lib 
+Requires: rosbag rospy sensor_msgs

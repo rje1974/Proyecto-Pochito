@@ -1,0 +1,3 @@
+Symlinking /root/catkin_ws/devel/share/piksi_v2_rtk_ros/cmake/piksi_v2_rtk_rosConfig-version.cmake
+Symlinking /root/catkin_ws/devel/share/piksi_v2_rtk_ros/cmake/piksi_v2_rtk_rosConfig.cmake
+Symlinking /root/catkin_ws/devel/lib/pkgconfig/piksi_v2_rtk_ros.pc

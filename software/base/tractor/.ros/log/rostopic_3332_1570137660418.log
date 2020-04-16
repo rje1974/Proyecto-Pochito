@@ -1,0 +1,122 @@
+[rospy.client][INFO] 2019-10-03 21:21:00,535: init_node, name[/rostopic_3332_1570137660418], pid[3332]
+[xmlrpc][INFO] 2019-10-03 21:21:00,538: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-10-03 21:21:00,540: Started XML-RPC server [http://juan:45411/]
+[rospy.init][INFO] 2019-10-03 21:21:00,541: ROS Slave URI: [http://juan:45411/]
+[rospy.impl.masterslave][INFO] 2019-10-03 21:21:00,542: _ready: http://juan:45411/
+[rospy.registration][INFO] 2019-10-03 21:21:00,546: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2019-10-03 21:21:00,547: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-10-03 21:21:00,645: registered with master
+[rospy.rosout][INFO] 2019-10-03 21:21:00,647: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-10-03 21:21:00,751: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-10-03 21:21:01,102: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2019-10-03 21:21:01,232: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-10-03 21:21:01,435: topic[/rosout] adding connection to [http://juan:45411/], count 0
+[rospy.internal][INFO] 2019-10-03 21:21:01,619: topic[/rosout] adding connection to [http://tractor:43179/], count 1
+[rospy.internal][INFO] 2019-10-03 21:21:01,634: topic[/rosout] adding connection to [http://tractor:33413/], count 2
+[rospy.internal][INFO] 2019-10-03 21:21:01,646: topic[/rosout] adding connection to [http://tractor:42583/], count 3
+[rospy.internal][INFO] 2019-10-03 21:21:01,664: topic[/rosout] adding connection to [http://tractor:44611/], count 4
+[rospy.internal][INFO] 2019-10-03 21:21:01,676: topic[/rosout] adding connection to [http://tractor:35435/], count 5
+[rospy.internal][INFO] 2019-10-03 21:21:01,689: topic[/rosout] adding connection to [http://tractor:35541/], count 6
+[rospy.internal][INFO] 2019-10-03 21:21:01,746: topic[/rosout] adding connection to [/rostopic_3332_1570137660418], count 1
+[rospy.internal][WARNING] 2019-10-03 21:25:10,902: Unknown error initiating TCP/IP socket to tractor:40007 (http://tractor:35435/): Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/usr/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2019-10-03 21:25:10,903: topic[/rosout] removing connection to http://tractor:35435/
+[rospy.internal][WARNING] 2019-10-03 21:25:10,958: Unknown error initiating TCP/IP socket to tractor:49979 (http://tractor:35541/): Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/usr/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2019-10-03 21:25:10,959: topic[/rosout] removing connection to http://tractor:35541/
+[rospy.internal][WARNING] 2019-10-03 21:26:16,299: Unknown error initiating TCP/IP socket to tractor:41305 (http://tractor:42583/): Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/usr/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2019-10-03 21:26:16,300: topic[/rosout] removing connection to http://tractor:42583/
+[rospy.internal][WARNING] 2019-10-03 21:26:16,320: Unknown error initiating TCP/IP socket to tractor:44421 (http://tractor:33413/): Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/usr/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2019-10-03 21:26:16,321: topic[/rosout] removing connection to http://tractor:33413/
+[rospy.internal][WARNING] 2019-10-03 21:26:16,400: Unknown error initiating TCP/IP socket to tractor:33967 (http://tractor:44611/): Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/usr/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2019-10-03 21:26:16,402: topic[/rosout] removing connection to http://tractor:44611/
+[rospy.internal][WARNING] 2019-10-03 21:26:16,404: Unknown error initiating TCP/IP socket to tractor:43453 (http://tractor:43179/): Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/usr/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2019-10-03 21:26:16,405: topic[/rosout] removing connection to http://tractor:43179/
+[rospy.core][INFO] 2019-10-03 21:26:19,492: signal_shutdown [signal-2]
+[rospy.core][INFO] 2019-10-03 21:26:23,760: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2019-10-03 21:26:23,809: unclean shutdown
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/registration.py", line 372, in cleanup
+    multi()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1006, in __call__
+    return MultiCallIterator(self.__server.system.multicall(marshalled_list))
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1069, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 907, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 869, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 846, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 4] Interrupted system call
+
+[rospy.internal][INFO] 2019-10-03 21:26:23,810: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-10-03 21:26:23,811: topic[/rosout] removing connection to /rostopic_3332_1570137660418
+[rospy.internal][INFO] 2019-10-03 21:26:23,816: topic[/rosout] removing connection to http://juan:45411/
+[rospy.impl.masterslave][INFO] 2019-10-03 21:26:23,818: signal-2
+[rospy.internal][WARNING] 2019-10-03 21:26:23,820: Unknown error initiating TCP/IP socket to juan:32955 (http://juan:45411/): Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2019-10-03 21:26:24,135: signal_shutdown [atexit]

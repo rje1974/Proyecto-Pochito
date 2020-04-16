@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/nmea_tcp_driver/lib/pkgconfig/nmea_tcp_driver.pc

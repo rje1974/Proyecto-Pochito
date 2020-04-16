@@ -1,0 +1,44 @@
+[rospy.client][INFO] 2020-04-10 20:42:35,894: init_node, name[/rostopic_5420_1586551355802], pid[5420]
+[xmlrpc][INFO] 2020-04-10 20:42:35,896: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 20:42:35,897: Started XML-RPC server [http://juan:38435/]
+[rospy.init][INFO] 2020-04-10 20:42:35,898: ROS Slave URI: [http://juan:38435/]
+[rospy.impl.masterslave][INFO] 2020-04-10 20:42:35,898: _ready: http://juan:38435/
+[xmlrpc][INFO] 2020-04-10 20:42:35,899: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-04-10 20:42:35,899: Registering with master node http://tractor:11311/
+[rospy.init][INFO] 2020-04-10 20:42:35,998: registered with master
+[rospy.rosout][INFO] 2020-04-10 20:42:35,999: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 20:42:36,012: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 20:42:36,023: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 20:42:36,293: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2020-04-10 20:52:26,806: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2020-04-10 20:52:26,814: unclean shutdown
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/registration.py", line 372, in cleanup
+    multi()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1006, in __call__
+    return MultiCallIterator(self.__server.system.multicall(marshalled_list))
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1069, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 907, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 869, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 846, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 101] Network is unreachable
+
+[rospy.internal][INFO] 2020-04-10 20:52:26,814: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2020-04-10 20:52:26,815: signal-2
+[rospy.core][INFO] 2020-04-10 20:52:26,947: signal_shutdown [atexit]

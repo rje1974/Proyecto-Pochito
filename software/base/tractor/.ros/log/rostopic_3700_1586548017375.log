@@ -1,0 +1,32 @@
+[rospy.client][INFO] 2020-04-10 19:46:57,412: init_node, name[/rostopic_3700_1586548017375], pid[3700]
+[xmlrpc][INFO] 2020-04-10 19:46:57,412: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 19:46:57,413: Started XML-RPC server [http://juan:43139/]
+[rospy.init][INFO] 2020-04-10 19:46:57,413: ROS Slave URI: [http://juan:43139/]
+[rospy.impl.masterslave][INFO] 2020-04-10 19:46:57,413: _ready: http://juan:43139/
+[xmlrpc][INFO] 2020-04-10 19:46:57,414: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-04-10 19:46:57,414: Registering with master node http://tractor:11311/
+[rospy.init][INFO] 2020-04-10 19:46:57,514: registered with master
+[rospy.rosout][INFO] 2020-04-10 19:46:57,514: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 19:46:57,524: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 19:46:57,535: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 19:46:57,631: topic[/heading] adding connection to [http://juan:40653/], count 0
+[rospy.internal][INFO] 2020-04-10 19:46:57,809: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2020-04-10 19:48:05,798: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-04-10 19:48:05,817: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-04-10 19:48:05,817: topic[/heading] removing connection to http://juan:40653/
+[rospy.internal][WARNING] 2020-04-10 19:48:05,823: Unknown error initiating TCP/IP socket to juan:36675 (http://juan:40653/): Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2020-04-10 19:48:05,824: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/topics.py", line 307, in close
+    c.close()
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 807, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2020-04-10 19:48:05,824: signal-2
+[rospy.core][INFO] 2020-04-10 19:48:06,439: signal_shutdown [atexit]

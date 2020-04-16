@@ -1,0 +1,88 @@
+[roslaunch][INFO] 2019-10-02 20:39:21,004: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2019-10-02 20:39:21,030: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2019-10-02 20:39:21,031: roslaunch starting with args ['/opt/ros/kinetic/bin/roslaunch', 'joy', 'ps4joy.launch']
+[roslaunch][INFO] 2019-10-02 20:39:21,032: roslaunch env is {'PYTHONIOENCODING': 'UTF-8', 'ROS_DISTRO': 'kinetic', 'CATKIN_WS': '/root/tractor_ws', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'PATH': '/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'juan', 'HOME': '/root', 'CMAKE_PREFIX_PATH': '/opt/ros/kinetic', 'LD_LIBRARY_PATH': '/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'ROS_LOG_FILENAME': '/root/.ros/log/70e61536-d0dc-11e5-b9a5-e5f3100c20b5/roslaunch-juan-2336.log', 'SHLVL': '2', 'TERMINATOR_UUID': 'urn:uuid:422ffc6c-82d7-45fc-9044-b6916e9c5c56', 'DISPLAY': ':0', 'WINDOWID': '104857604', '_': '/opt/ros/kinetic/bin/roslaunch', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'LC_ALL': 'C.UTF-8', 'COLORTERM': 'gnome-terminal', 'PYTHONPATH': '/opt/ros/kinetic/lib/python2.7/dist-packages', 'QT_X11_NO_MITSHM': '1', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'IBUS_DISABLE_SNOOPER': '1', 'PKG_CONFIG_PATH': '/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PACKAGE_PATH': '/opt/ros/kinetic/share', 'ORBIT_SOCKETDIR': '/tmp/orbit-root', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'HOSTNAME': 'juan', 'ROS_IP': '192.168.5.210', 'PWD': '/root/catkin_ws/src/pochito/scripts', 'ROS_MASTER_URI': 'http://tractor:11311/', 'ROS_VERSION': '1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'}
+[roslaunch][INFO] 2019-10-02 20:39:21,032: starting in server mode
+[roslaunch.parent][INFO] 2019-10-02 20:39:21,033: starting roslaunch parent run
+[roslaunch][INFO] 2019-10-02 20:39:21,034: loading roscore config file /opt/ros/kinetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2019-10-02 20:39:22,257: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2019-10-02 20:39:22,258: loading config file /opt/ros/kinetic/share/joy/launch/ps4joy.launch
+[roslaunch][INFO] 2019-10-02 20:39:22,260: Added node of type [joy/joy_node] in namespace [/]
+[roslaunch][INFO] 2019-10-02 20:39:22,374: Added node of type [joy/joy_remap.py] in namespace [/]
+[roslaunch][INFO] 2019-10-02 20:39:22,374: ... selected machine [] for node of type [joy/joy_node]
+[roslaunch][INFO] 2019-10-02 20:39:22,375: ... selected machine [] for node of type [joy/joy_remap.py]
+[roslaunch.pmon][INFO] 2019-10-02 20:39:22,377: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2019-10-02 20:39:22,378: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2019-10-02 20:39:22,379: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2019-10-02 20:39:22,380: starting parent XML-RPC server
+[roslaunch.server][INFO] 2019-10-02 20:39:22,380: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2019-10-02 20:39:22,381: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2019-10-02 20:39:22,382: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-10-02 20:39:22,385: Started XML-RPC server [http://juan:38849/]
+[xmlrpc][INFO] 2019-10-02 20:39:22,387: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2019-10-02 20:39:22,398: started roslaunch server http://juan:38849/
+[roslaunch.parent][INFO] 2019-10-02 20:39:22,399: ... parent XML-RPC server started
+[roslaunch][INFO] 2019-10-02 20:39:22,401: master.is_running[http://tractor:11311/]
+[roslaunch][INFO] 2019-10-02 20:39:22,417: master.is_running[http://tractor:11311/]
+[roslaunch][INFO] 2019-10-02 20:39:22,451: ROS_MASTER_URI=http://tractor:11311/
+[roslaunch][INFO] 2019-10-02 20:39:22,495: setting /roslaunch/uris/host_juan__38849' to http://juan:38849/
+[roslaunch][INFO] 2019-10-02 20:39:22,513: load_parameters starting ...
+[roslaunch][INFO] 2019-10-02 20:39:22,571: ... load_parameters complete
+[roslaunch][INFO] 2019-10-02 20:39:22,572: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2019-10-02 20:39:22,573: ... preparing to launch node of type [joy/joy_node]
+[roslaunch][INFO] 2019-10-02 20:39:22,573: create_node_process: package[joy] type[joy_node] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://tractor:11311/]
+[roslaunch][INFO] 2019-10-02 20:39:22,574: process[joy_node-1]: env[{'PYTHONIOENCODING': 'UTF-8', 'ROS_DISTRO': 'kinetic', 'CATKIN_WS': '/root/tractor_ws', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'LD_LIBRARY_PATH': '/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu', 'PATH': '/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'juan', 'HOME': '/root', 'ROS_PACKAGE_PATH': '/opt/ros/kinetic/share', 'CMAKE_PREFIX_PATH': '/opt/ros/kinetic', 'ROS_LOG_FILENAME': '/root/.ros/log/70e61536-d0dc-11e5-b9a5-e5f3100c20b5/roslaunch-juan-2336.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHLVL': '2', 'TERMINATOR_UUID': 'urn:uuid:422ffc6c-82d7-45fc-9044-b6916e9c5c56', 'DISPLAY': ':0', 'WINDOWID': '104857604', 'ORBIT_SOCKETDIR': '/tmp/orbit-root', 'ROS_MASTER_URI': 'http://tractor:11311/', 'ROS_VERSION': '1', 'PYTHONPATH': '/opt/ros/kinetic/lib/python2.7/dist-packages', 'QT_X11_NO_MITSHM': '1', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'IBUS_DISABLE_SNOOPER': '1', 'PKG_CONFIG_PATH': '/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'LC_ALL': 'C.UTF-8', '_': '/opt/ros/kinetic/bin/roslaunch', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'HOSTNAME': 'juan', 'ROS_IP': '192.168.5.210', 'PWD': '/root/catkin_ws/src/pochito/scripts', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'COLORTERM': 'gnome-terminal', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'}]
+[roslaunch][INFO] 2019-10-02 20:39:22,688: process[joy_node-1]: args[[u'/opt/ros/kinetic/lib/joy/joy_node', u'joy:=joy_orig', u'__name:=joy_node']]
+[roslaunch][INFO] 2019-10-02 20:39:22,689: ... created process [joy_node-1]
+[roslaunch.pmon][INFO] 2019-10-02 20:39:22,689: ProcessMonitor.register[joy_node-1]
+[roslaunch.pmon][INFO] 2019-10-02 20:39:22,689: ProcessMonitor.register[joy_node-1] complete
+[roslaunch][INFO] 2019-10-02 20:39:22,690: ... registered process [joy_node-1]
+[roslaunch][INFO] 2019-10-02 20:39:22,690: process[joy_node-1]: starting os process
+[roslaunch][INFO] 2019-10-02 20:39:22,690: process[joy_node-1]: start w/ args [[u'/opt/ros/kinetic/lib/joy/joy_node', u'joy:=joy_orig', u'__name:=joy_node', u'__log:=/root/.ros/log/70e61536-d0dc-11e5-b9a5-e5f3100c20b5/joy_node-1.log']]
+[roslaunch][INFO] 2019-10-02 20:39:22,691: process[joy_node-1]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-10-02 20:39:24,929: process[joy_node-1]: started with pid [2345]
+[roslaunch][INFO] 2019-10-02 20:39:24,929: ... successfully launched [joy_node-1]
+[roslaunch][INFO] 2019-10-02 20:39:24,930: ... preparing to launch node of type [joy/joy_remap.py]
+[roslaunch][INFO] 2019-10-02 20:39:24,930: create_node_process: package[joy] type[joy_remap.py] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://tractor:11311/]
+[roslaunch][INFO] 2019-10-02 20:39:24,931: process[joy_remap-2]: env[{'PYTHONIOENCODING': 'UTF-8', 'ROS_DISTRO': 'kinetic', 'CATKIN_WS': '/root/tractor_ws', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'LD_LIBRARY_PATH': '/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu', 'PATH': '/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'juan', 'HOME': '/root', 'ROS_PACKAGE_PATH': '/opt/ros/kinetic/share', 'CMAKE_PREFIX_PATH': '/opt/ros/kinetic', 'ROS_LOG_FILENAME': '/root/.ros/log/70e61536-d0dc-11e5-b9a5-e5f3100c20b5/roslaunch-juan-2336.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHLVL': '2', 'TERMINATOR_UUID': 'urn:uuid:422ffc6c-82d7-45fc-9044-b6916e9c5c56', 'DISPLAY': ':0', 'WINDOWID': '104857604', 'ORBIT_SOCKETDIR': '/tmp/orbit-root', 'ROS_MASTER_URI': 'http://tractor:11311/', 'ROS_VERSION': '1', 'PYTHONPATH': '/opt/ros/kinetic/lib/python2.7/dist-packages', 'QT_X11_NO_MITSHM': '1', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'IBUS_DISABLE_SNOOPER': '1', 'PKG_CONFIG_PATH': '/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'LC_ALL': 'C.UTF-8', '_': '/opt/ros/kinetic/bin/roslaunch', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'HOSTNAME': 'juan', 'ROS_IP': '192.168.5.210', 'PWD': '/root/catkin_ws/src/pochito/scripts', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'COLORTERM': 'gnome-terminal', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'}]
+[roslaunch][INFO] 2019-10-02 20:39:24,934: process[joy_remap-2]: args[[u'/opt/ros/kinetic/share/joy/scripts/joy_remap.py', u'joy_in:=joy_orig', u'joy_out:=joy', u'__name:=joy_remap']]
+[roslaunch][INFO] 2019-10-02 20:39:24,934: ... created process [joy_remap-2]
+[roslaunch.pmon][INFO] 2019-10-02 20:39:24,935: ProcessMonitor.register[joy_remap-2]
+[roslaunch.pmon][INFO] 2019-10-02 20:39:24,935: ProcessMonitor.register[joy_remap-2] complete
+[roslaunch][INFO] 2019-10-02 20:39:24,935: ... registered process [joy_remap-2]
+[roslaunch][INFO] 2019-10-02 20:39:24,936: process[joy_remap-2]: starting os process
+[roslaunch][INFO] 2019-10-02 20:39:24,936: process[joy_remap-2]: start w/ args [[u'/opt/ros/kinetic/share/joy/scripts/joy_remap.py', u'joy_in:=joy_orig', u'joy_out:=joy', u'__name:=joy_remap', u'__log:=/root/.ros/log/70e61536-d0dc-11e5-b9a5-e5f3100c20b5/joy_remap-2.log']]
+[roslaunch][INFO] 2019-10-02 20:39:24,936: process[joy_remap-2]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2019-10-02 20:39:27,217: process[joy_remap-2]: started with pid [2346]
+[roslaunch][INFO] 2019-10-02 20:39:27,218: ... successfully launched [joy_remap-2]
+[roslaunch][INFO] 2019-10-02 20:39:27,218: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2019-10-02 20:39:27,219: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 139942226773760)>
+[roslaunch.parent][INFO] 2019-10-02 20:39:27,219: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2019-10-02 20:39:27,219: spin
+[roslaunch.pmon][INFO] 2019-10-02 20:39:44,979: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 139942226773760)>
+[roslaunch.pmon][INFO] 2019-10-02 20:39:45,066: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 139942226773760)>
+[roslaunch.pmon][INFO] 2019-10-02 20:39:45,067: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 139942226773760)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7f46d6d90090>, <roslaunch.nodeprocess.LocalProcess object at 0x7f46d6d90350>]
+[roslaunch.pmon][INFO] 2019-10-02 20:39:45,069: ProcessMonitor exit: killing joy_remap-2
+[roslaunch][INFO] 2019-10-02 20:39:45,071: [joy_remap-2] killing on exit
+[roslaunch][INFO] 2019-10-02 20:39:45,072: process[joy_remap-2]: killing os process with pid[2346] pgid[2346]
+[roslaunch][INFO] 2019-10-02 20:39:45,074: [joy_remap-2] sending SIGINT to pgid [2346]
+[roslaunch][INFO] 2019-10-02 20:39:45,074: [joy_remap-2] sent SIGINT to pgid [2346]
+[roslaunch.pmon][INFO] 2019-10-02 20:39:45,075: ProcessMonitor exit: killing joy_node-1
+[roslaunch][INFO] 2019-10-02 20:39:45,076: [joy_node-1] killing on exit
+[roslaunch][INFO] 2019-10-02 20:39:45,076: process[joy_node-1]: killing os process with pid[2345] pgid[2345]
+[roslaunch][INFO] 2019-10-02 20:39:45,077: [joy_node-1] sending SIGINT to pgid [2345]
+[roslaunch][INFO] 2019-10-02 20:39:45,077: [joy_node-1] sent SIGINT to pgid [2345]
+[roslaunch][INFO] 2019-10-02 20:39:45,579: process[joy_node-1]: SIGINT killed with return value 0
+[roslaunch][INFO] 2019-10-02 20:39:45,877: process[joy_remap-2]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2019-10-02 20:39:45,879: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2019-10-02 20:39:45,881: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2019-10-02 20:39:45,898: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2019-10-02 20:39:45,899: runner.stop()
+[roslaunch][INFO] 2019-10-02 20:39:45,900: shutting down processing monitor...
+[roslaunch][INFO] 2019-10-02 20:39:45,901: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 139942226773760)>
+[roslaunch.pmon][INFO] 2019-10-02 20:39:45,902: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 139942226773760)>
+[roslaunch][INFO] 2019-10-02 20:39:45,903: ... shutting down processing monitor complete
+[roslaunch][INFO] 2019-10-02 20:39:45,904: done
+[roslaunch.pmon][INFO] 2019-10-02 20:39:45,906: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 139942226773760)>
+[rospy.core][INFO] 2019-10-02 20:39:45,906: signal_shutdown [atexit]

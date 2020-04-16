@@ -1,0 +1,6 @@
+set(piksi_multi_rtk_ros_SETUP_PY_VERSION "1.10.0")
+set(piksi_multi_rtk_ros_SETUP_PY_SCRIPTS "bin/geodetic_survey;bin/piksi_multi")
+set(piksi_multi_rtk_ros_SETUP_PY_PACKAGES "piksi_multi_rtk_ros")
+set(piksi_multi_rtk_ros_SETUP_PY_PACKAGE_DIRS "src/piksi_multi_rtk_ros")
+set(piksi_multi_rtk_ros_SETUP_PY_MODULES "")
+set(piksi_multi_rtk_ros_SETUP_PY_MODULE_DIRS "")

@@ -1,0 +1,80 @@
+[rospy.client][INFO] 2019-09-24 19:22:24,610: init_node, name[/rostopic_231_1569352944513], pid[231]
+[xmlrpc][INFO] 2019-09-24 19:22:24,612: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-09-24 19:22:24,616: Started XML-RPC server [http://juan:33243/]
+[rospy.impl.masterslave][INFO] 2019-09-24 19:22:24,618: _ready: http://juan:33243/
+[rospy.init][INFO] 2019-09-24 19:22:24,618: ROS Slave URI: [http://juan:33243/]
+[rospy.registration][INFO] 2019-09-24 19:22:24,621: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2019-09-24 19:22:24,621: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-09-24 19:22:24,721: registered with master
+[rospy.rosout][INFO] 2019-09-24 19:22:24,723: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-09-24 19:22:24,743: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-09-24 19:22:24,769: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2019-09-24 19:22:25,160: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-09-24 19:22:25,298: topic[/piksi_multi_base_station/navsatfix_best_fix] adding connection to [http://tractor:40453/], count 0
+[rospy.internal][WARNING] 2019-09-24 19:22:37,107: Unknown error initiating TCP/IP socket to tractor:35849 (http://tractor:40453/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2019-09-24 19:22:37,108: topic[/piksi_multi_base_station/navsatfix_best_fix] removing connection to http://tractor:40453/
+[rospy.internal][INFO] 2019-09-24 19:22:45,625: topic[/piksi_multi_base_station/navsatfix_best_fix] adding connection to [http://tractor:39645/], count 0
+[rospy.internal][WARNING] 2019-09-24 19:23:15,911: Unknown error initiating TCP/IP socket to tractor:44709 (http://tractor:39645/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2019-09-24 19:23:15,912: topic[/piksi_multi_base_station/navsatfix_best_fix] removing connection to http://tractor:39645/
+[rospy.internal][INFO] 2019-09-24 19:23:24,568: topic[/piksi_multi_base_station/navsatfix_best_fix] adding connection to [http://tractor:34803/], count 0
+[rospy.internal][WARNING] 2019-09-24 19:23:55,111: Unknown error initiating TCP/IP socket to tractor:38747 (http://tractor:34803/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2019-09-24 19:23:55,111: topic[/piksi_multi_base_station/navsatfix_best_fix] removing connection to http://tractor:34803/
+[rospy.internal][INFO] 2019-09-24 19:24:03,462: topic[/piksi_multi_base_station/navsatfix_best_fix] adding connection to [http://tractor:40333/], count 0
+[rospy.internal][WARNING] 2019-09-24 19:24:33,828: Unknown error initiating TCP/IP socket to tractor:39853 (http://tractor:40333/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2019-09-24 19:24:33,830: topic[/piksi_multi_base_station/navsatfix_best_fix] removing connection to http://tractor:40333/
+[rospy.internal][INFO] 2019-09-24 19:24:42,500: topic[/piksi_multi_base_station/navsatfix_best_fix] adding connection to [http://tractor:36925/], count 0
+[rospy.internal][WARNING] 2019-09-24 19:25:12,738: Unknown error initiating TCP/IP socket to tractor:37577 (http://tractor:36925/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2019-09-24 19:25:12,740: topic[/piksi_multi_base_station/navsatfix_best_fix] removing connection to http://tractor:36925/
+[rospy.internal][INFO] 2019-09-24 19:25:21,198: topic[/piksi_multi_base_station/navsatfix_best_fix] adding connection to [http://tractor:32777/], count 0
+[rospy.internal][WARNING] 2019-09-24 19:25:42,675: Unknown error initiating TCP/IP socket to tractor:40685 (http://tractor:32777/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2019-09-24 19:25:42,676: topic[/piksi_multi_base_station/navsatfix_best_fix] removing connection to http://tractor:32777/
+[rospy.core][INFO] 2019-09-24 19:28:16,730: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-09-24 19:28:16,773: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2019-09-24 19:28:16,773: signal-2
+[rospy.core][INFO] 2019-09-24 19:28:17,391: signal_shutdown [atexit]

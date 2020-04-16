@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/install
+
+Name: piksi_v2_rtk_ros
+Description: Description of piksi_v2_rtk_ros
+Version: 1.10.0
+Cflags: 
+Libs: -L/root/catkin_ws/install/lib 
+Requires: piksi_rtk_msgs sensor_msgs geometry_msgs

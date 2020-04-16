@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel/.private/piksi_rtk_msgs
+
+Name: piksi_rtk_msgs
+Description: Description of piksi_rtk_msgs
+Version: 1.10.0
+Cflags: -I/root/catkin_ws/devel/.private/piksi_rtk_msgs/include
+Libs: -L/root/catkin_ws/devel/.private/piksi_rtk_msgs/lib 
+Requires: message_runtime std_msgs geometry_msgs

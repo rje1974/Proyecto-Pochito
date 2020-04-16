@@ -1,0 +1,7 @@
+
+
+0.000000000  Node Startup
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-map-server-1.14.4/src/main.cpp:167(MapServer) [topics: /rosout] Loading map from image "/root/tractor_ws/src/ros_lawn_tractor/lawn_tractor_sim/maps/ros_farm_v01.png"
+0.000000000 WARN [/root/tractor_ws/src/ros_lawn_tractor/lawn_tractor_sim/src/shapes.cpp:61(main) [topics: /rosout, /visualization_marker] Please create a subscriber to the marker
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.17/src/rviz/ogre_helpers/render_system.cpp:441(RenderWindow* rviz::RenderSystem::makeRenderWindow) [topics: /rosout] Stereo is NOT SUPPORTED
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.17/src/rviz/ogre_helpers/render_system.cpp:222(RenderSystem::detectGlVersion) [topics: /rosout] OpenGl version: 3 (GLSL 1.3).

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<launch>
+
+  <arg name="name" default="tractor"/>
+
+  <!-- Pure pursuit path tracking -->
+  <node pkg="pure_pursuit" type="pure_pursuit" name="controller"  clear_params="true">
+    <param name="robot_frame_id" value="base_link"/>
+    <param name="global_frame_id" value="odom"/>
+    <param name="lookahead_frame_id" value="lookahead"/>
+    <rosparam file="/root/catkin_ws/src/pochito/config/tractor.yaml" command="load"/>
+    <remap from="path_segment" to="/drive_path"/>
+    <remap from="odometry" to="odom"/>
+    <remap from="cmd_vel" to="cmd_vel"/>
+   </node>
+
+  <!-- ************** Robot Description *************** -->
+    <!-- robot_description is used by nodes that publish to joint_states. -->
+    <param name="robot_description" command="$(find xacro)/xacro --inorder $(find lawn_tractor_sim)/urdf/lawn_tractor.urdf.xacro"/>
+
+</launch>

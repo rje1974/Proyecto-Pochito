@@ -1,0 +1,86 @@
+[rospy.client][INFO] 2019-10-03 21:30:01,798: init_node, name[/rqt_gui_py_node_3396], pid[3396]
+[xmlrpc][INFO] 2019-10-03 21:30:01,800: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-10-03 21:30:01,802: Started XML-RPC server [http://juan:37931/]
+[rospy.init][INFO] 2019-10-03 21:30:01,803: ROS Slave URI: [http://juan:37931/]
+[rospy.impl.masterslave][INFO] 2019-10-03 21:30:01,804: _ready: http://juan:37931/
+[rospy.registration][INFO] 2019-10-03 21:30:01,807: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2019-10-03 21:30:01,808: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-10-03 21:30:01,905: registered with master
+[rospy.rosout][INFO] 2019-10-03 21:30:01,907: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-10-03 21:30:02,165: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-10-03 21:30:02,202: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2019-10-03 21:30:02,483: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-10-03 21:30:02,594: topic[/diagnostics_agg] adding connection to [http://tractor:34255/], count 0
+[rospy.internal][ERROR] 2019-10-04 11:54:35,185: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 698, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 110] Connection timed out
+
+[rospy.internal][WARNING] 2019-10-04 11:54:35,190: Unknown error initiating TCP/IP socket to tractor:38647 (http://tractor:34255/): Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 101] Network is unreachable
+
+[rospy.internal][INFO] 2019-10-04 11:54:35,192: topic[/diagnostics_agg] removing connection to http://tractor:34255/
+[rospy.internal][INFO] 2019-10-04 12:04:47,786: topic impl's ref count is zero, deleting topic /diagnostics_agg...
+[rosout][WARNING] 2019-10-04 12:04:47,788: unable to communicate with ROS Master, registrations are now out of sync
+[rospy.registration][ERROR] 2019-10-04 12:04:47,791: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/registration.py", line 412, in reg_removed
+    master.unregisterSubscriber(get_caller_id(), resolved_name, self.uri)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1069, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 907, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 869, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 846, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 101] Network is unreachable
+
+[rospy.core][INFO] 2019-10-04 12:04:47,909: signal_shutdown [atexit]
+[rospy.registration][WARNING] 2019-10-04 12:04:47,912: unclean shutdown
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/registration.py", line 372, in cleanup
+    multi()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1006, in __call__
+    return MultiCallIterator(self.__server.system.multicall(marshalled_list))
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1069, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 907, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 869, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 846, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 101] Network is unreachable
+
+[rospy.internal][INFO] 2019-10-04 12:04:47,912: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2019-10-04 12:04:47,913: atexit

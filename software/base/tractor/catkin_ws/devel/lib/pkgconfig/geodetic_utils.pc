@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/geodetic_utils/lib/pkgconfig/geodetic_utils.pc

@@ -1,0 +1,2 @@
+ [Loading /root/tractor_ws/src/ros_lawn_tractor/lawn_tractor_sim/stage/farm.world][Include tractor.inc][Include objects.inc]
+[0m[ INFO] [1569612913.474132499]: Found 1 laser devices and 0 cameras in robot 0[0m

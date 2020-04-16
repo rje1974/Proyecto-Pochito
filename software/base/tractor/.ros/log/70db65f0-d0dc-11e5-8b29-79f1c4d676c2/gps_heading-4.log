@@ -1,0 +1,103 @@
+[rospy.client][INFO] 2020-04-10 20:38:39,308: init_node, name[/gps_heading], pid[5084]
+[xmlrpc][INFO] 2020-04-10 20:38:39,310: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 20:38:39,311: Started XML-RPC server [http://juan:46829/]
+[rospy.init][INFO] 2020-04-10 20:38:39,311: ROS Slave URI: [http://juan:46829/]
+[rospy.impl.masterslave][INFO] 2020-04-10 20:38:39,311: _ready: http://juan:46829/
+[rospy.registration][INFO] 2020-04-10 20:38:39,313: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2020-04-10 20:38:39,314: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-04-10 20:38:39,412: registered with master
+[rospy.rosout][INFO] 2020-04-10 20:38:39,412: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 20:38:39,431: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 20:38:39,442: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 20:38:39,534: topic[/tcpvel] adding connection to [http://juan:35821/], count 0
+[rospy.internal][INFO] 2020-04-10 20:38:39,578: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-04-10 20:38:39,598: topic[/heading] adding connection to [/rostopic_5052_1586551069660], count 0
+[rospy.internal][INFO] 2020-04-10 20:38:39,786: topic[/heading] adding connection to [/gps_to_pose_conversion_node], count 1
+[rospy.core][INFO] 2020-04-10 20:39:10,335: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-04-10 20:39:10,441: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-04-10 20:39:10,441: topic[/heading] removing connection to /rostopic_5052_1586551069660
+[rospy.internal][INFO] 2020-04-10 20:39:10,442: topic[/heading] removing connection to /gps_to_pose_conversion_node
+[rospy.internal][INFO] 2020-04-10 20:39:10,442: topic[/tcpvel] removing connection to http://juan:35821/
+[rospy.impl.masterslave][INFO] 2020-04-10 20:39:10,443: signal-2
+[rospy.core][INFO] 2020-04-10 20:39:10,965: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-04-10 20:39:17,664: init_node, name[/gps_heading], pid[5190]
+[xmlrpc][INFO] 2020-04-10 20:39:17,665: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2020-04-10 20:39:17,666: ROS Slave URI: [http://juan:43755/]
+[xmlrpc][INFO] 2020-04-10 20:39:17,667: Started XML-RPC server [http://juan:43755/]
+[rospy.impl.masterslave][INFO] 2020-04-10 20:39:17,667: _ready: http://juan:43755/
+[xmlrpc][INFO] 2020-04-10 20:39:17,667: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-04-10 20:39:17,668: Registering with master node http://tractor:11311/
+[rospy.init][INFO] 2020-04-10 20:39:17,767: registered with master
+[rospy.rosout][INFO] 2020-04-10 20:39:17,767: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 20:39:17,779: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 20:39:17,790: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 20:39:17,892: topic[/tcpvel] adding connection to [http://juan:35821/], count 0
+[rospy.internal][INFO] 2020-04-10 20:39:17,973: topic[/heading] adding connection to [/rostopic_5052_1586551069660], count 0
+[rospy.internal][INFO] 2020-04-10 20:39:18,062: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-04-10 20:39:18,148: topic[/heading] adding connection to [/gps_to_pose_conversion_node], count 1
+[rospy.core][INFO] 2020-04-10 20:39:37,077: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-04-10 20:39:37,146: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-04-10 20:39:37,149: topic[/heading] removing connection to /rostopic_5052_1586551069660
+[rospy.internal][INFO] 2020-04-10 20:39:37,149: topic[/heading] removing connection to /gps_to_pose_conversion_node
+[rospy.internal][INFO] 2020-04-10 20:39:37,150: topic[/tcpvel] removing connection to http://juan:35821/
+[rospy.impl.masterslave][INFO] 2020-04-10 20:39:37,150: signal-2
+[rospy.core][INFO] 2020-04-10 20:39:37,775: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-04-10 20:39:48,576: init_node, name[/gps_heading], pid[5296]
+[xmlrpc][INFO] 2020-04-10 20:39:48,577: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 20:39:48,577: Started XML-RPC server [http://juan:43547/]
+[rospy.impl.masterslave][INFO] 2020-04-10 20:39:48,578: _ready: http://juan:43547/
+[rospy.init][INFO] 2020-04-10 20:39:48,578: ROS Slave URI: [http://juan:43547/]
+[rospy.registration][INFO] 2020-04-10 20:39:48,579: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2020-04-10 20:39:48,579: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-04-10 20:39:48,678: registered with master
+[rospy.rosout][INFO] 2020-04-10 20:39:48,679: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 20:39:48,692: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 20:39:48,708: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 20:39:48,797: topic[/tcpvel] adding connection to [http://juan:35821/], count 0
+[rospy.internal][INFO] 2020-04-10 20:39:48,819: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-04-10 20:39:48,824: topic[/heading] adding connection to [/rostopic_5052_1586551069660], count 0
+[rospy.internal][INFO] 2020-04-10 20:39:48,998: topic[/heading] adding connection to [/gps_to_pose_conversion_node], count 1
+[rospy.internal][INFO] 2020-04-10 20:52:23,189: topic[/heading] removing connection to /rostopic_5052_1586551069660
+[rospy.internal][WARNING] 2020-04-10 20:53:34,543: Unknown error initiating TCP/IP socket to juan:46881 (http://juan:35821/): Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/usr/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-04-10 20:53:34,543: topic[/tcpvel] removing connection to http://juan:35821/
+[rospy.core][INFO] 2020-04-10 20:53:45,159: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2020-04-10 20:53:45,161: unclean shutdown
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/registration.py", line 372, in cleanup
+    multi()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1006, in __call__
+    return MultiCallIterator(self.__server.system.multicall(marshalled_list))
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1069, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 907, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 869, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 846, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 101] Network is unreachable
+
+[rospy.internal][INFO] 2020-04-10 20:53:45,161: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-04-10 20:53:45,161: topic[/heading] removing connection to /gps_to_pose_conversion_node
+[rospy.impl.masterslave][INFO] 2020-04-10 20:53:45,162: signal-2
+[rospy.core][INFO] 2020-04-10 20:53:45,294: signal_shutdown [atexit]

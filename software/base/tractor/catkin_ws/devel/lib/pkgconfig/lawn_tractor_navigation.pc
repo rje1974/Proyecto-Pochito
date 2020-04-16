@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/lawn_tractor_navigation/lib/pkgconfig/lawn_tractor_navigation.pc

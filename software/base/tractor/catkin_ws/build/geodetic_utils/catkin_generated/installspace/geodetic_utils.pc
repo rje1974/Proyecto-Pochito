@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/install
+
+Name: geodetic_utils
+Description: Description of geodetic_utils
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roslib roscpp tf sensor_msgs geometry_msgs cmake_modules std_srvs

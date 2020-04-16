@@ -1,0 +1,4 @@
+CMake Deprecation Warning at CMakeLists.txt:15 (message):
+  piksi_v2_rtk_ros is deprecated: please switch to Piksi Multi.
+
+

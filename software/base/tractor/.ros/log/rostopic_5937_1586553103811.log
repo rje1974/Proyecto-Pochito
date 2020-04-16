@@ -1,0 +1,43 @@
+[rospy.client][INFO] 2020-04-10 21:11:43,878: init_node, name[/rostopic_5937_1586553103811], pid[5937]
+[xmlrpc][INFO] 2020-04-10 21:11:43,879: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 21:11:43,880: Started XML-RPC server [http://juan:46279/]
+[rospy.init][INFO] 2020-04-10 21:11:43,880: ROS Slave URI: [http://juan:46279/]
+[rospy.impl.masterslave][INFO] 2020-04-10 21:11:43,881: _ready: http://juan:46279/
+[rospy.registration][INFO] 2020-04-10 21:11:43,881: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2020-04-10 21:11:43,881: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-04-10 21:11:43,981: registered with master
+[rospy.rosout][INFO] 2020-04-10 21:11:43,982: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 21:11:43,994: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 21:11:44,003: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 21:11:44,099: topic[/tf] adding connection to [http://juan:45331/], count 0
+[rospy.internal][INFO] 2020-04-10 21:11:44,101: topic[/tf] adding connection to [http://juan:45597/], count 1
+[rospy.internal][INFO] 2020-04-10 21:11:44,107: topic[/tf] adding connection to [http://juan:36135/], count 2
+[rospy.internal][INFO] 2020-04-10 21:11:44,108: topic[/tf] adding connection to [http://juan:45827/], count 3
+[rospy.internal][INFO] 2020-04-10 21:11:44,249: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2020-04-10 21:11:54,350: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-04-10 21:11:54,370: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-04-10 21:11:54,372: topic[/tf] removing connection to http://juan:45331/
+[rospy.internal][WARNING] 2020-04-10 21:11:54,373: Unknown error initiating TCP/IP socket to juan:36073 (http://juan:45331/): Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][INFO] 2020-04-10 21:11:54,372: topic[/tf] removing connection to http://juan:45597/
+[rospy.internal][INFO] 2020-04-10 21:11:54,374: topic[/tf] removing connection to http://juan:36135/
+[rospy.internal][WARNING] 2020-04-10 21:11:54,375: Unknown error initiating TCP/IP socket to juan:42999 (http://juan:36135/): Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2020-04-10 21:11:54,375: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/topics.py", line 307, in close
+    c.close()
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 807, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2020-04-10 21:11:54,375: topic[/tf] removing connection to http://juan:45827/
+[rospy.impl.masterslave][INFO] 2020-04-10 21:11:54,376: signal-2
+[rospy.core][INFO] 2020-04-10 21:11:54,991: signal_shutdown [atexit]

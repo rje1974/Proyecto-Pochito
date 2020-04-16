@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target geonav_transform[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/geonav_transform.dir/src/geonav_transform.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/geonav_transform.dir/src/geonav_utilities.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library /root/catkin_ws/devel/.private/geonav_transform/lib/libgeonav_transform.so[0m
+[ 60%] Built target geonav_transform
+[35m[1mScanning dependencies of target geonav_transform_node[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/geonav_transform_node.dir/src/geonav_transform_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/geonav_transform/lib/geonav_transform/geonav_transform_node[0m
+[100%] Built target geonav_transform_node

@@ -1,0 +1,4 @@
+Symlinking /root/catkin_ws/devel/share/nmea_tcp_driver/cmake/nmea_tcp_driverConfig.cmake
+Symlinking /root/catkin_ws/devel/share/nmea_tcp_driver/cmake/nmea_tcp_driverConfig-version.cmake
+Symlinking /root/catkin_ws/devel/lib/python2.7/dist-packages/libnmea_navsat_driver/__init__.py
+Symlinking /root/catkin_ws/devel/lib/pkgconfig/nmea_tcp_driver.pc

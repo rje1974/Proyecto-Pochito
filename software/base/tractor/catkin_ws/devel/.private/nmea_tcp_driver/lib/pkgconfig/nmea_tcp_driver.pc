@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel/.private/nmea_tcp_driver
+
+Name: nmea_tcp_driver
+Description: Description of nmea_tcp_driver
+Version: 0.5.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

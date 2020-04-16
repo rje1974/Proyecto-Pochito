@@ -1,0 +1,59 @@
+[rospy.client][INFO] 2019-09-24 21:20:03,738: init_node, name[/odom_to_path], pid[4027]
+[xmlrpc][INFO] 2019-09-24 21:20:04,068: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2019-09-24 21:20:04,069: ROS Slave URI: [http://juan:38801/]
+[xmlrpc][INFO] 2019-09-24 21:20:04,069: Started XML-RPC server [http://juan:38801/]
+[rospy.impl.masterslave][INFO] 2019-09-24 21:20:04,070: _ready: http://juan:38801/
+[rospy.registration][INFO] 2019-09-24 21:20:04,072: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2019-09-24 21:20:04,072: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-09-24 21:20:04,170: registered with master
+[rospy.rosout][INFO] 2019-09-24 21:20:04,171: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-09-24 21:20:04,563: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-09-24 21:20:04,949: initializing /clock core topic
+[rospy.simtime][INFO] 2019-09-24 21:20:04,985: connected to core topic /clock
+[rospy.internal][INFO] 2019-09-24 21:20:05,309: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-09-24 21:21:16,537: topic[/path] adding connection to [/tractor_viz], count 0
+[rospy.core][INFO] 2019-09-24 21:24:09,183: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-09-24 21:24:10,605: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-09-24 21:24:10,606: topic[/path] removing connection to /tractor_viz
+[rospy.impl.masterslave][INFO] 2019-09-24 21:24:10,607: signal-2
+[rospy.core][INFO] 2019-09-24 21:24:10,781: signal_shutdown [atexit]
+[rospy.client][INFO] 2019-09-24 23:48:00,893: init_node, name[/odom_to_path], pid[1301]
+[xmlrpc][INFO] 2019-09-24 23:48:03,091: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-09-24 23:48:03,093: Started XML-RPC server [http://juan:37869/]
+[rospy.init][INFO] 2019-09-24 23:48:03,094: ROS Slave URI: [http://juan:37869/]
+[rospy.impl.masterslave][INFO] 2019-09-24 23:48:03,095: _ready: http://juan:37869/
+[xmlrpc][INFO] 2019-09-24 23:48:03,097: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-09-24 23:48:03,098: Registering with master node http://tractor:11311/
+[rospy.init][INFO] 2019-09-24 23:48:03,196: registered with master
+[rospy.rosout][INFO] 2019-09-24 23:48:03,197: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-09-24 23:48:04,267: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-09-24 23:48:04,564: initializing /clock core topic
+[rospy.simtime][INFO] 2019-09-24 23:48:04,601: connected to core topic /clock
+[rospy.internal][INFO] 2019-09-24 23:48:04,905: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-09-24 23:49:01,478: topic[/path] adding connection to [/tractor_viz], count 0
+[rospy.internal][INFO] 2019-09-24 23:57:28,243: topic[/path] removing connection to /tractor_viz
+[rospy.core][INFO] 2019-09-24 23:58:10,208: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-09-24 23:58:11,140: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2019-09-24 23:58:11,141: signal-2
+[rospy.core][INFO] 2019-09-24 23:58:11,968: signal_shutdown [atexit]
+[rospy.client][INFO] 2019-09-25 00:02:14,880: init_node, name[/odom_to_path], pid[1366]
+[xmlrpc][INFO] 2019-09-25 00:02:15,019: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2019-09-25 00:02:15,021: ROS Slave URI: [http://juan:38999/]
+[xmlrpc][INFO] 2019-09-25 00:02:15,021: Started XML-RPC server [http://juan:38999/]
+[rospy.impl.masterslave][INFO] 2019-09-25 00:02:15,021: _ready: http://juan:38999/
+[rospy.registration][INFO] 2019-09-25 00:02:15,023: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2019-09-25 00:02:15,027: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-09-25 00:02:15,121: registered with master
+[rospy.rosout][INFO] 2019-09-25 00:02:15,122: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-09-25 00:02:15,885: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-09-25 00:02:15,905: initializing /clock core topic
+[rospy.simtime][INFO] 2019-09-25 00:02:15,942: connected to core topic /clock
+[rospy.internal][INFO] 2019-09-25 00:02:15,956: topic[/clock] adding connection to [http://juan:37971/], count 0
+[rospy.internal][INFO] 2019-09-25 00:02:16,257: topic[/odom] adding connection to [http://juan:37971/], count 0
+[rospy.internal][INFO] 2019-09-25 00:02:17,099: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2019-09-25 00:02:48,702: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-09-25 00:02:48,899: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-09-25 00:02:48,900: topic[/clock] removing connection to http://juan:37971/
+[rospy.internal][INFO] 2019-09-25 00:02:48,903: topic[/odom] removing connection to http://juan:37971/
+[rospy.impl.masterslave][INFO] 2019-09-25 00:02:48,903: signal-2
+[rospy.core][INFO] 2019-09-25 00:02:49,319: signal_shutdown [atexit]

@@ -1,0 +1,91 @@
+[rospy.client][INFO] 2020-04-10 20:37:49,717: init_node, name[/rostopic_5052_1586551069660], pid[5052]
+[xmlrpc][INFO] 2020-04-10 20:37:49,718: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 20:37:49,718: Started XML-RPC server [http://juan:38775/]
+[rospy.init][INFO] 2020-04-10 20:37:49,719: ROS Slave URI: [http://juan:38775/]
+[rospy.impl.masterslave][INFO] 2020-04-10 20:37:49,719: _ready: http://juan:38775/
+[rospy.registration][INFO] 2020-04-10 20:37:49,719: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2020-04-10 20:37:49,719: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-04-10 20:37:49,819: registered with master
+[rospy.rosout][INFO] 2020-04-10 20:37:49,820: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 20:37:49,831: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 20:37:49,840: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 20:37:49,943: topic[/heading] adding connection to [http://juan:34937/], count 0
+[rospy.internal][INFO] 2020-04-10 20:37:50,084: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-04-10 20:38:39,595: topic[/heading] adding connection to [http://juan:46829/], count 1
+[rospy.internal][WARNING] 2020-04-10 20:39:10,448: Unknown error initiating TCP/IP socket to juan:39205 (http://juan:46829/): Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/usr/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-04-10 20:39:10,449: topic[/heading] removing connection to http://juan:46829/
+[rospy.internal][INFO] 2020-04-10 20:39:17,970: topic[/heading] adding connection to [http://juan:43755/], count 1
+[rospy.internal][ERROR] 2020-04-10 20:39:37,148: Unable to initiate TCP/IP socket to juan:45463 (http://juan:43755/): Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2020-04-10 20:39:38,151: Unknown error initiating TCP/IP socket to juan:45463 (http://juan:43755/): Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2020-04-10 20:39:38,151: topic[/heading] removing connection to http://juan:43755/
+[rospy.internal][INFO] 2020-04-10 20:39:48,822: topic[/heading] adding connection to [http://juan:43547/], count 1
+[rospy.core][INFO] 2020-04-10 20:52:22,809: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2020-04-10 20:52:22,818: unclean shutdown
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/registration.py", line 372, in cleanup
+    multi()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1006, in __call__
+    return MultiCallIterator(self.__server.system.multicall(marshalled_list))
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1069, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 907, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 869, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 846, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 101] Network is unreachable
+
+[rospy.internal][INFO] 2020-04-10 20:52:22,818: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-04-10 20:52:22,819: topic[/heading] removing connection to http://juan:34937/
+[rospy.internal][WARNING] 2020-04-10 20:52:22,820: Unknown error initiating TCP/IP socket to juan:34735 (http://juan:34937/): Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2020-04-10 20:52:22,820: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/topics.py", line 307, in close
+    c.close()
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 807, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2020-04-10 20:52:22,821: topic[/heading] removing connection to http://juan:43547/
+[rospy.impl.masterslave][INFO] 2020-04-10 20:52:22,821: signal-2
+[rospy.core][INFO] 2020-04-10 20:52:23,436: signal_shutdown [atexit]

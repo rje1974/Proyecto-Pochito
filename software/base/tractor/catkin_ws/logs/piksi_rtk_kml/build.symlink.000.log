@@ -1,0 +1,5 @@
+Symlinking /root/catkin_ws/devel/share/piksi_rtk_kml/cmake/piksi_rtk_kmlConfig-version.cmake
+Symlinking /root/catkin_ws/devel/share/piksi_rtk_kml/cmake/piksi_rtk_kmlConfig.cmake
+Symlinking /root/catkin_ws/devel/lib/python2.7/dist-packages/piksi_rtk_kml/__init__.py
+Symlinking /root/catkin_ws/devel/lib/pkgconfig/piksi_rtk_kml.pc
+Symlinking /root/catkin_ws/devel/bin/piksi_rtk_kml

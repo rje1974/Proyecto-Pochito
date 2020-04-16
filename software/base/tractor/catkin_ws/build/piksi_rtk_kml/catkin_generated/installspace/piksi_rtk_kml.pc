@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/install
+
+Name: piksi_rtk_kml
+Description: Description of piksi_rtk_kml
+Version: 1.10.0
+Cflags: 
+Libs: -L/root/catkin_ws/install/lib 
+Requires: geometry_msgs piksi_rtk_msgs roslib rospy

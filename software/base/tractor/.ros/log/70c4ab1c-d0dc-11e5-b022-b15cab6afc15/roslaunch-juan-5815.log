@@ -1,0 +1,69 @@
+[roslaunch][INFO] 2020-04-10 21:05:35,685: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2020-04-10 21:05:35,692: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2020-04-10 21:05:35,693: roslaunch starting with args ['/opt/ros/kinetic/bin/roslaunch', 'pochito', 'pure_pursuit.launch']
+[roslaunch][INFO] 2020-04-10 21:05:35,693: roslaunch env is {'PYTHONIOENCODING': 'UTF-8', 'ROS_DISTRO': 'kinetic', 'CATKIN_WS': '/root/tractor_ws', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'ROSLISP_PACKAGE_DIRECTORIES': '/root/catkin_ws/devel/share/common-lisp', 'PATH': '/root/catkin_ws/devel/bin:/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'juan', 'HOME': '/root', 'CMAKE_PREFIX_PATH': '/root/catkin_ws/devel:/opt/ros/kinetic', 'LD_LIBRARY_PATH': '/root/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'ROS_LOG_FILENAME': '/root/.ros/log/70c4ab1c-d0dc-11e5-b022-b15cab6afc15/roslaunch-juan-5815.log', 'SHLVL': '2', 'TERMINATOR_UUID': 'urn:uuid:1cb34a2b-c69b-45b8-ac63-0a16f1eccf9f', 'DISPLAY': ':0', 'WINDOWID': '33554436', '_': '/opt/ros/kinetic/bin/roslaunch', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'ROS_PYTHON_VERSION': '2', 'LC_ALL': 'C.UTF-8', 'COLORTERM': 'gnome-terminal', 'PYTHONPATH': '/root/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'QT_X11_NO_MITSHM': '1', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'IBUS_DISABLE_SNOOPER': '1', 'PKG_CONFIG_PATH': '/root/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PACKAGE_PATH': '/root/catkin_ws/src/catkin_simple:/root/catkin_ws/src/geodetic_utils:/root/catkin_ws/src/geonav_transform:/root/catkin_ws/src/ros_lawn_tractor/lawn_tractor:/root/catkin_ws/src/ros_lawn_tractor/lawn_tractor_navigation:/root/catkin_ws/src/ros_lawn_tractor/lawn_tractor_sim:/root/catkin_ws/src/nmea_tcp_driver:/root/catkin_ws/src/pochito:/root/catkin_ws/src/pure_pursuit:/opt/ros/kinetic/share', 'ORBIT_SOCKETDIR': '/tmp/orbit-root', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'HOSTNAME': 'juan', 'ROS_IP': '192.168.5.210', 'PWD': '/root/catkin_ws', 'ROS_MASTER_URI': 'http://tractor:11311/', 'ROS_VERSION': '1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'}
+[roslaunch][INFO] 2020-04-10 21:05:35,693: starting in server mode
+[roslaunch.parent][INFO] 2020-04-10 21:05:35,693: starting roslaunch parent run
+[roslaunch][INFO] 2020-04-10 21:05:35,694: loading roscore config file /opt/ros/kinetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2020-04-10 21:05:36,312: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2020-04-10 21:05:36,313: loading config file /root/catkin_ws/src/pochito/launch/pure_pursuit.launch
+[roslaunch][INFO] 2020-04-10 21:05:36,328: Added node of type [pure_pursuit/pure_pursuit] in namespace [/]
+[roslaunch][INFO] 2020-04-10 21:05:36,773: ... selected machine [] for node of type [pure_pursuit/pure_pursuit]
+[roslaunch.pmon][INFO] 2020-04-10 21:05:36,777: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2020-04-10 21:05:36,778: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2020-04-10 21:05:36,778: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2020-04-10 21:05:36,778: starting parent XML-RPC server
+[roslaunch.server][INFO] 2020-04-10 21:05:36,779: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2020-04-10 21:05:36,779: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2020-04-10 21:05:36,779: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 21:05:36,780: Started XML-RPC server [http://juan:34469/]
+[xmlrpc][INFO] 2020-04-10 21:05:36,780: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2020-04-10 21:05:36,792: started roslaunch server http://juan:34469/
+[roslaunch.parent][INFO] 2020-04-10 21:05:36,792: ... parent XML-RPC server started
+[roslaunch][INFO] 2020-04-10 21:05:36,793: master.is_running[http://tractor:11311/]
+[roslaunch][INFO] 2020-04-10 21:05:36,803: master.is_running[http://tractor:11311/]
+[roslaunch][INFO] 2020-04-10 21:05:36,812: ROS_MASTER_URI=http://tractor:11311/
+[roslaunch][INFO] 2020-04-10 21:05:36,830: setting /roslaunch/uris/host_juan__34469' to http://juan:34469/
+[roslaunch][INFO] 2020-04-10 21:05:36,841: load_parameters starting ...
+[roslaunch][INFO] 2020-04-10 21:05:36,900: ... load_parameters complete
+[roslaunch][INFO] 2020-04-10 21:05:36,901: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2020-04-10 21:05:36,901: ... preparing to launch node of type [pure_pursuit/pure_pursuit]
+[roslaunch][INFO] 2020-04-10 21:05:36,901: create_node_process: package[pure_pursuit] type[pure_pursuit] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://tractor:11311/]
+[roslaunch][INFO] 2020-04-10 21:05:36,902: process[controller-1]: env[{'PYTHONIOENCODING': 'UTF-8', 'ROS_DISTRO': 'kinetic', 'CATKIN_WS': '/root/tractor_ws', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'ROSLISP_PACKAGE_DIRECTORIES': '/root/catkin_ws/devel/share/common-lisp', 'LD_LIBRARY_PATH': '/root/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu', 'PATH': '/root/catkin_ws/devel/bin:/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'juan', 'HOME': '/root', 'ROS_PACKAGE_PATH': '/root/catkin_ws/src/catkin_simple:/root/catkin_ws/src/geodetic_utils:/root/catkin_ws/src/geonav_transform:/root/catkin_ws/src/ros_lawn_tractor/lawn_tractor:/root/catkin_ws/src/ros_lawn_tractor/lawn_tractor_navigation:/root/catkin_ws/src/ros_lawn_tractor/lawn_tractor_sim:/root/catkin_ws/src/nmea_tcp_driver:/root/catkin_ws/src/pochito:/root/catkin_ws/src/pure_pursuit:/opt/ros/kinetic/share', 'CMAKE_PREFIX_PATH': '/root/catkin_ws/devel:/opt/ros/kinetic', 'ROS_LOG_FILENAME': '/root/.ros/log/70c4ab1c-d0dc-11e5-b022-b15cab6afc15/roslaunch-juan-5815.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHLVL': '2', 'TERMINATOR_UUID': 'urn:uuid:1cb34a2b-c69b-45b8-ac63-0a16f1eccf9f', 'DISPLAY': ':0', 'WINDOWID': '33554436', 'ORBIT_SOCKETDIR': '/tmp/orbit-root', 'ROS_MASTER_URI': 'http://tractor:11311/', 'ROS_PYTHON_VERSION': '2', 'ROS_VERSION': '1', 'PYTHONPATH': '/root/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'QT_X11_NO_MITSHM': '1', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'IBUS_DISABLE_SNOOPER': '1', 'PKG_CONFIG_PATH': '/root/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'LC_ALL': 'C.UTF-8', '_': '/opt/ros/kinetic/bin/roslaunch', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'HOSTNAME': 'juan', 'ROS_IP': '192.168.5.210', 'PWD': '/root/catkin_ws', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'COLORTERM': 'gnome-terminal', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'}]
+[roslaunch][INFO] 2020-04-10 21:05:36,996: process[controller-1]: args[[u'/root/catkin_ws/devel/lib/pure_pursuit/pure_pursuit', u'path_segment:=/drive_path', u'odometry:=odom', u'tcpvel:=cmd_vel', u'__name:=controller']]
+[roslaunch][INFO] 2020-04-10 21:05:36,997: ... created process [controller-1]
+[roslaunch.pmon][INFO] 2020-04-10 21:05:36,997: ProcessMonitor.register[controller-1]
+[roslaunch.pmon][INFO] 2020-04-10 21:05:36,997: ProcessMonitor.register[controller-1] complete
+[roslaunch][INFO] 2020-04-10 21:05:36,997: ... registered process [controller-1]
+[roslaunch][INFO] 2020-04-10 21:05:36,998: process[controller-1]: starting os process
+[roslaunch][INFO] 2020-04-10 21:05:36,998: process[controller-1]: start w/ args [[u'/root/catkin_ws/devel/lib/pure_pursuit/pure_pursuit', u'path_segment:=/drive_path', u'odometry:=odom', u'tcpvel:=cmd_vel', u'__name:=controller', u'__log:=/root/.ros/log/70c4ab1c-d0dc-11e5-b022-b15cab6afc15/controller-1.log']]
+[roslaunch][INFO] 2020-04-10 21:05:36,998: process[controller-1]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2020-04-10 21:05:37,129: process[controller-1]: started with pid [5827]
+[roslaunch][INFO] 2020-04-10 21:05:37,130: ... successfully launched [controller-1]
+[roslaunch][INFO] 2020-04-10 21:05:37,130: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2020-04-10 21:05:37,130: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 140529727629056)>
+[roslaunch.parent][INFO] 2020-04-10 21:05:37,130: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2020-04-10 21:05:37,131: spin
+[roslaunch.pmon][INFO] 2020-04-10 21:36:29,174: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 140529727629056)>
+[roslaunch.pmon][INFO] 2020-04-10 21:36:29,185: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140529727629056)>
+[roslaunch.pmon][INFO] 2020-04-10 21:36:29,186: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140529727629056)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7fcfa0a5a790>]
+[roslaunch.pmon][INFO] 2020-04-10 21:36:29,187: ProcessMonitor exit: killing controller-1
+[roslaunch][INFO] 2020-04-10 21:36:29,187: [controller-1] killing on exit
+[roslaunch][INFO] 2020-04-10 21:36:29,187: process[controller-1]: killing os process with pid[5827] pgid[5827]
+[roslaunch][INFO] 2020-04-10 21:36:29,187: [controller-1] sending SIGINT to pgid [5827]
+[roslaunch][INFO] 2020-04-10 21:36:29,187: [controller-1] sent SIGINT to pgid [5827]
+[roslaunch][ERROR] 2020-04-10 21:36:44,245: [controller-1] escalating to SIGTERM
+[roslaunch][INFO] 2020-04-10 21:36:44,245: [controller-1] sent SIGTERM to pgid [5827]
+[roslaunch][INFO] 2020-04-10 21:36:44,446: process[controller-1]: SIGTERM killed with return value -15
+[roslaunch.pmon][INFO] 2020-04-10 21:36:44,447: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2020-04-10 21:36:44,447: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2020-04-10 21:36:44,489: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2020-04-10 21:36:44,489: runner.stop()
+[roslaunch][INFO] 2020-04-10 21:36:44,489: shutting down processing monitor...
+[roslaunch][INFO] 2020-04-10 21:36:44,490: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 140529727629056)>
+[roslaunch.pmon][INFO] 2020-04-10 21:36:44,490: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140529727629056)>
+[roslaunch][INFO] 2020-04-10 21:36:44,490: ... shutting down processing monitor complete
+[roslaunch][INFO] 2020-04-10 21:36:44,490: done
+[roslaunch.pmon][INFO] 2020-04-10 21:36:44,490: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140529727629056)>
+[rospy.core][INFO] 2020-04-10 21:36:44,491: signal_shutdown [atexit]

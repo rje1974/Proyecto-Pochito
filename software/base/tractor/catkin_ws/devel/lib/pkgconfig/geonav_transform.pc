@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/geonav_transform/lib/pkgconfig/geonav_transform.pc

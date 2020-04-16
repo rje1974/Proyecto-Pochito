@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/install
+
+Name: pochito
+Description: Description of pochito
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

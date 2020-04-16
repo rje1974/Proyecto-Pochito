@@ -1,0 +1,82 @@
+[rospy.client][INFO] 2020-04-10 20:38:38,843: init_node, name[/odom_to_path], pid[5090]
+[xmlrpc][INFO] 2020-04-10 20:38:38,844: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2020-04-10 20:38:38,846: ROS Slave URI: [http://juan:41511/]
+[xmlrpc][INFO] 2020-04-10 20:38:38,845: Started XML-RPC server [http://juan:41511/]
+[rospy.impl.masterslave][INFO] 2020-04-10 20:38:38,846: _ready: http://juan:41511/
+[xmlrpc][INFO] 2020-04-10 20:38:38,847: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-04-10 20:38:38,848: Registering with master node http://tractor:11311/
+[rospy.init][INFO] 2020-04-10 20:38:38,946: registered with master
+[rospy.rosout][INFO] 2020-04-10 20:38:38,947: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 20:38:38,962: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 20:38:38,982: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 20:38:39,181: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-04-10 20:38:42,710: topic[/path] adding connection to [/tractor_viz], count 0
+[rospy.core][INFO] 2020-04-10 20:39:10,325: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-04-10 20:39:10,434: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-04-10 20:39:10,435: topic[/path] removing connection to /tractor_viz
+[rospy.impl.masterslave][INFO] 2020-04-10 20:39:10,435: signal-2
+[rospy.core][INFO] 2020-04-10 20:39:10,960: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-04-10 20:39:17,280: init_node, name[/odom_to_path], pid[5196]
+[xmlrpc][INFO] 2020-04-10 20:39:17,289: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 20:39:17,290: Started XML-RPC server [http://juan:43689/]
+[rospy.impl.masterslave][INFO] 2020-04-10 20:39:17,290: _ready: http://juan:43689/
+[rospy.init][INFO] 2020-04-10 20:39:17,292: ROS Slave URI: [http://juan:43689/]
+[rospy.registration][INFO] 2020-04-10 20:39:17,297: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2020-04-10 20:39:17,297: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-04-10 20:39:17,393: registered with master
+[rospy.rosout][INFO] 2020-04-10 20:39:17,393: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 20:39:17,410: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 20:39:17,429: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 20:39:17,646: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-04-10 20:39:19,760: topic[/path] adding connection to [/tractor_viz], count 0
+[rospy.core][INFO] 2020-04-10 20:39:37,080: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-04-10 20:39:37,144: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-04-10 20:39:37,144: topic[/path] removing connection to /tractor_viz
+[rospy.impl.masterslave][INFO] 2020-04-10 20:39:37,144: signal-2
+[rospy.core][INFO] 2020-04-10 20:39:37,765: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-04-10 20:39:48,115: init_node, name[/odom_to_path], pid[5302]
+[xmlrpc][INFO] 2020-04-10 20:39:48,116: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2020-04-10 20:39:48,117: ROS Slave URI: [http://juan:35339/]
+[xmlrpc][INFO] 2020-04-10 20:39:48,117: Started XML-RPC server [http://juan:35339/]
+[rospy.impl.masterslave][INFO] 2020-04-10 20:39:48,117: _ready: http://juan:35339/
+[xmlrpc][INFO] 2020-04-10 20:39:48,118: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-04-10 20:39:48,119: Registering with master node http://tractor:11311/
+[rospy.init][INFO] 2020-04-10 20:39:48,217: registered with master
+[rospy.rosout][INFO] 2020-04-10 20:39:48,218: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 20:39:48,236: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 20:39:48,250: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 20:39:48,392: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-04-10 20:39:50,504: topic[/path] adding connection to [/tractor_viz], count 0
+[rospy.core][INFO] 2020-04-10 20:53:45,155: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2020-04-10 20:53:45,159: unclean shutdown
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/registration.py", line 372, in cleanup
+    multi()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1006, in __call__
+    return MultiCallIterator(self.__server.system.multicall(marshalled_list))
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1069, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 907, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 869, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 846, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 101] Network is unreachable
+
+[rospy.internal][INFO] 2020-04-10 20:53:45,159: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-04-10 20:53:45,160: topic[/path] removing connection to /tractor_viz
+[rospy.impl.masterslave][INFO] 2020-04-10 20:53:45,160: signal-2
+[rospy.core][INFO] 2020-04-10 20:53:45,276: signal_shutdown [atexit]

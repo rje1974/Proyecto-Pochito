@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/piksi_pps_sync/lib/pkgconfig/piksi_pps_sync.pc

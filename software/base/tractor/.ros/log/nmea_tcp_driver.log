@@ -1,0 +1,722 @@
+[rospy.client][INFO] 2020-04-10 12:28:01,001: init_node, name[/nmea_tcp_driver], pid[1924]
+[xmlrpc][INFO] 2020-04-10 12:28:01,002: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 12:28:01,002: Started XML-RPC server [http://juan:43885/]
+[rospy.init][INFO] 2020-04-10 12:28:01,002: ROS Slave URI: [http://juan:43885/]
+[rospy.impl.masterslave][INFO] 2020-04-10 12:28:01,002: _ready: http://juan:43885/
+[rospy.registration][INFO] 2020-04-10 12:28:01,003: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2020-04-10 12:28:01,006: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-04-10 12:28:01,102: registered with master
+[rospy.rosout][INFO] 2020-04-10 12:28:01,103: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 12:28:01,118: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 12:28:01,134: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 12:28:01,357: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2020-04-10 12:28:01,532: signal_shutdown [atexit]
+[rospy.internal][INFO] 2020-04-10 12:28:01,551: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2020-04-10 12:28:01,551: atexit
+[rospy.client][INFO] 2020-04-10 12:30:31,946: init_node, name[/nmea_tcp_driver], pid[1943]
+[xmlrpc][INFO] 2020-04-10 12:30:31,947: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 12:30:31,947: Started XML-RPC server [http://juan:43017/]
+[rospy.init][INFO] 2020-04-10 12:30:31,947: ROS Slave URI: [http://juan:43017/]
+[rospy.impl.masterslave][INFO] 2020-04-10 12:30:31,948: _ready: http://juan:43017/
+[rospy.registration][INFO] 2020-04-10 12:30:31,948: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2020-04-10 12:30:31,948: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-04-10 12:30:32,048: registered with master
+[rospy.rosout][INFO] 2020-04-10 12:30:32,048: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 12:30:32,066: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 12:30:32,077: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 12:30:32,327: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2020-04-10 12:30:34,999: Received a sentence with an invalid checksum. Sentence was: '53757,0.353645,0.075894,0.353702,0.353699,0.750460*67'
+[rosout][WARNING] 2020-04-10 12:30:36,007: Received a sentence with an invalid checksum. Sentence was: '98,0.353675,0.128888,0.353737,0.353736,0.750543*62'
+[rosout][WARNING] 2020-04-10 12:30:56,022: Received a sentence with an invalid checksum. Sentence was: '.353729,0.359261,0.353773,0.353764,0.750529*68'
+[rosout][WARNING] 2020-04-10 12:31:03,014: Received a sentence with an invalid checksum. Sentence was: '5,0.353755,-0.821082,0.353750,0.353760,0.750621*4D'
+[rospy.core][INFO] 2020-04-10 12:31:10,644: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-04-10 12:31:10,672: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2020-04-10 12:31:10,673: signal-2
+[rospy.core][INFO] 2020-04-10 12:31:10,775: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-04-10 13:51:59,696: init_node, name[/nmea_tcp_driver], pid[1960]
+[xmlrpc][INFO] 2020-04-10 13:51:59,698: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 13:51:59,698: Started XML-RPC server [http://juan:39669/]
+[rospy.init][INFO] 2020-04-10 13:51:59,699: ROS Slave URI: [http://juan:39669/]
+[rospy.impl.masterslave][INFO] 2020-04-10 13:51:59,699: _ready: http://juan:39669/
+[rospy.registration][INFO] 2020-04-10 13:51:59,701: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2020-04-10 13:51:59,701: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-04-10 13:51:59,799: registered with master
+[rospy.rosout][INFO] 2020-04-10 13:51:59,800: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 13:52:00,176: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 13:52:00,199: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 13:52:00,492: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2020-04-10 13:52:06,706: Received a sentence with an invalid checksum. Sentence was: ',1.1,116.62,M,0.0,M,3.1,0280*46'
+[rosout][WARNING] 2020-04-10 13:52:08,018: Received a sentence with an invalid checksum. Sentence was: ',13,1.3,116.63,M,0.0,M,4.9,0280*49'
+[rosout][WARNING] 2020-04-10 13:52:21,226: Received a sentence with an invalid checksum. Sentence was: '553.1205248,S,06242.5528610,W,4,14,1.1,116.61,M,0.0,M,5.1,0280*42'
+[rosout][WARNING] 2020-04-10 13:52:26,269: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,135226.10,3553.1205278,S,06242.5528562,W,4,14'
+[rosout][WARNING] 2020-04-10 13:52:26,296: Received a sentence with an invalid checksum. Sentence was: ',1.1,116.62,M,0.0,M,1.1,0280*47'
+[rosout][WARNING] 2020-04-10 13:52:28,144: Received a sentence with an invalid checksum. Sentence was: ',13,1.3,116.61,M,0.0,M,0.9,0280*4C'
+[rosout][WARNING] 2020-04-10 13:52:31,252: Received a sentence with an invalid checksum. Sentence was: '.4*23'
+[rosout][WARNING] 2020-04-10 13:52:36,310: Received a sentence with an invalid checksum. Sentence was: '.1,1.9*2A'
+[rosout][WARNING] 2020-04-10 13:52:51,223: Received a sentence with an invalid checksum. Sentence was: '.1,1.9*2A'
+[rosout][WARNING] 2020-04-10 13:53:14,901: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,135314.10,3553.1205410,S,06242.5528520,W,4,14,1.1'
+[rosout][WARNING] 2020-04-10 13:53:16,139: Received a sentence with an invalid checksum. Sentence was: '135316.00,A,D*6B'
+[rosout][WARNING] 2020-04-10 13:53:18,156: Received a sentence with an invalid checksum. Sentence was: 'PGLL,3553.1205386,S,06242.5528532,W,135318.00,A,D*69'
+[rosout][WARNING] 2020-04-10 13:53:22,982: Received a sentence with an invalid checksum. Sentence was: ',14,1.1,116.67,M,0.0,M,2.8,0280*4F'
+[rosout][WARNING] 2020-04-10 13:53:24,937: Received a sentence with an invalid checksum. Sentence was: ',14,1.1,116.66,M,0.0,M,0.7,0280*43'
+[rosout][WARNING] 2020-04-10 13:53:26,168: Received a sentence with an invalid checksum. Sentence was: '135326.00,A,D*68'
+[rosout][WARNING] 2020-04-10 13:53:29,534: Received a sentence with an invalid checksum. Sentence was: '1,1.9*2D'
+[rosout][WARNING] 2020-04-10 13:53:31,282: Received a sentence with an invalid checksum. Sentence was: '1,15,246,,08,62,242,55,10,47,138,48,11,41,230,47*75'
+[rosout][WARNING] 2020-04-10 13:53:40,388: Received a sentence with an invalid checksum. Sentence was: '553.1205398,S,06242.5528592,W,4,14,1.1,116.64,M,0.0,M,3.1,0280*42'
+[rosout][WARNING] 2020-04-10 13:53:51,230: Received a sentence with an invalid checksum. Sentence was: '1205434,S,06242.5528610,W,4,14,1.1,116.63,M,0.0,M,4.1,0280*4A'
+[rosout][WARNING] 2020-04-10 13:53:57,280: Received a sentence with an invalid checksum. Sentence was: ',116.64,M,0.0,M,2.1,0280*49'
+[rosout][WARNING] 2020-04-10 13:54:03,461: Received a sentence with an invalid checksum. Sentence was: '9*2D'
+[rosout][WARNING] 2020-04-10 13:54:12,428: Received a sentence with an invalid checksum. Sentence was: '1112200,S,06242.5343720,W,5,14,1.1,115.57,M,0.0,M,1.1,0280*47'
+[rosout][WARNING] 2020-04-10 13:54:14,160: Received a sentence with an invalid checksum. Sentence was: '00420,,,D*4D'
+[rosout][WARNING] 2020-04-10 13:54:22,304: Received a sentence with an invalid checksum. Sentence was: ',111.98,M,0.0,M,5.1,0280*48'
+[rosout][WARNING] 2020-04-10 13:54:27,277: Received a sentence with an invalid checksum. Sentence was: ',111.97,M,0.0,M,1.1,0280*4C'
+[rosout][WARNING] 2020-04-10 13:54:32,788: Received a sentence with an invalid checksum. Sentence was: ',,0.019100,0.013576,-0.934001,0.015752,0.017349,0.049381*45'
+[rosout][WARNING] 2020-04-10 13:54:37,217: Received a sentence with an invalid checksum. Sentence was: ',2.2,1.1,1.9*2D'
+[rosout][WARNING] 2020-04-10 13:54:43,045: Received a sentence with an invalid checksum. Sentence was: ',14,1.1,111.99,M,0.0,M,4.7,0280*4C'
+[rosout][WARNING] 2020-04-10 13:54:44,194: Received a sentence with an invalid checksum. Sentence was: ',W,4,14,1.1,111.99,M,0.0,M,6.1,0280*48'
+[rosout][WARNING] 2020-04-10 13:55:04,237: Received a sentence with an invalid checksum. Sentence was: '2,87,,,,,,,,,,2.7,1.3,2.4*24'
+[rosout][WARNING] 2020-04-10 13:55:05,177: Received a sentence with an invalid checksum. Sentence was: ',,,,,,2.2,1.1,2.0*20'
+[rosout][WARNING] 2020-04-10 13:55:10,158: Received a sentence with an invalid checksum. Sentence was: ',,,2.2,1.1,2.0*27'
+[rosout][WARNING] 2020-04-10 13:55:11,493: Received a sentence with an invalid checksum. Sentence was: '320,W,5,14,1.1,113.93,M,0.0,M,15.2,0280*7E'
+[rosout][WARNING] 2020-04-10 13:55:17,428: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,135517.10,3553.1115764,S,06242.5345'
+[rosout][WARNING] 2020-04-10 13:55:18,138: Received a sentence with an invalid checksum. Sentence was: '42.5344836,W,135518.00,A,D*6B'
+[rosout][WARNING] 2020-04-10 13:55:19,272: Received a sentence with an invalid checksum. Sentence was: ',2.2,1.1,2.0*27'
+[rosout][WARNING] 2020-04-10 13:55:27,226: Received a sentence with an invalid checksum. Sentence was: '.5350500,W,135527.00,A,D*62'
+[rosout][WARNING] 2020-04-10 13:55:31,121: Received a sentence with an invalid checksum. Sentence was: ',2.2,1.1,2.0*27'
+[rosout][WARNING] 2020-04-10 13:55:32,161: Received a sentence with an invalid checksum. Sentence was: ',,,,,,2.2,1.1,2.0*20'
+[rosout][WARNING] 2020-04-10 13:55:47,122: Received a sentence with an invalid checksum. Sentence was: 'GNGSA,A,3,08,10,11,14,20,27,32,,,,,,2.2,1.1,2.0*24'
+[rosout][WARNING] 2020-04-10 13:55:50,189: Received a sentence with an invalid checksum. Sentence was: ',0280*46'
+[rosout][WARNING] 2020-04-10 13:56:02,368: Received a sentence with an invalid checksum. Sentence was: 'M,12.1,0280*7F'
+[rosout][WARNING] 2020-04-10 13:56:10,253: Received a sentence with an invalid checksum. Sentence was: 'ST,135610.00,,0.012886,0.008840,-0.915968,0.010524,0.011552,0.034145*46'
+[rosout][WARNING] 2020-04-10 13:56:16,206: Received a sentence with an invalid checksum. Sentence was: '.5350476,W,4,14,1.1,111.90,M,0.0,M,3.1,0280*44'
+[rosout][WARNING] 2020-04-10 13:56:18,240: Received a sentence with an invalid checksum. Sentence was: ',5.1,0280*4C'
+[rosout][WARNING] 2020-04-10 13:56:27,761: Received a sentence with an invalid checksum. Sentence was: '1,16,246,,03,01,304,,08,63,244,53,10,46,138,46*79'
+[rosout][WARNING] 2020-04-10 13:56:37,376: Received a sentence with an invalid checksum. Sentence was: '0*49'
+[rosout][WARNING] 2020-04-10 13:56:42,027: Received a sentence with an invalid checksum. Sentence was: 'SV,3,1,12,01,16,246,,03,01,304,,08,63,244,54,10,46,138,48*70'
+[rosout][WARNING] 2020-04-10 13:56:51,241: Received a sentence with an invalid checksum. Sentence was: '5,0.015193,0.043757*40'
+[rosout][WARNING] 2020-04-10 13:56:51,571: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,135642.00,3553.1108918,S,06242.5350422,W,4,14,1.1,111.91,M,0.0,M,4.0,028'
+[rosout][WARNING] 2020-04-10 13:56:52,349: Received a sentence with an invalid checksum. Sentence was: '.90,,0.014933,0.010277,-0.929707,0.012149,0.013454,0.039191*48'
+[rosout][WARNING] 2020-04-10 13:56:54,780: Received a sentence with an invalid checksum. Sentence was: ',K,D*2A'
+[rosout][WARNING] 2020-04-10 13:56:54,950: Received a sentence with an invalid checksum. Sentence was: '1,0.010384,0.011432,0.033808*42'
+[rosout][WARNING] 2020-04-10 13:56:58,855: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,135658.10,3553.1108924,S,06242.5350440,W,4,14,1.1,111.90,M,0.0,M'
+[rosout][WARNING] 2020-04-10 13:57:08,701: Received a sentence with an invalid checksum. Sentence was: ',14,1.1,111.91,M,0.0,M,0.6,0280*4E'
+[rosout][WARNING] 2020-04-10 13:57:25,797: Received a sentence with an invalid checksum. Sentence was: 'SV,3,1,12,01,16,244,,03,01,302,,08,64,246,54,10,45,138,49*73'
+[rosout][WARNING] 2020-04-10 13:57:26,142: Received a sentence with an invalid checksum. Sentence was: '3553.1108888,S,06242.5350416,W,4,14,1.1,111.89,M,0.0,M,1.9,0280*44'
+[rosout][WARNING] 2020-04-10 13:57:26,161: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,135725.00,3553.1108876,S,06242.5350422,W,4,14,1.1,111.89,M,0.0,M,4.0,028'
+[rosout][WARNING] 2020-04-10 13:57:30,112: Received a sentence with an invalid checksum. Sentence was: 'ST,135730.00,,0.015253,0.010442,-0.933683,0.012360,0.013744,0.039929*45'
+[rosout][WARNING] 2020-04-10 13:57:34,165: Received a sentence with an invalid checksum. Sentence was: '.5350404,W,4,14,1.1,111.92,M,0.0,M,3.1,0280*4A'
+[rosout][WARNING] 2020-04-10 13:57:49,210: Received a sentence with an invalid checksum. Sentence was: 'W,5,14,1.1,109.83,M,0.0,M,7.1,0280*49'
+[rosout][WARNING] 2020-04-10 13:57:59,130: Received a sentence with an invalid checksum. Sentence was: ',3,08,10,11,14,20,22,27,32,,,,,2.3,1.1,2.0*25'
+[rosout][WARNING] 2020-04-10 13:58:04,256: Received a sentence with an invalid checksum. Sentence was: ',W,5,14,1.1,111.39,M,0.0,M,11.1,0280*70'
+[rosout][WARNING] 2020-04-10 13:58:06,146: Received a sentence with an invalid checksum. Sentence was: 'W,5,14,1.1,111.87,M,0.0,M,1.1,0280*45'
+[rosout][WARNING] 2020-04-10 13:58:13,063: Received a sentence with an invalid checksum. Sentence was: '.00,,0.361782,0.356806,-0.955421,0.358472,0.360131,0.784213*4C'
+[rosout][WARNING] 2020-04-10 13:58:17,331: Received a sentence with an invalid checksum. Sentence was: '*4C'
+[rosout][WARNING] 2020-04-10 13:58:19,155: Received a sentence with an invalid checksum. Sentence was: ',08,10,11,14,20,27,32,,,,,,2.3,1.1,2.0*25'
+[rosout][WARNING] 2020-04-10 13:58:23,297: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,13'
+[rosout][WARNING] 2020-04-10 13:58:30,324: Received a sentence with an invalid checksum. Sentence was: '0,,0.012273,0.008178,-0.916335,0.009895,0.010936,0.032445*4E'
+[rosout][WARNING] 2020-04-10 13:58:35,266: Received a sentence with an invalid checksum. Sentence was: '255,0.070564*4B'
+[rosout][WARNING] 2020-04-10 13:58:38,132: Received a sentence with an invalid checksum. Sentence was: '.030142,0.018520,-0.664333,0.026336,0.023621,0.074188*47'
+[rosout][WARNING] 2020-04-10 13:58:43,562: Received a sentence with an invalid checksum. Sentence was: '.1108660,S,06242.5355780,W,4,15,0.9,111.87,M,0.0,M,1.9,0280*49'
+[rosout][WARNING] 2020-04-10 13:58:43,585: Received a sentence with an invalid checksum. Sentence was: '4107*43'
+[rosout][WARNING] 2020-04-10 13:58:44,466: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,13'
+[rosout][WARNING] 2020-04-10 13:58:45,691: Received a sentence with an invalid checksum. Sentence was: 'GPVTG,,T,,M,0.01,N,0.02,K,D*25'
+[rosout][WARNING] 2020-04-10 13:58:48,386: Received a sentence with an invalid checksum. Sentence was: ',0.01,N,0.02,K,D*25'
+[rosout][WARNING] 2020-04-10 13:59:13,019: Received a sentence with an invalid checksum. Sentence was: '13.00,,0.366630,0.360222,-0.820590,0.363215,0.363665,0.798183*4E'
+[rosout][WARNING] 2020-04-10 13:59:19,047: Received a sentence with an invalid checksum. Sentence was: '15,,,,,,,,,,,1.6,0.9,1.4*26'
+[rosout][WARNING] 2020-04-10 13:59:20,062: Received a sentence with an invalid checksum. Sentence was: '20.00,,0.361721,0.357803,-0.776548,0.359803,0.359732,0.778828*44'
+[rosout][WARNING] 2020-04-10 13:59:23,009: Received a sentence with an invalid checksum. Sentence was: '23.00,,0.360847,0.357361,-0.769418,0.359163,0.359053,0.775501*48'
+[rosout][WARNING] 2020-04-10 13:59:25,023: Received a sentence with an invalid checksum. Sentence was: '25.00,,0.360000,0.356852,-0.788428,0.358419,0.358440,0.772901*46'
+[rosout][WARNING] 2020-04-10 13:59:31,262: Received a sentence with an invalid checksum. Sentence was: '80*47'
+[rosout][WARNING] 2020-04-10 13:59:35,012: Received a sentence with an invalid checksum. Sentence was: ',08,10,11,14,20,22,27,32,,,,,2.3,1.1,2.0*25'
+[rosout][WARNING] 2020-04-10 13:59:40,070: Received a sentence with an invalid checksum. Sentence was: '.03,N,0.05,K,D*20'
+[rosout][WARNING] 2020-04-10 13:59:43,992: Received a sentence with an invalid checksum. Sentence was: '3,419,435,,,,,,,,,,,2.3,1.1,2.0*21'
+[rosout][WARNING] 2020-04-10 13:59:45,582: Received a sentence with an invalid checksum. Sentence was: '.08,N,0.15,K,D*2A'
+[rosout][WARNING] 2020-04-10 14:00:06,138: Received a sentence with an invalid checksum. Sentence was: '80*4C'
+[rosout][WARNING] 2020-04-10 14:00:14,968: Received a sentence with an invalid checksum. Sentence was: ',0.02,N,0.03,K,D*27'
+[rosout][WARNING] 2020-04-10 14:00:21,222: Received a sentence with an invalid checksum. Sentence was: 'W,4,15,0.9,111.93,M,0.0,M,2.1,0280*48'
+[rosout][WARNING] 2020-04-10 14:00:22,135: Received a sentence with an invalid checksum. Sentence was: '*44'
+[rosout][WARNING] 2020-04-10 14:00:25,002: Received a sentence with an invalid checksum. Sentence was: ',3,01,08,10,11,14,20,22,27,32,,,,1.6,0.9,1.4*2C'
+[rosout][WARNING] 2020-04-10 14:00:41,220: Received a sentence with an invalid checksum. Sentence was: ',S,06242.5350104,W,4,14,1.1,111.93,M,0.0,M,1.2,0280*4B'
+[rosout][WARNING] 2020-04-10 14:00:43,951: Received a sentence with an invalid checksum. Sentence was: ',0.02,N,0.04,K,D*20'
+[rosout][WARNING] 2020-04-10 14:00:46,127: Received a sentence with an invalid checksum. Sentence was: '*4E'
+[rosout][WARNING] 2020-04-10 14:01:01,101: Received a sentence with an invalid checksum. Sentence was: '4,W,4,15,0.9,111.92,M,0.0,M,1.1,0280*4E'
+[rosout][WARNING] 2020-04-10 14:01:03,031: Received a sentence with an invalid checksum. Sentence was: 'W,4,14,1.1,111.92,M,0.0,M,3.1,0280*4D'
+[rosout][WARNING] 2020-04-10 14:01:11,952: Received a sentence with an invalid checksum. Sentence was: ',3,01,08,10,11,14,20,27,32,,,,,1.6,0.9,1.4*2C'
+[rosout][WARNING] 2020-04-10 14:01:19,006: Received a sentence with an invalid checksum. Sentence was: ',,,,,,,,,2.3,1.1,2.0*2E'
+[rosout][WARNING] 2020-04-10 14:01:25,984: Received a sentence with an invalid checksum. Sentence was: '.00,,0.013602,0.008949,-0.943737,0.010780,0.012202,0.035513*41'
+[rosout][WARNING] 2020-04-10 14:01:30,972: Received a sentence with an invalid checksum. Sentence was: ',3,08,10,11,14,20,27,32,,,,,,2.3,1.1,2.0*25'
+[rosout][WARNING] 2020-04-10 14:01:35,939: Received a sentence with an invalid checksum. Sentence was: ',08,10,11,14,20,27,32,,,,,,2.3,1.1,2.0*25'
+[rosout][WARNING] 2020-04-10 14:01:40,928: Received a sentence with an invalid checksum. Sentence was: ',01,08,10,11,14,20,27,32,,,,,2.3,1.1,2.0*24'
+[rosout][WARNING] 2020-04-10 14:01:47,091: Received a sentence with an invalid checksum. Sentence was: '.02,N,0.03,K,D*27'
+[rosout][WARNING] 2020-04-10 14:01:48,084: Received a sentence with an invalid checksum. Sentence was: '14,1.1,111.92,M,0.0,M,1.1,0280*4F'
+[rosout][WARNING] 2020-04-10 14:01:50,957: Received a sentence with an invalid checksum. Sentence was: '.01,N,0.02,K,D*25'
+[rosout][WARNING] 2020-04-10 14:01:54,051: Received a sentence with an invalid checksum. Sentence was: ',01,08,10,11,14,20,27,32,,,,,1.6,0.9,1.4*2C'
+[rosout][WARNING] 2020-04-10 14:01:55,498: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,140155.10,3553.1109002,S,06242.5350146,W,4,14,1.1,111.91,M,0.0,M,1.1,0280*4'
+[rosout][WARNING] 2020-04-10 14:01:58,041: Received a sentence with an invalid checksum. Sentence was: 'E'
+[rosout][WARNING] 2020-04-10 14:02:01,247: Received a sentence with an invalid checksum. Sentence was: '6'
+[rosout][WARNING] 2020-04-10 14:02:03,947: Received a sentence with an invalid checksum. Sentence was: '0,,0.015977,0.010561,-0.959053,0.012607,0.014417,0.041241*43'
+[rosout][WARNING] 2020-04-10 14:02:05,012: Received a sentence with an invalid checksum. Sentence was: '3'
+[rosout][WARNING] 2020-04-10 14:02:05,934: Received a sentence with an invalid checksum. Sentence was: ',01,08,10,11,14,20,27,32,,,,,2.3,1.1,2.0*24'
+[rosout][WARNING] 2020-04-10 14:02:07,091: Received a sentence with an invalid checksum. Sentence was: '6'
+[rosout][WARNING] 2020-04-10 14:02:15,000: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,140215.10,3553.1108960,S,06242.5350176,W,4,14,1.1,111.85,M,0.0,M,4.1,0280*4'
+[rosout][WARNING] 2020-04-10 14:02:15,001: Received a sentence with an invalid checksum. Sentence was: 'A'
+[rosout][WARNING] 2020-04-10 14:02:17,087: Received a sentence with an invalid checksum. Sentence was: '3'
+[rosout][WARNING] 2020-04-10 14:02:27,066: Received a sentence with an invalid checksum. Sentence was: '4'
+[rosout][WARNING] 2020-04-10 14:02:29,006: Received a sentence with an invalid checksum. Sentence was: '143,-0.951876,0.011010,0.012560,0.036327*45'
+[rosout][WARNING] 2020-04-10 14:02:32,046: Received a sentence with an invalid checksum. Sentence was: 'C'
+[rosout][WARNING] 2020-04-10 14:02:35,194: Received a sentence with an invalid checksum. Sentence was: ',0.014228,0.009314,-0.954329,0.011199,0.012797,0.036929*47'
+[rosout][WARNING] 2020-04-10 14:02:50,165: Received a sentence with an invalid checksum. Sentence was: '0,,0.013762,0.008976,-0.953095,0.010820,0.012365,0.035753*45'
+[rosout][WARNING] 2020-04-10 14:02:57,221: Received a sentence with an invalid checksum. Sentence was: '0,,0.013810,0.008986,-0.951619,0.010853,0.012397,0.035870*40'
+[rosout][WARNING] 2020-04-10 14:03:05,063: Received a sentence with an invalid checksum. Sentence was: ',14,1.2,111.89,M,0.0,M,0.8,0280*4A'
+[rosout][WARNING] 2020-04-10 14:03:12,216: Received a sentence with an invalid checksum. Sentence was: ',01,08,10,11,14,20,27,32,,,,,2.3,1.2,2.0*27'
+[rosout][WARNING] 2020-04-10 14:03:13,357: Received a sentence with an invalid checksum. Sentence was: '.02,N,0.04,K,D*20'
+[rosout][WARNING] 2020-04-10 14:03:37,332: Received a sentence with an invalid checksum. Sentence was: '4'
+[rosout][WARNING] 2020-04-10 14:03:52,240: Received a sentence with an invalid checksum. Sentence was: ',3,01,08,10,11,14,20,22,27,32,,,,2.4,1.2,2.0*20'
+[rosout][WARNING] 2020-04-10 14:04:01,186: Received a sentence with an invalid checksum. Sentence was: ',,,,,,,,,,,2.9,1.2,2.6*21'
+[rosout][WARNING] 2020-04-10 14:04:13,358: Received a sentence with an invalid checksum. Sentence was: '80*4C'
+[rosout][WARNING] 2020-04-10 14:04:17,311: Received a sentence with an invalid checksum. Sentence was: '15,,,,,,,,,,,2.4,1.2,2.1*2B'
+[rosout][WARNING] 2020-04-10 14:04:21,324: Received a sentence with an invalid checksum. Sentence was: '80*47'
+[rosout][WARNING] 2020-04-10 14:04:22,386: Received a sentence with an invalid checksum. Sentence was: 'W,5,14,1.2,115.84,M,0.0,M,1.1,0280*45'
+[rosout][WARNING] 2020-04-10 14:04:33,385: Received a sentence with an invalid checksum. Sentence was: '80*47'
+[rosout][WARNING] 2020-04-10 14:04:38,369: Received a sentence with an invalid checksum. Sentence was: '80*4F'
+[rosout][WARNING] 2020-04-10 14:04:43,371: Received a sentence with an invalid checksum. Sentence was: '43.00,,0.013960,0.009013,-0.966432,0.010859,0.012577,0.036010*41'
+[rosout][WARNING] 2020-04-10 14:04:53,354: Received a sentence with an invalid checksum. Sentence was: '53.00,,0.023386,0.015442,-0.997176,0.018146,0.021356,0.057992*49'
+[rosout][WARNING] 2020-04-10 14:05:03,312: Received a sentence with an invalid checksum. Sentence was: '.00,,0.014078,0.009023,-0.966305,0.010915,0.012668,0.037760*46'
+[rosout][WARNING] 2020-04-10 14:05:08,299: Received a sentence with an invalid checksum. Sentence was: '08.00,,0.014073,0.009022,-0.967755,0.010905,0.012670,0.037728*43'
+[rosout][WARNING] 2020-04-10 14:05:13,288: Received a sentence with an invalid checksum. Sentence was: '11,14,22,27,32,,,,,2.9,1.2,2.6*29'
+[rosout][WARNING] 2020-04-10 14:05:44,475: Received a sentence with an invalid checksum. Sentence was: 'G,,T,,M,0.04,N,0.07,K,D*25'
+[rosout][WARNING] 2020-04-10 14:05:48,320: Received a sentence with an invalid checksum. Sentence was: ',K,D*27'
+[rosout][WARNING] 2020-04-10 14:05:57,304: Received a sentence with an invalid checksum. Sentence was: '42.5343198,W,140557.00,A,D*6F'
+[rosout][WARNING] 2020-04-10 14:05:59,353: Received a sentence with an invalid checksum. Sentence was: ',140559.30,,0.014936,0.009556,-0.977598,0.011511,0.013488,0.039859*43'
+[rosout][WARNING] 2020-04-10 14:06:07,058: Received a sentence with an invalid checksum. Sentence was: '166,0.009041,-0.975373,0.010916,0.012777,0.037769*4D'
+[rosout][WARNING] 2020-04-10 14:06:08,020: Received a sentence with an invalid checksum. Sentence was: '11,14,20,27,32,,,,,2.4,1.2,2.1*21'
+[rosout][WARNING] 2020-04-10 14:06:29,303: Received a sentence with an invalid checksum. Sentence was: '0.01,N,0.02,K,D*25'
+[rosout][WARNING] 2020-04-10 14:06:39,144: Received a sentence with an invalid checksum. Sentence was: ',,M,0.02,N,0.04,K,D*20'
+[rosout][WARNING] 2020-04-10 14:06:42,018: Received a sentence with an invalid checksum. Sentence was: '0.009053,-0.980004,0.010920,0.012839,0.037782*46'
+[rosout][WARNING] 2020-04-10 14:06:44,108: Received a sentence with an invalid checksum. Sentence was: ',,M,0.05,N,0.09,K,D*2A'
+[rosout][WARNING] 2020-04-10 14:06:49,104: Received a sentence with an invalid checksum. Sentence was: ',,M,0.02,N,0.03,K,D*27'
+[rosout][WARNING] 2020-04-10 14:07:14,030: Received a sentence with an invalid checksum. Sentence was: ',1.2,2.6*21'
+[rosout][WARNING] 2020-04-10 14:07:17,951: Received a sentence with an invalid checksum. Sentence was: ',,,,,,,,,2.9,1.2,2.6*21'
+[rosout][WARNING] 2020-04-10 14:07:19,025: Received a sentence with an invalid checksum. Sentence was: ',A,3,01,08,10,11,14,22,27,32,,,,,2.9,1.2,2.6*29'
+[rosout][WARNING] 2020-04-10 14:07:23,987: Received a sentence with an invalid checksum. Sentence was: '0.009066,-0.985863,0.010921,0.012912,0.037782*40'
+[rosout][WARNING] 2020-04-10 14:07:34,186: Received a sentence with an invalid checksum. Sentence was: ',14,22,27,32,,,,,2.9,1.2,2.6*29'
+[rosout][WARNING] 2020-04-10 14:07:45,381: Received a sentence with an invalid checksum. Sentence was: '009420,-0.991801,0.011313,0.013437,0.039152*4A'
+[rosout][WARNING] 2020-04-10 14:07:46,201: Received a sentence with an invalid checksum. Sentence was: ',,M,0.02,N,0.04,K,D*20'
+[rosout][WARNING] 2020-04-10 14:07:54,186: Received a sentence with an invalid checksum. Sentence was: ',14,22,27,32,,,,,2.9,1.2,2.6*29'
+[rosout][WARNING] 2020-04-10 14:07:59,252: Received a sentence with an invalid checksum. Sentence was: ',D*23'
+[rosout][WARNING] 2020-04-10 14:08:10,384: Received a sentence with an invalid checksum. Sentence was: ',,M,0.02,N,0.04,K,D*20'
+[rosout][WARNING] 2020-04-10 14:08:30,565: Received a sentence with an invalid checksum. Sentence was: ',14,22,27,32,,,,,1.9,0.9,1.7*22'
+[rosout][WARNING] 2020-04-10 14:08:35,324: Received a sentence with an invalid checksum. Sentence was: '.99,M,0.0,M,1.1,0280*47'
+[rosout][WARNING] 2020-04-10 14:08:36,219: Received a sentence with an invalid checksum. Sentence was: '0.009852,-0.540976,0.011971,0.010665,0.030083*46'
+[rosout][WARNING] 2020-04-10 14:08:40,352: Received a sentence with an invalid checksum. Sentence was: '9,M,0.0,M,2.1,0280*46'
+[rosout][WARNING] 2020-04-10 14:08:41,740: Received a sentence with an invalid checksum. Sentence was: '1,0.007691,-0.671706,0.009336,0.008767,0.024836*43'
+[rosout][WARNING] 2020-04-10 14:08:43,065: Received a sentence with an invalid checksum. Sentence was: '9196,0.026007*42'
+[rosout][WARNING] 2020-04-10 14:08:54,207: Received a sentence with an invalid checksum. Sentence was: '.99,M,0.0,M,3.1,0280*41'
+[rosout][WARNING] 2020-04-10 14:08:55,876: Received a sentence with an invalid checksum. Sentence was: ',K,D*24'
+[rosout][WARNING] 2020-04-10 14:08:56,143: Received a sentence with an invalid checksum. Sentence was: '0.008500,-0.623068,0.010299,0.009472,0.026756*4F'
+[rosout][WARNING] 2020-04-10 14:09:00,253: Received a sentence with an invalid checksum. Sentence was: '.00,M,0.0,M,1.1,0280*4A'
+[rosout][WARNING] 2020-04-10 14:09:05,167: Received a sentence with an invalid checksum. Sentence was: ',0.9,1.7*2A'
+[rosout][WARNING] 2020-04-10 14:09:08,234: Received a sentence with an invalid checksum. Sentence was: ',,M,0.03,N,0.05,K,D*20'
+[rosout][WARNING] 2020-04-10 14:09:10,106: Received a sentence with an invalid checksum. Sentence was: ',D*22'
+[rosout][WARNING] 2020-04-10 14:09:15,143: Received a sentence with an invalid checksum. Sentence was: ',14,22,27,32,,,,,1.9,0.9,1.7*22'
+[rosout][WARNING] 2020-04-10 14:09:36,199: Received a sentence with an invalid checksum. Sentence was: ',,M,0.02,N,0.03,K,D*27'
+[rosout][WARNING] 2020-04-10 14:09:45,045: Received a sentence with an invalid checksum. Sentence was: ',0.8,1.5*27'
+[rosout][WARNING] 2020-04-10 14:09:54,048: Received a sentence with an invalid checksum. Sentence was: '0.008169,-0.235545,0.009472,0.008250,0.022788*48'
+[rosout][WARNING] 2020-04-10 14:10:06,178: Received a sentence with an invalid checksum. Sentence was: '.02,M,0.0,M,1.1,0280*46'
+[rosout][WARNING] 2020-04-10 14:10:09,068: Received a sentence with an invalid checksum. Sentence was: '0.008164,-0.234756,0.009457,0.008243,0.022747*43'
+[rosout][WARNING] 2020-04-10 14:10:16,113: Received a sentence with an invalid checksum. Sentence was: '0.010303,-0.033741,0.012315,0.010306,0.028374*46'
+[rosout][WARNING] 2020-04-10 14:10:34,026: Received a sentence with an invalid checksum. Sentence was: '0.011233,-0.002448,0.013524,0.011233,0.030841*4D'
+[rosout][WARNING] 2020-04-10 14:10:37,014: Received a sentence with an invalid checksum. Sentence was: '0.010339,-0.042228,0.012328,0.010343,0.028425*48'
+[rosout][WARNING] 2020-04-10 14:10:41,096: Received a sentence with an invalid checksum. Sentence was: '0.008163,-0.235107,0.009458,0.008243,0.022719*4E'
+[rosout][WARNING] 2020-04-10 14:11:07,302: Received a sentence with an invalid checksum. Sentence was: '0.008155,-0.230601,0.009453,0.008232,0.022678*4A'
+[rosout][WARNING] 2020-04-10 14:11:10,312: Received a sentence with an invalid checksum. Sentence was: ',,M,0.03,N,0.06,K,D*23'
+[rosout][WARNING] 2020-04-10 14:11:15,201: Received a sentence with an invalid checksum. Sentence was: ',,M,0.01,N,0.03,K,D*24'
+[rosout][WARNING] 2020-04-10 14:11:16,122: Received a sentence with an invalid checksum. Sentence was: ',14,22,27,32,,,,,1.7,0.8,1.5*2F'
+[rosout][WARNING] 2020-04-10 14:11:18,226: Received a sentence with an invalid checksum. Sentence was: ',14,22,27,32,,,,,1.7,0.8,1.5*2F'
+[rosout][WARNING] 2020-04-10 14:11:21,446: Received a sentence with an invalid checksum. Sentence was: '40,W,0.01,,100420,,,D*43'
+[rosout][WARNING] 2020-04-10 14:11:28,700: Received a sentence with an invalid checksum. Sentence was: ',0.009230,0.025397*42'
+[rosout][WARNING] 2020-04-10 14:11:28,733: Received a sentence with an invalid checksum. Sentence was: '42.5335782,W,4,15,0.8,112.04,M,0.0,M,2.5,0280*48'
+[rosout][WARNING] 2020-04-10 14:11:46,147: Received a sentence with an invalid checksum. Sentence was: ',0.8,1.5*27'
+[rosout][WARNING] 2020-04-10 14:11:52,240: Received a sentence with an invalid checksum. Sentence was: ',,M,0.07,N,0.13,K,D*23'
+[rosout][WARNING] 2020-04-10 14:11:57,255: Received a sentence with an invalid checksum. Sentence was: '.012651,0.052610,0.015600,0.012660,0.034906*6D'
+[rosout][WARNING] 2020-04-10 14:12:02,172: Received a sentence with an invalid checksum. Sentence was: '0.010280,-0.033203,0.012309,0.010282,0.028290*45'
+[rosout][WARNING] 2020-04-10 14:12:07,139: Received a sentence with an invalid checksum. Sentence was: '0.008147,-0.227111,0.009446,0.008221,0.022605*4E'
+[rosout][WARNING] 2020-04-10 14:12:11,188: Received a sentence with an invalid checksum. Sentence was: '.05,M,0.0,M,3.1,0280*43'
+[rosout][WARNING] 2020-04-10 14:12:17,101: Received a sentence with an invalid checksum. Sentence was: '0.008178,-0.244069,0.009462,0.008264,0.022679*41'
+[rosout][WARNING] 2020-04-10 14:12:22,092: Received a sentence with an invalid checksum. Sentence was: ',14,22,27,32,,,,,1.7,0.8,1.5*2F'
+[rosout][WARNING] 2020-04-10 14:12:27,137: Received a sentence with an invalid checksum. Sentence was: '0.008144,-0.226089,0.009444,0.008218,0.022580*4F'
+[rosout][WARNING] 2020-04-10 14:12:34,149: Received a sentence with an invalid checksum. Sentence was: ',,M,0.02,N,0.04,K,D*20'
+[rosout][WARNING] 2020-04-10 14:12:37,079: Received a sentence with an invalid checksum. Sentence was: 'D*20'
+[rosout][WARNING] 2020-04-10 14:12:53,894: Received a sentence with an invalid checksum. Sentence was: ',15,0.8,112.01,M,0.0,M,2.8,0280*4B'
+[rosout][WARNING] 2020-04-10 14:12:57,159: Received a sentence with an invalid checksum. Sentence was: '0.015691,0.012717,0.035083*61'
+[rosout][WARNING] 2020-04-10 14:12:58,326: Received a sentence with an invalid checksum. Sentence was: '6242.5335740,W,4,15,0.8,112.01,M,0.0,M,1.2,0280*41'
+[rosout][WARNING] 2020-04-10 14:13:03,281: Received a sentence with an invalid checksum. Sentence was: ',,M,0.02,N,0.04,K,D*20'
+[rosout][WARNING] 2020-04-10 14:13:08,324: Received a sentence with an invalid checksum. Sentence was: ',M,0.02,N,0.04,K,D*20'
+[rosout][WARNING] 2020-04-10 14:13:13,234: Received a sentence with an invalid checksum. Sentence was: ',,M,0.04,N,0.06,K,D*24'
+[rosout][WARNING] 2020-04-10 14:13:17,147: Received a sentence with an invalid checksum. Sentence was: ',0.8,1.5*27'
+[rosout][WARNING] 2020-04-10 14:13:18,368: Received a sentence with an invalid checksum. Sentence was: ',,M,0.06,N,0.12,K,D*23'
+[rosout][WARNING] 2020-04-10 14:13:33,277: Received a sentence with an invalid checksum. Sentence was: ',M,0.04,N,0.07,K,D*25'
+[rosout][WARNING] 2020-04-10 14:13:38,360: Received a sentence with an invalid checksum. Sentence was: '.02,M,0.0,M,1.1,0280*4F'
+[rosout][WARNING] 2020-04-10 14:13:47,167: Received a sentence with an invalid checksum. Sentence was: ',0.8,1.5*27'
+[rosout][WARNING] 2020-04-10 14:13:48,233: Received a sentence with an invalid checksum. Sentence was: '.02,M,0.0,M,1.1,0280*48'
+[rosout][WARNING] 2020-04-10 14:14:04,102: Received a sentence with an invalid checksum. Sentence was: '0.8,1.5*27'
+[rosout][WARNING] 2020-04-10 14:14:06,586: Received a sentence with an invalid checksum. Sentence was: '746,W,0.05,,100420,,,D*44'
+[rosout][WARNING] 2020-04-10 14:14:08,116: Received a sentence with an invalid checksum. Sentence was: '0.008697,-0.377408,0.009429,0.008816,0.024021*4F'
+[rosout][WARNING] 2020-04-10 14:14:10,175: Received a sentence with an invalid checksum. Sentence was: ',,M,0.05,N,0.09,K,D*2A'
+[rosout][WARNING] 2020-04-10 14:14:23,136: Received a sentence with an invalid checksum. Sentence was: ',14,22,27,32,,,,,1.7,0.8,1.5*2F'
+[rosout][WARNING] 2020-04-10 14:14:27,078: Received a sentence with an invalid checksum. Sentence was: '0.008699,-0.376642,0.009424,0.008817,0.023988*4B'
+[rosout][WARNING] 2020-04-10 14:14:33,107: Received a sentence with an invalid checksum. Sentence was: ',D*20'
+[rosout][WARNING] 2020-04-10 14:14:39,338: Received a sentence with an invalid checksum. Sentence was: ',M,0.02,N,0.03,K,D*27'
+[rosout][WARNING] 2020-04-10 14:14:59,228: Received a sentence with an invalid checksum. Sentence was: ',,M,0.00,N,0.01,K,D*27'
+[rosout][WARNING] 2020-04-10 14:15:01,265: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,141501.00,3553'
+[rosout][WARNING] 2020-04-10 14:15:04,196: Received a sentence with an invalid checksum. Sentence was: ',,M,0.02,N,0.03,K,D*27'
+[rosout][WARNING] 2020-04-10 14:15:19,113: Received a sentence with an invalid checksum. Sentence was: ',0.8,1.5*27'
+[rosout][WARNING] 2020-04-10 14:15:20,176: Received a sentence with an invalid checksum. Sentence was: ',14,22,27,32,,,,,1.7,0.8,1.5*2F'
+[rosout][WARNING] 2020-04-10 14:15:29,096: Received a sentence with an invalid checksum. Sentence was: '0.011102,-0.032098,0.012273,0.011103,0.029975*46'
+[rosout][WARNING] 2020-04-10 14:15:33,047: Received a sentence with an invalid checksum. Sentence was: '0.8,1.5*27'
+[rosout][WARNING] 2020-04-10 14:15:34,083: Received a sentence with an invalid checksum. Sentence was: '0.008291,-0.249168,0.009420,0.008368,0.022802*43'
+[rosout][WARNING] 2020-04-10 14:15:55,291: Received a sentence with an invalid checksum. Sentence was: '0.014647,0.011963,0.032941*65'
+[rosout][WARNING] 2020-04-10 14:16:36,898: Received a sentence with an invalid checksum. Sentence was: 'TG,,T,,M,0.02,N,0.03,K,D*27'
+[rosout][WARNING] 2020-04-10 14:16:37,002: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,141635.00,3553.1108630,S,06242.53357'
+[rosout][WARNING] 2020-04-10 14:16:37,076: Received a sentence with an invalid checksum. Sentence was: '3,419,435,,,,,,,,,,,1.7,0.8,1.5*28'
+[rosout][WARNING] 2020-04-10 14:16:38,165: Received a sentence with an invalid checksum. Sentence was: '.05,M,0.0,M,1.1,0280*42'
+[rosout][WARNING] 2020-04-10 14:16:40,233: Received a sentence with an invalid checksum. Sentence was: '.07,M,0.0,M,3.1,0280*40'
+[rosout][WARNING] 2020-04-10 14:16:46,057: Received a sentence with an invalid checksum. Sentence was: ',0.8,1.5*27'
+[rosout][WARNING] 2020-04-10 14:16:52,183: Received a sentence with an invalid checksum. Sentence was: 'M,0.02,N,0.03,K,D*27'
+[rosout][WARNING] 2020-04-10 14:17:04,215: Received a sentence with an invalid checksum. Sentence was: ',D*26'
+[rosout][WARNING] 2020-04-10 14:17:09,231: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,141709.10,3553.1108600,S,06242.5335818,W,4,15,0.8,112.00,M,0.0,M,1.1,'
+[rosout][WARNING] 2020-04-10 14:17:09,239: Received a sentence with an invalid checksum. Sentence was: '0280*4A'
+[rosout][WARNING] 2020-04-10 14:17:10,975: Received a sentence with an invalid checksum. Sentence was: ',15,0.8,112.01,M,0.0,M,2.9,0280*49'
+[rosout][WARNING] 2020-04-10 14:17:53,338: Received a sentence with an invalid checksum. Sentence was: 'SV,3,2,11,11,50,228,51,14,47,034,48,16,05,342,,20,09,120,*73'
+[rosout][WARNING] 2020-04-10 14:17:54,260: Received a sentence with an invalid checksum. Sentence was: 'GPGGA,141719.50,3553.1108612,S,06242.5335842,W,4,15,0.8,112.00,M,0.0,M,5.5,0280*43'
+[rosout][WARNING] 2020-04-10 14:17:55,154: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,141734.00,3553.1108630,S,0'
+[rosout][WARNING] 2020-04-10 14:17:55,181: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,141737.10,3553.1108630,S,06242.5335812,W,4,14,0.9,1'
+[rosout][WARNING] 2020-04-10 14:17:55,207: Received a sentence with an invalid checksum. Sentence was: '2.00,M,0.0,M,1.9,0280*4E'
+[rospy.core][INFO] 2020-04-10 14:17:55,226: signal_shutdown [atexit]
+[rospy.internal][INFO] 2020-04-10 14:17:55,405: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2020-04-10 14:17:55,406: atexit
+[rospy.client][INFO] 2020-04-10 14:18:16,142: init_node, name[/nmea_tcp_driver], pid[1977]
+[xmlrpc][INFO] 2020-04-10 14:18:16,142: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 14:18:16,143: Started XML-RPC server [http://juan:40859/]
+[rospy.init][INFO] 2020-04-10 14:18:16,143: ROS Slave URI: [http://juan:40859/]
+[rospy.impl.masterslave][INFO] 2020-04-10 14:18:16,143: _ready: http://juan:40859/
+[rospy.registration][INFO] 2020-04-10 14:18:16,144: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2020-04-10 14:18:16,144: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-04-10 14:18:16,243: registered with master
+[rospy.rosout][INFO] 2020-04-10 14:18:16,244: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 14:18:16,269: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 14:18:16,292: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 14:18:16,489: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2020-04-10 14:18:20,129: Received a sentence with an invalid checksum. Sentence was: '.05,M,0.0,M,4.1,0280*4F'
+[rosout][WARNING] 2020-04-10 14:18:21,221: Received a sentence with an invalid checksum. Sentence was: ',,M,0.03,N,0.05,K,D*20'
+[rosout][WARNING] 2020-04-10 14:18:26,211: Received a sentence with an invalid checksum. Sentence was: ',,M,0.02,N,0.03,K,D*27'
+[rosout][WARNING] 2020-04-10 14:18:36,164: Received a sentence with an invalid checksum. Sentence was: ',,M,0.03,N,0.06,K,D*23'
+[rosout][WARNING] 2020-04-10 14:18:46,140: Received a sentence with an invalid checksum. Sentence was: ',0.8,1.5*27'
+[rosout][WARNING] 2020-04-10 14:18:51,112: Received a sentence with an invalid checksum. Sentence was: ',D*25'
+[rosout][WARNING] 2020-04-10 14:19:00,062: Received a sentence with an invalid checksum. Sentence was: ',0.8,1.5*27'
+[rosout][WARNING] 2020-04-10 14:19:06,116: Received a sentence with an invalid checksum. Sentence was: ',14,22,27,32,,,,,1.7,0.8,1.5*2F'
+[rosout][WARNING] 2020-04-10 14:19:25,334: Received a sentence with an invalid checksum. Sentence was: '141922.90,,0.010743,0.009146,-0.118437,0.010722,0.009170,0.024869*45'
+[rosout][WARNING] 2020-04-10 14:19:26,157: Received a sentence with an invalid checksum. Sentence was: '74,0.025441*40'
+[rosout][WARNING] 2020-04-10 14:19:38,102: Received a sentence with an invalid checksum. Sentence was: ',14,22,27,32,,,,,1.7,0.8,1.5*2F'
+[rosout][WARNING] 2020-04-10 14:19:40,151: Received a sentence with an invalid checksum. Sentence was: ',0.8,1.5*27'
+[rosout][WARNING] 2020-04-10 14:19:42,404: Received a sentence with an invalid checksum. Sentence was: ',,M,0.01,N,0.02,K,D*25'
+[rosout][WARNING] 2020-04-10 14:19:46,323: Received a sentence with an invalid checksum. Sentence was: ',,M,0.02,N,0.04,K,D*20'
+[rosout][WARNING] 2020-04-10 14:19:48,137: Received a sentence with an invalid checksum. Sentence was: '3,0.009494,0.008284,0.022357*41'
+[rosout][WARNING] 2020-04-10 14:19:52,330: Received a sentence with an invalid checksum. Sentence was: '952.30,,0.009860,0.008469,-0.181134,0.009818,0.008518,0.023011*44'
+[rosout][WARNING] 2020-04-10 14:19:58,224: Received a sentence with an invalid checksum. Sentence was: '.7,0.8,1.5*27'
+[rosout][WARNING] 2020-04-10 14:20:06,057: Received a sentence with an invalid checksum. Sentence was: '4,22,27,32,,,,,1.7,0.8,1.5*2F'
+[rosout][WARNING] 2020-04-10 14:20:09,167: Received a sentence with an invalid checksum. Sentence was: ',,M,0.04,N,0.07,K,D*25'
+[rosout][WARNING] 2020-04-10 14:20:16,066: Received a sentence with an invalid checksum. Sentence was: '14,22,27,32,,,,,1.7,0.8,1.5*2F'
+[rosout][WARNING] 2020-04-10 14:20:26,052: Received a sentence with an invalid checksum. Sentence was: ',D*24'
+[rosout][WARNING] 2020-04-10 14:20:29,045: Received a sentence with an invalid checksum. Sentence was: '0.008509,-0.684359,0.009941,0.009486,0.025074*42'
+[rosout][WARNING] 2020-04-10 14:20:47,211: Received a sentence with an invalid checksum. Sentence was: 'G,,T,,M,0.00,N,0.01,K,D*27'
+[rosout][WARNING] 2020-04-10 14:20:50,153: Received a sentence with an invalid checksum. Sentence was: ',142050.10,,0.009859,0.008403,-0.389223,0.009663,0.008628,0.023155*44'
+[rosout][WARNING] 2020-04-10 14:20:51,162: Received a sentence with an invalid checksum. Sentence was: 'G,,T,,M,0.03,N,0.06,K,D*23'
+[rosout][WARNING] 2020-04-10 14:20:52,195: Received a sentence with an invalid checksum. Sentence was: '.10,3553.1108546,S,06242.5335686,W,4,15,0.8,112.01,M,0.0,M,3.1,0280*4B'
+[rosout][WARNING] 2020-04-10 14:21:12,192: Received a sentence with an invalid checksum. Sentence was: '009270,0.025027*43'
+[rosout][WARNING] 2020-04-10 14:21:17,288: Received a sentence with an invalid checksum. Sentence was: '.10,3553.1108606,S,06242.5335686,W,4,15,0.8,112.05,M,0.0,M,1.1,0280*4A'
+[rosout][WARNING] 2020-04-10 14:21:34,064: Received a sentence with an invalid checksum. Sentence was: ',15,0.8,112.04,M,0.0,M,0.9,0280*49'
+[rosout][WARNING] 2020-04-10 14:21:42,202: Received a sentence with an invalid checksum. Sentence was: ',142142.10,,0.009509,0.008219,-0.213708,0.009455,0.008281,0.022225*48'
+[rosout][WARNING] 2020-04-10 14:21:51,201: Received a sentence with an invalid checksum. Sentence was: ',142151.10,,0.009498,0.008217,-0.214506,0.009444,0.008279,0.022203*45'
+[rosout][WARNING] 2020-04-10 14:22:00,938: Received a sentence with an invalid checksum. Sentence was: '0.80,3553.1108600,S,06242.5335698,W,4,15,0.8,112.04,M,0.0,M,0.8,0280*46'
+[rosout][WARNING] 2020-04-10 14:22:02,154: Received a sentence with an invalid checksum. Sentence was: '008159,0.021857*4C'
+[rosout][WARNING] 2020-04-10 14:22:07,169: Received a sentence with an invalid checksum. Sentence was: '5,,,,,,,,,,,1.7,0.8,1.5*28'
+[rosout][WARNING] 2020-04-10 14:22:10,143: Received a sentence with an invalid checksum. Sentence was: '6242.5335704,W,142210.00,A,D*6E'
+[rosout][WARNING] 2020-04-10 14:22:12,122: Received a sentence with an invalid checksum. Sentence was: '009270,0.024956*42'
+[rospy.core][INFO] 2020-04-10 14:22:28,217: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-04-10 14:22:29,662: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2020-04-10 14:22:29,663: signal-2
+[rospy.core][INFO] 2020-04-10 14:22:29,827: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-04-10 14:22:32,584: init_node, name[/nmea_tcp_driver], pid[1994]
+[xmlrpc][INFO] 2020-04-10 14:22:32,585: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 14:22:32,585: Started XML-RPC server [http://juan:35579/]
+[rospy.init][INFO] 2020-04-10 14:22:32,585: ROS Slave URI: [http://juan:35579/]
+[rospy.impl.masterslave][INFO] 2020-04-10 14:22:32,585: _ready: http://juan:35579/
+[rospy.registration][INFO] 2020-04-10 14:22:32,586: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2020-04-10 14:22:32,586: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-04-10 14:22:32,686: registered with master
+[rospy.rosout][INFO] 2020-04-10 14:22:32,686: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 14:22:32,703: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 14:22:32,733: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 14:22:32,935: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2020-04-10 14:22:37,086: Received a sentence with an invalid checksum. Sentence was: 'F'
+[rosout][WARNING] 2020-04-10 14:22:38,307: Received a sentence with an invalid checksum. Sentence was: 'G,,T,,M,0.03,N,0.05,K,D*20'
+[rosout][WARNING] 2020-04-10 14:22:55,206: Received a sentence with an invalid checksum. Sentence was: '010236,0.027624*4B'
+[rosout][WARNING] 2020-04-10 14:22:58,247: Received a sentence with an invalid checksum. Sentence was: ',142258.10,,0.012196,0.010317,-0.066172,0.012188,0.010326,0.027877*47'
+[rosout][WARNING] 2020-04-10 14:23:03,885: Received a sentence with an invalid checksum. Sentence was: ',142303.10,,0.011271,0.009650,-0.325256,0.011116,0.009828,0.026180*47'
+[rosout][WARNING] 2020-04-10 14:23:04,193: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,142304.00,3553.1108528,S,06242.5335794,W,4,1'
+[rosout][WARNING] 2020-04-10 14:23:11,127: Received a sentence with an invalid checksum. Sentence was: '008206,0.021900*43'
+[rosout][WARNING] 2020-04-10 14:23:22,245: Received a sentence with an invalid checksum. Sentence was: 'G,,T,,M,0.03,N,0.05,K,D*20'
+[rosout][WARNING] 2020-04-10 14:23:37,207: Received a sentence with an invalid checksum. Sentence was: ',142337.10,,0.009451,0.008213,-0.222637,0.009395,0.008278,0.022071*4F'
+[rosout][WARNING] 2020-04-10 14:23:43,550: Received a sentence with an invalid checksum. Sentence was: '008159,0.021737*4A'
+[rosout][WARNING] 2020-04-10 14:23:59,107: Received a sentence with an invalid checksum. Sentence was: '9495,0.024494*41'
+[rosout][WARNING] 2020-04-10 14:24:03,122: Received a sentence with an invalid checksum. Sentence was: '3643,0.035774*4E'
+[rosout][WARNING] 2020-04-10 14:24:17,131: Received a sentence with an invalid checksum. Sentence was: ',,,,,,,,,,1.9,0.9,1.7*25'
+[rosout][WARNING] 2020-04-10 14:24:18,148: Received a sentence with an invalid checksum. Sentence was: '9496,0.024442*4B'
+[rosout][WARNING] 2020-04-10 14:24:23,412: Received a sentence with an invalid checksum. Sentence was: '42.5335764,W,142423.00,A,D*61'
+[rosout][WARNING] 2020-04-10 14:24:23,754: Received a sentence with an invalid checksum. Sentence was: ',14,0.9,112.00,M,0.0,M,2.6,0280*49'
+[rosout][WARNING] 2020-04-10 14:24:28,106: Received a sentence with an invalid checksum. Sentence was: 'GNGSA,A,3,65,72,87,,,,,,,,,,1.9,0.9,1.7*22'
+[rosout][WARNING] 2020-04-10 14:24:33,103: Received a sentence with an invalid checksum. Sentence was: 'GNGSA,A,3,65,72,87,,,,,,,,,,1.9,0.9,1.7*22'
+[rosout][WARNING] 2020-04-10 14:24:44,344: Received a sentence with an invalid checksum. Sentence was: 'GPGGA,142444.20,3553.1108570,S,06242.5335794,W,4,14,0.9,112.00,M,0.0,M,4.2,0280*49'
+[rosout][WARNING] 2020-04-10 14:24:46,173: Received a sentence with an invalid checksum. Sentence was: '02,0.024400*4C'
+[rosout][WARNING] 2020-04-10 14:24:49,173: Received a sentence with an invalid checksum. Sentence was: 'GNGSA,A,3,65,72,87,,,,,,,,,,1.9,0.9,1.7*22'
+[rosout][WARNING] 2020-04-10 14:25:26,178: Received a sentence with an invalid checksum. Sentence was: ',142526.10,,0.013317,0.011323,-0.100509,0.013299,0.011344,0.030403*42'
+[rosout][WARNING] 2020-04-10 14:25:27,184: Received a sentence with an invalid checksum. Sentence was: ',142527.10,,0.014333,0.012075,-0.057292,0.014326,0.012083,0.032532*4F'
+[rosout][WARNING] 2020-04-10 14:25:28,181: Received a sentence with an invalid checksum. Sentence was: '5,,,,,,,,,,,1.7,0.8,1.5*28'
+[rosout][WARNING] 2020-04-10 14:25:29,495: Received a sentence with an invalid checksum. Sentence was: ',142529.20,,0.010981,0.009473,-0.141219,0.010953,0.009505,0.025339*4E'
+[rosout][WARNING] 2020-04-10 14:25:30,316: Received a sentence with an invalid checksum. Sentence was: ',142530.10,,0.012107,0.010343,-0.092332,0.012093,0.010360,0.027734*4B'
+[rosout][WARNING] 2020-04-10 14:25:33,188: Received a sentence with an invalid checksum. Sentence was: 'G,,T,,M,0.03,N,0.05,K,D*20'
+[rosout][WARNING] 2020-04-10 14:25:34,148: Received a sentence with an invalid checksum. Sentence was: '6242.5335806,W,142534.00,A,D*60'
+[rosout][WARNING] 2020-04-10 14:25:35,786: Received a sentence with an invalid checksum. Sentence was: '5,,,,,,,,,,,1.7,0.8,1.5*28'
+[rosout][WARNING] 2020-04-10 14:25:37,061: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,142537.00,3553.1108558,S,06242.5335818,W,4,1'
+[rosout][WARNING] 2020-04-10 14:25:40,086: Received a sentence with an invalid checksum. Sentence was: ',15,0.8,111.99,M,0.0,M,3.9,0280*40'
+[rosout][WARNING] 2020-04-10 14:25:40,936: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,142540.00,3553.1108630,S,06242.5335716,W,4,15,0.8,112.02'
+[rospy.core][INFO] 2020-04-10 14:25:42,310: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-04-10 14:25:42,591: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2020-04-10 14:25:42,592: signal-2
+[rospy.core][INFO] 2020-04-10 14:25:43,007: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-04-10 14:31:38,959: init_node, name[/nmea_tcp_driver], pid[2314]
+[xmlrpc][INFO] 2020-04-10 14:31:38,959: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 14:31:38,960: Started XML-RPC server [http://juan:35685/]
+[rospy.init][INFO] 2020-04-10 14:31:38,960: ROS Slave URI: [http://juan:35685/]
+[rospy.impl.masterslave][INFO] 2020-04-10 14:31:38,960: _ready: http://juan:35685/
+[rospy.registration][INFO] 2020-04-10 14:31:38,961: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2020-04-10 14:31:38,961: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-04-10 14:31:39,060: registered with master
+[rospy.rosout][INFO] 2020-04-10 14:31:39,061: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 14:31:39,132: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 14:31:39,206: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 14:31:52,750: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2020-04-10 14:32:03,108: Received a sentence with an invalid checksum. Sentence was: '08510,S,06242.5335680,W,143203.00,A,D*64'
+[rosout][WARNING] 2020-04-10 14:32:26,773: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,143213.00,3553.1108564,S,06242.5335710,W,4,14,0.8,112'
+[rosout][WARNING] 2020-04-10 14:32:27,229: Received a sentence with an invalid checksum. Sentence was: '7,0.024463*4C'
+[rosout][WARNING] 2020-04-10 14:32:39,556: Received a sentence with an invalid checksum. Sentence was: 'G,,T,,M,0.01,N,0.03,K,D*24'
+[rosout][WARNING] 2020-04-10 14:32:52,810: Received a sentence with an invalid checksum. Sentence was: ',14,0.8,112.04,M,0.0,M,0.7,0280*4A'
+[rospy.internal][INFO] 2020-04-10 14:32:53,548: topic[/tcpfix] adding connection to [/rostopic_2354_1586529172918], count 0
+[rosout][WARNING] 2020-04-10 14:32:56,128: Received a sentence with an invalid checksum. Sentence was: ',M,0.01,N,0.01,K,D*26'
+[rosout][WARNING] 2020-04-10 14:33:00,156: Received a sentence with an invalid checksum. Sentence was: '00.10,,0.009239,0.008256,-0.347076,0.009131,0.008376,0.021899*4C'
+[rosout][WARNING] 2020-04-10 14:33:43,144: Received a sentence with an invalid checksum. Sentence was: '43.10,,0.009211,0.008260,-0.358575,0.009099,0.008383,0.021857*47'
+[rosout][WARNING] 2020-04-10 14:34:02,760: Received a sentence with an invalid checksum. Sentence was: ',14,0.8,112.07,M,0.0,M,3.7,0280*4E'
+[rosout][WARNING] 2020-04-10 14:34:21,038: Received a sentence with an invalid checksum. Sentence was: '4,0.022738*46'
+[rosout][WARNING] 2020-04-10 14:34:29,122: Received a sentence with an invalid checksum. Sentence was: '29.10,,0.009210,0.009082,-0.826623,0.009141,0.009152,0.023075*41'
+[rosout][WARNING] 2020-04-10 14:34:34,139: Received a sentence with an invalid checksum. Sentence was: '4.10,,0.013852,0.013553,0.264188,0.013832,0.013574,0.033907*6F'
+[rosout][WARNING] 2020-04-10 14:34:42,127: Received a sentence with an invalid checksum. Sentence was: '42.10,,0.009210,0.009087,-0.846967,0.009141,0.009156,0.023067*47'
+[rosout][WARNING] 2020-04-10 14:34:59,126: Received a sentence with an invalid checksum. Sentence was: '59.10,,0.010513,0.010479,-0.281652,0.010510,0.010482,0.026211*4E'
+[rospy.internal][INFO] 2020-04-10 14:35:42,417: topic[/tcpfix] removing connection to /rostopic_2354_1586529172918
+[rosout][WARNING] 2020-04-10 14:35:42,897: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2020-04-10 14:35:42,903: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/usr/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rosout][WARNING] 2020-04-10 14:35:59,132: Received a sentence with an invalid checksum. Sentence was: ',,0.011957,0.010712,1.235409,0.010854,0.011828,0.029541*6E'
+[rosout][WARNING] 2020-04-10 14:36:20,124: Received a sentence with an invalid checksum. Sentence was: ',,0.010283,0.009358,1.422916,0.009379,0.010264,0.025276*61'
+[rospy.core][INFO] 2020-04-10 14:36:28,253: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-04-10 14:36:28,279: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2020-04-10 14:36:28,279: signal-2
+[rospy.core][INFO] 2020-04-10 14:36:28,895: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-04-10 14:48:50,319: init_node, name[/nmea_tcp_driver], pid[2371]
+[xmlrpc][INFO] 2020-04-10 14:48:50,320: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 14:48:50,320: Started XML-RPC server [http://juan:33109/]
+[rospy.init][INFO] 2020-04-10 14:48:50,320: ROS Slave URI: [http://juan:33109/]
+[rospy.impl.masterslave][INFO] 2020-04-10 14:48:50,320: _ready: http://juan:33109/
+[rospy.registration][INFO] 2020-04-10 14:48:50,321: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2020-04-10 14:48:50,321: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-04-10 14:48:50,421: registered with master
+[rospy.rosout][INFO] 2020-04-10 14:48:50,421: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 14:48:50,437: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 14:48:50,448: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 14:48:50,736: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2020-04-10 14:50:29,100: Received a sentence with an invalid checksum. Sentence was: '10519,0.009783,-1.460089,0.009792,0.010511,0.025100*4C'
+[rosout][WARNING] 2020-04-10 14:50:31,174: Received a sentence with an invalid checksum. Sentence was: '09063,0.008510,-1.339885,0.008540,0.009035,0.022024*44'
+[rosout][WARNING] 2020-04-10 14:50:55,050: Received a sentence with an invalid checksum. Sentence was: '*4B'
+[rosout][WARNING] 2020-04-10 14:51:28,995: Received a sentence with an invalid checksum. Sentence was: '95*47'
+[rosout][WARNING] 2020-04-10 14:52:17,016: Received a sentence with an invalid checksum. Sentence was: '*6E'
+[rosout][WARNING] 2020-04-10 15:06:08,085: Received a sentence with an invalid checksum. Sentence was: ',0.292563,0.008920,0.008322,0.020715*64'
+[rosout][WARNING] 2020-04-10 15:06:16,072: Received a sentence with an invalid checksum. Sentence was: ',0.297410,0.008918,0.008321,0.020708*60'
+[rospy.client][INFO] 2020-04-10 15:07:58,242: init_node, name[/nmea_tcp_driver], pid[2391]
+[xmlrpc][INFO] 2020-04-10 15:07:58,242: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 15:07:58,243: Started XML-RPC server [http://juan:36527/]
+[rospy.init][INFO] 2020-04-10 15:07:58,243: ROS Slave URI: [http://juan:36527/]
+[rospy.impl.masterslave][INFO] 2020-04-10 15:07:58,243: _ready: http://juan:36527/
+[rospy.registration][INFO] 2020-04-10 15:07:58,244: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2020-04-10 15:07:58,244: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-04-10 15:07:58,344: registered with master
+[rospy.rosout][INFO] 2020-04-10 15:07:58,344: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 15:07:58,357: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 15:07:58,366: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 15:07:58,606: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2020-04-10 15:08:07,076: Received a sentence with an invalid checksum. Sentence was: ',0.211935,0.010890,0.009442,0.023312*68'
+[rosout][WARNING] 2020-04-10 15:08:16,091: Received a sentence with an invalid checksum. Sentence was: ',0.189219,0.009594,0.008358,0.020932*62'
+[rosout][WARNING] 2020-04-10 15:08:24,081: Received a sentence with an invalid checksum. Sentence was: ',0.217647,0.010884,0.009449,0.023323*60'
+[rosout][WARNING] 2020-04-10 15:09:24,105: Received a sentence with an invalid checksum. Sentence was: ',0.848411,0.011304,0.011375,0.027083*65'
+[rosout][WARNING] 2020-04-10 15:10:59,153: Received a sentence with an invalid checksum. Sentence was: '.253726,0.009553,0.008420,0.021038*63'
+[rosout][WARNING] 2020-04-10 15:11:06,116: Received a sentence with an invalid checksum. Sentence was: '.256582,0.009551,0.008423,0.021043*6B'
+[rosout][WARNING] 2020-04-10 15:12:19,218: Received a sentence with an invalid checksum. Sentence was: '01485,0.010816,0.009561,0.023483*6C'
+[rosout][WARNING] 2020-04-10 15:13:10,136: Received a sentence with an invalid checksum. Sentence was: '.295403,0.013885,0.012437,0.030522*66'
+[rospy.core][INFO] 2020-04-10 15:13:13,086: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-04-10 15:13:13,109: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2020-04-10 15:13:13,109: signal-2
+[rospy.core][INFO] 2020-04-10 15:13:13,242: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-04-10 15:14:00,655: init_node, name[/nmea_tcp_driver], pid[2530]
+[xmlrpc][INFO] 2020-04-10 15:14:00,655: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 15:14:00,656: Started XML-RPC server [http://juan:36399/]
+[rospy.init][INFO] 2020-04-10 15:14:00,656: ROS Slave URI: [http://juan:36399/]
+[rospy.impl.masterslave][INFO] 2020-04-10 15:14:00,656: _ready: http://juan:36399/
+[rospy.registration][INFO] 2020-04-10 15:14:00,657: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2020-04-10 15:14:00,657: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-04-10 15:14:00,756: registered with master
+[rospy.rosout][INFO] 2020-04-10 15:14:00,757: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 15:14:00,771: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 15:14:00,784: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 15:14:01,055: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2020-04-10 15:14:27,144: Received a sentence with an invalid checksum. Sentence was: ',0.658394,0.009865,0.009686,0.024047*6A'
+[rosout][WARNING] 2020-04-10 15:14:31,139: Received a sentence with an invalid checksum. Sentence was: ',0.431779,0.009141,0.008545,0.021524*67'
+[rosout][WARNING] 2020-04-10 15:14:35,132: Received a sentence with an invalid checksum. Sentence was: ',0.222510,0.009251,0.008819,0.023516*68'
+[rosout][WARNING] 2020-04-10 15:15:48,144: Received a sentence with an invalid checksum. Sentence was: ',0.272974,0.009690,0.008640,0.022468*60'
+[rosout][WARNING] 2020-04-10 15:16:38,218: Received a sentence with an invalid checksum. Sentence was: '.380146,0.011324,0.009790,0.024820*6D'
+[rospy.internal][INFO] 2020-04-10 15:17:03,114: topic[/tcpfix] adding connection to [/rostopic_2658_1586531822793], count 0
+[rospy.internal][INFO] 2020-04-10 15:17:20,126: topic[/tcpfix] removing connection to /rostopic_2658_1586531822793
+[rospy.internal][INFO] 2020-04-10 15:18:39,503: topic[/tcpfix] adding connection to [/rostopic_2671_1586531919229], count 0
+[rosout][WARNING] 2020-04-10 15:18:40,081: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2020-04-10 15:18:40,083: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/usr/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2020-04-10 15:18:40,125: topic[/tcpfix] removing connection to /rostopic_2671_1586531919229
+[rosout][WARNING] 2020-04-10 15:19:02,153: Received a sentence with an invalid checksum. Sentence was: '9,0.052677,0.010521,0.010081,0.026623*6E'
+[rosout][WARNING] 2020-04-10 15:20:08,131: Received a sentence with an invalid checksum. Sentence was: '6,1.168691,0.008814,0.009495,0.023243*60'
+[rosout][WARNING] 2020-04-10 15:25:02,113: Received a sentence with an invalid checksum. Sentence was: '012485,0.011582,0.922504,0.011919,0.012164,0.030686*60'
+[rospy.internal][INFO] 2020-04-10 15:27:01,694: topic[/tcpvel] adding connection to [/heading_compare_node], count 0
+[rosout][WARNING] 2020-04-10 15:29:54,402: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,152927.10,3553.1107694,S,06242.5319738,W,4,12,0.9,112.06,M,0.0,M,1.1,02'
+[rosout][WARNING] 2020-04-10 15:29:55,432: Received a sentence with an invalid checksum. Sentence was: 'PZDA,152930.00,10,04,2020,,*6F'
+[rosout][WARNING] 2020-04-10 15:29:56,039: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,152931.00,3553.1107682,S,06242.5319720,W,4,14,0.8,112.06,M,0.0,M,1.0,0'
+[rosout][WARNING] 2020-04-10 15:29:56,450: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,152933.10,3553.1107682,S,06242.53'
+[rosout][WARNING] 2020-04-10 15:29:56,863: Received a sentence with an invalid checksum. Sentence was: '07640,S,06242.5319696,W,4,13,0.8,112.07,M,0.0,M,0.9,0280*44'
+[rosout][WARNING] 2020-04-10 15:29:57,181: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,152939.90,3553.1107670,S,06242.5319690,W,4,12,0.9,112.06,M,0.'
+[rosout][WARNING] 2020-04-10 15:29:57,277: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,152942.00,3553.'
+[rospy.core][INFO] 2020-04-10 15:29:59,730: signal_shutdown [atexit]
+[rospy.internal][INFO] 2020-04-10 15:30:15,396: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-04-10 15:30:15,396: topic[/tcpvel] removing connection to /heading_compare_node
+[rospy.impl.masterslave][INFO] 2020-04-10 15:30:15,396: atexit
+[rospy.client][INFO] 2020-04-10 16:03:14,243: init_node, name[/nmea_tcp_driver], pid[3050]
+[xmlrpc][INFO] 2020-04-10 16:03:14,244: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 16:03:14,244: Started XML-RPC server [http://juan:40943/]
+[rospy.init][INFO] 2020-04-10 16:03:14,244: ROS Slave URI: [http://juan:40943/]
+[rospy.impl.masterslave][INFO] 2020-04-10 16:03:14,245: _ready: http://juan:40943/
+[rospy.registration][INFO] 2020-04-10 16:03:14,245: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2020-04-10 16:03:14,245: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-04-10 16:03:14,345: registered with master
+[rospy.rosout][INFO] 2020-04-10 16:03:14,345: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 16:03:14,359: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 16:03:14,369: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 16:03:14,659: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2020-04-10 16:03:30,889: Received a sentence with an invalid checksum. Sentence was: '4A'
+[rospy.internal][INFO] 2020-04-10 16:03:34,287: topic[/tcpvel] adding connection to [/heading_compare_node], count 0
+[rospy.client][INFO] 2020-04-10 16:04:16,762: init_node, name[/nmea_tcp_driver], pid[3103]
+[xmlrpc][INFO] 2020-04-10 16:04:16,763: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 16:04:16,764: Started XML-RPC server [http://juan:46433/]
+[rospy.init][INFO] 2020-04-10 16:04:16,764: ROS Slave URI: [http://juan:46433/]
+[rospy.impl.masterslave][INFO] 2020-04-10 16:04:16,764: _ready: http://juan:46433/
+[rospy.registration][INFO] 2020-04-10 16:04:16,765: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2020-04-10 16:04:16,765: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-04-10 16:04:16,864: registered with master
+[rospy.rosout][INFO] 2020-04-10 16:04:16,865: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 16:04:16,891: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 16:04:16,908: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.impl.masterslave][INFO] 2020-04-10 16:04:16,957: external shutdown request from [/master]: new node registered with same name
+[rospy.core][INFO] 2020-04-10 16:04:16,957: signal_shutdown [external shutdown request from [/master]: [new node registered with same name]]
+[rospy.internal][INFO] 2020-04-10 16:04:17,011: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-04-10 16:04:17,013: topic[/tcpvel] removing connection to /heading_compare_node
+[rospy.core][INFO] 2020-04-10 16:04:17,114: signal_shutdown [atexit]
+[rospy.internal][INFO] 2020-04-10 16:04:17,164: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-04-10 16:04:17,250: topic[/tcpvel] adding connection to [/heading_compare_node], count 0
+[rosout][WARNING] 2020-04-10 16:04:19,824: Received a sentence with an invalid checksum. Sentence was: '80*79'
+[rospy.core][INFO] 2020-04-10 16:04:26,164: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-04-10 16:04:26,189: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-04-10 16:04:26,189: topic[/tcpvel] removing connection to /heading_compare_node
+[rospy.impl.masterslave][INFO] 2020-04-10 16:04:26,190: signal-2
+[rospy.core][INFO] 2020-04-10 16:04:26,805: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-04-10 16:04:31,564: init_node, name[/nmea_tcp_driver], pid[3127]
+[xmlrpc][INFO] 2020-04-10 16:04:31,565: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 16:04:31,565: Started XML-RPC server [http://juan:33063/]
+[rospy.init][INFO] 2020-04-10 16:04:31,566: ROS Slave URI: [http://juan:33063/]
+[rospy.impl.masterslave][INFO] 2020-04-10 16:04:31,566: _ready: http://juan:33063/
+[rospy.registration][INFO] 2020-04-10 16:04:31,566: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2020-04-10 16:04:31,567: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-04-10 16:04:31,666: registered with master
+[rospy.rosout][INFO] 2020-04-10 16:04:31,666: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 16:04:31,705: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 16:04:31,729: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 16:04:31,988: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-04-10 16:04:32,020: topic[/tcpvel] adding connection to [/heading_compare_node], count 0
+[rosout][WARNING] 2020-04-10 16:05:43,688: Received a sentence with an invalid checksum. Sentence was: '.013676,1.115555,1.082748,2.335689*41'
+[rosout][WARNING] 2020-04-10 16:06:19,224: Received a sentence with an invalid checksum. Sentence was: 'VTG,,T,,M,,N,,K,N*2C'
+[rosout][WARNING] 2020-04-10 16:06:41,754: Received a sentence with an invalid checksum. Sentence was: 'A,A,3,315,,,,,,,,,,,,2.0,1.0,1.7*1E'
+[rosout][WARNING] 2020-04-10 16:06:42,734: Received a sentence with an invalid checksum. Sentence was: '65'
+[rosout][WARNING] 2020-04-10 16:06:47,820: Received a sentence with an invalid checksum. Sentence was: '6B'
+[rosout][WARNING] 2020-04-10 16:06:57,701: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,160658'
+[rosout][WARNING] 2020-04-10 16:07:05,595: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,160705.00,3553.1137520,S,06242.533'
+[rosout][WARNING] 2020-04-10 16:07:05,857: Received a sentence with an invalid checksum. Sentence was: '$GPGGA,160706.10,3553.1137568,S,06242.5'
+[rosout][WARNING] 2020-04-10 16:07:07,621: Received a sentence with an invalid checksum. Sentence was: 'VTG,,T,,M,0.04,N,0.07,K,A*20'
+[rospy.core][INFO] 2020-04-10 16:07:13,749: signal_shutdown [atexit]
+[rospy.internal][INFO] 2020-04-10 16:07:13,881: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-04-10 16:07:13,882: topic[/tcpvel] removing connection to /heading_compare_node
+[rospy.impl.masterslave][INFO] 2020-04-10 16:07:13,882: atexit
+[rospy.client][INFO] 2020-04-10 19:45:19,063: init_node, name[/nmea_tcp_driver], pid[3556]
+[xmlrpc][INFO] 2020-04-10 19:45:19,064: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 19:45:19,065: Started XML-RPC server [http://juan:45301/]
+[rospy.init][INFO] 2020-04-10 19:45:19,065: ROS Slave URI: [http://juan:45301/]
+[rospy.impl.masterslave][INFO] 2020-04-10 19:45:19,065: _ready: http://juan:45301/
+[rospy.registration][INFO] 2020-04-10 19:45:19,066: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2020-04-10 19:45:19,066: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-04-10 19:45:19,165: registered with master
+[rospy.rosout][INFO] 2020-04-10 19:45:19,166: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 19:45:19,182: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 19:45:19,199: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 19:45:19,471: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-04-10 19:45:51,098: topic[/tcpvel] adding connection to [/heading_compare_node], count 0
+[rospy.internal][INFO] 2020-04-10 19:48:47,844: topic[/tcpvel] adding connection to [/gps_heading], count 1
+[rospy.internal][INFO] 2020-04-10 19:53:03,883: topic[/tcpvel] removing connection to /gps_heading
+[rospy.internal][INFO] 2020-04-10 19:57:44,343: topic[/tcpvel] adding connection to [/gps_heading], count 1
+[rospy.internal][INFO] 2020-04-10 20:00:01,908: topic[/tcpvel] adding connection to [/heading_compare_node], count 2
+[rospy.internal][INFO] 2020-04-10 20:00:01,908: topic[/tcpvel] removing connection to /heading_compare_node
+[rospy.internal][INFO] 2020-04-10 20:00:03,645: topic[/tcpvel] removing connection to /heading_compare_node
+[rospy.internal][INFO] 2020-04-10 20:00:05,646: topic[/tcpvel] adding connection to [/heading_compare_node], count 1
+[rospy.internal][INFO] 2020-04-10 20:02:05,553: topic[/tcpvel] removing connection to /gps_heading
+[rospy.internal][INFO] 2020-04-10 20:02:12,028: topic[/tcpvel] adding connection to [/gps_heading], count 1
+[rospy.internal][INFO] 2020-04-10 20:03:17,505: topic[/tcpvel] removing connection to /gps_heading
+[rospy.internal][INFO] 2020-04-10 20:03:20,950: topic[/tcpvel] adding connection to [/gps_heading], count 1
+[rospy.core][INFO] 2020-04-10 20:06:12,977: signal_shutdown [atexit]
+[rospy.internal][INFO] 2020-04-10 20:06:13,047: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-04-10 20:06:13,048: topic[/tcpvel] removing connection to /heading_compare_node
+[rospy.internal][INFO] 2020-04-10 20:06:13,048: topic[/tcpvel] removing connection to /gps_heading
+[rospy.impl.masterslave][INFO] 2020-04-10 20:06:13,052: atexit
+[rospy.client][INFO] 2020-04-10 20:36:37,538: init_node, name[/nmea_tcp_driver], pid[5005]
+[xmlrpc][INFO] 2020-04-10 20:36:37,539: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 20:36:37,540: Started XML-RPC server [http://juan:35821/]
+[rospy.init][INFO] 2020-04-10 20:36:37,540: ROS Slave URI: [http://juan:35821/]
+[rospy.impl.masterslave][INFO] 2020-04-10 20:36:37,540: _ready: http://juan:35821/
+[rospy.registration][INFO] 2020-04-10 20:36:37,541: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2020-04-10 20:36:37,541: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-04-10 20:36:37,641: registered with master
+[rospy.rosout][INFO] 2020-04-10 20:36:37,641: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 20:36:37,654: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 20:36:37,663: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2020-04-10 20:36:39,833: Received a sentence with an invalid checksum. Sentence was: '50,3553.1342798,S,06242.5013450,W,5,07,1.1,109.23,M,0.0,M,0.5,0280*4E'
+[rospy.internal][INFO] 2020-04-10 20:36:40,884: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-04-10 20:36:51,151: topic[/tcpvel] adding connection to [/heading_compare_node], count 0
+[rospy.internal][INFO] 2020-04-10 20:38:39,553: topic[/tcpvel] adding connection to [/gps_heading], count 1
+[rospy.internal][INFO] 2020-04-10 20:39:14,185: topic[/tcpvel] removing connection to /gps_heading
+[rospy.internal][INFO] 2020-04-10 20:39:17,904: topic[/tcpvel] adding connection to [/gps_heading], count 1
+[rospy.internal][INFO] 2020-04-10 20:39:38,172: topic[/tcpvel] removing connection to /gps_heading
+[rospy.internal][INFO] 2020-04-10 20:39:48,815: topic[/tcpvel] adding connection to [/gps_heading], count 1
+[rospy.core][INFO] 2020-04-10 20:53:34,537: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2020-04-10 20:53:34,540: unclean shutdown
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/registration.py", line 372, in cleanup
+    multi()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1006, in __call__
+    return MultiCallIterator(self.__server.system.multicall(marshalled_list))
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1069, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 907, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 869, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 846, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 101] Network is unreachable
+
+[rospy.internal][INFO] 2020-04-10 20:53:34,541: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-04-10 20:53:34,541: topic[/tcpvel] removing connection to /heading_compare_node
+[rospy.internal][INFO] 2020-04-10 20:53:34,542: topic[/tcpvel] removing connection to /gps_heading
+[rospy.impl.masterslave][INFO] 2020-04-10 20:53:34,542: signal-2
+[rospy.core][INFO] 2020-04-10 20:53:34,651: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-04-10 21:03:36,566: init_node, name[/nmea_tcp_driver], pid[5694]
+[xmlrpc][INFO] 2020-04-10 21:03:36,567: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 21:03:36,568: Started XML-RPC server [http://juan:35325/]
+[rospy.init][INFO] 2020-04-10 21:03:36,568: ROS Slave URI: [http://juan:35325/]
+[rospy.impl.masterslave][INFO] 2020-04-10 21:03:36,568: _ready: http://juan:35325/
+[rospy.registration][INFO] 2020-04-10 21:03:36,569: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2020-04-10 21:03:36,570: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-04-10 21:03:36,669: registered with master
+[rospy.rosout][INFO] 2020-04-10 21:03:36,669: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 21:03:36,683: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 21:03:36,694: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 21:03:36,974: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-04-10 21:03:44,024: topic[/tcpvel] adding connection to [/heading_compare_node], count 0
+[rospy.internal][INFO] 2020-04-10 21:05:11,989: topic[/tcpvel] adding connection to [/gps_heading], count 1
+[rospy.core][INFO] 2020-04-10 21:36:20,758: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2020-04-10 21:36:21,459: unclean shutdown
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/registration.py", line 372, in cleanup
+    multi()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1006, in __call__
+    return MultiCallIterator(self.__server.system.multicall(marshalled_list))
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1069, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 907, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 869, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 846, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 113] No route to host
+
+[rospy.internal][INFO] 2020-04-10 21:36:21,459: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-04-10 21:36:21,460: topic[/tcpvel] removing connection to /heading_compare_node
+[rospy.internal][INFO] 2020-04-10 21:36:21,460: topic[/tcpvel] removing connection to /gps_heading
+[rospy.impl.masterslave][INFO] 2020-04-10 21:36:21,461: signal-2
+[rospy.core][INFO] 2020-04-10 21:36:21,931: signal_shutdown [atexit]

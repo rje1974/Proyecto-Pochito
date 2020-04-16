@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/rqt_gps_rtk_plugin/lib/pkgconfig/rqt_gps_rtk_plugin.pc

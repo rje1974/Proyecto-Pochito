@@ -1,0 +1,68 @@
+[rospy.client][INFO] 2019-09-24 20:00:53,295: init_node, name[/rostopic_357_1569355253186], pid[357]
+[xmlrpc][INFO] 2019-09-24 20:00:53,297: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2019-09-24 20:00:53,299: ROS Slave URI: [http://juan:35721/]
+[xmlrpc][INFO] 2019-09-24 20:00:53,299: Started XML-RPC server [http://juan:35721/]
+[rospy.impl.masterslave][INFO] 2019-09-24 20:00:53,299: _ready: http://juan:35721/
+[xmlrpc][INFO] 2019-09-24 20:00:53,301: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-09-24 20:00:53,301: Registering with master node http://tractor:11311/
+[rospy.init][INFO] 2019-09-24 20:00:53,399: registered with master
+[rospy.rosout][INFO] 2019-09-24 20:00:53,400: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-09-24 20:00:53,415: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-09-24 20:00:53,429: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2019-09-24 20:00:53,523: topic[/rosout] adding connection to [/rostopic_1357_1569355201582], count 0
+[rospy.internal][INFO] 2019-09-24 20:00:53,584: topic[/rosout] adding connection to [http://juan:35721/], count 0
+[rospy.internal][INFO] 2019-09-24 20:00:53,723: topic[/rosout] adding connection to [/rosout], count 1
+[rospy.internal][INFO] 2019-09-24 20:00:53,729: topic[/rosout] adding connection to [http://tractor:41345/], count 1
+[rospy.internal][INFO] 2019-09-24 20:00:53,731: topic[/rosout] adding connection to [http://tractor:38845/], count 2
+[rospy.internal][INFO] 2019-09-24 20:00:54,616: topic[/rosout] adding connection to [http://tractor:33297/], count 3
+[rospy.internal][INFO] 2019-09-24 20:00:54,619: topic[/rosout] adding connection to [http://tractor:42323/], count 4
+[rospy.internal][INFO] 2019-09-24 20:00:54,621: topic[/rosout] adding connection to [http://tractor:39889/], count 5
+[rospy.internal][INFO] 2019-09-24 20:00:54,632: topic[/rosout] adding connection to [/rostopic_357_1569355253186], count 2
+[rospy.internal][INFO] 2019-09-24 20:02:13,755: topic[/rosout] adding connection to [http://tractor:38293/], count 6
+[rospy.core][INFO] 2019-09-24 20:07:39,329: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-09-24 20:07:39,356: topic[/rosout] removing connection to /rostopic_1357_1569355201582
+[rospy.internal][INFO] 2019-09-24 20:07:39,359: topic[/rosout] removing connection to /rosout
+[rospy.internal][ERROR] 2019-09-24 20:07:39,364: Unable to initiate TCP/IP socket to juan:45593 (http://juan:35721/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2019-09-24 20:07:39,364: topic[/rosout] removing connection to /rostopic_357_1569355253186
+[rospy.internal][INFO] 2019-09-24 20:07:39,364: topic[/rosout] removing connection to http://juan:35721/
+[rospy.internal][INFO] 2019-09-24 20:07:39,366: topic[/rosout] removing connection to http://tractor:41345/
+[rospy.internal][INFO] 2019-09-24 20:07:39,367: topic[/rosout] removing connection to http://tractor:38845/
+[rospy.internal][INFO] 2019-09-24 20:07:39,369: topic[/rosout] removing connection to http://tractor:33297/
+[rospy.internal][INFO] 2019-09-24 20:07:39,370: topic[/rosout] removing connection to http://tractor:42323/
+[rospy.internal][WARNING] 2019-09-24 20:07:39,371: Unknown error initiating TCP/IP socket to tractor:40459 (http://tractor:41345/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][INFO] 2019-09-24 20:07:39,373: topic[/rosout] removing connection to http://tractor:39889/
+[rospy.internal][INFO] 2019-09-24 20:07:39,374: topic[/rosout] removing connection to http://tractor:38293/
+[rospy.impl.masterslave][INFO] 2019-09-24 20:07:39,375: signal-2
+[rospy.internal][WARNING] 2019-09-24 20:07:39,377: Unknown error initiating TCP/IP socket to tractor:41087 (http://tractor:33297/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][WARNING] 2019-09-24 20:07:39,377: Unknown error initiating TCP/IP socket to tractor:33467 (http://tractor:42323/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][WARNING] 2019-09-24 20:07:39,389: Unknown error initiating TCP/IP socket to tractor:39581 (http://tractor:39889/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][WARNING] 2019-09-24 20:07:39,394: Unknown error initiating TCP/IP socket to tractor:44839 (http://tractor:38293/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2019-09-24 20:07:39,476: signal_shutdown [atexit]

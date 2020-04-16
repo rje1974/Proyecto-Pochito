@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel/.private/rqt_gps_rtk_plugin
+
+Name: rqt_gps_rtk_plugin
+Description: Description of rqt_gps_rtk_plugin
+Version: 1.10.0
+Cflags: -I/root/catkin_ws/src/ethz_piksi_ros/rqt_gps_rtk_plugin/include -I/root/catkin_ws/devel/.private/rqt_gps_rtk_plugin/include/rqt_gps_rtk_plugin/..
+Libs: -L/root/catkin_ws/devel/.private/rqt_gps_rtk_plugin/lib -lrqt_gps_rtk_plugin
+Requires: rqt_gui rqt_gui_cpp piksi_rtk_msgs sensor_msgs

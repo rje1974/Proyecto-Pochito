@@ -1,0 +1,25 @@
+[rospy.client][INFO] 2020-04-10 19:59:12,683: init_node, name[/rostopic_4177_1586548752641], pid[4177]
+[xmlrpc][INFO] 2020-04-10 19:59:12,684: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-04-10 19:59:12,685: Started XML-RPC server [http://juan:45925/]
+[rospy.init][INFO] 2020-04-10 19:59:12,685: ROS Slave URI: [http://juan:45925/]
+[rospy.impl.masterslave][INFO] 2020-04-10 19:59:12,685: _ready: http://juan:45925/
+[rospy.registration][INFO] 2020-04-10 19:59:12,686: Registering with master node http://tractor:11311/
+[xmlrpc][INFO] 2020-04-10 19:59:12,686: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-04-10 19:59:12,785: registered with master
+[rospy.rosout][INFO] 2020-04-10 19:59:12,786: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-04-10 19:59:12,796: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-04-10 19:59:12,807: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-04-10 19:59:12,904: topic[/heading] adding connection to [http://juan:40653/], count 0
+[rospy.internal][INFO] 2020-04-10 19:59:12,905: topic[/heading] adding connection to [http://juan:42257/], count 1
+[rospy.internal][INFO] 2020-04-10 19:59:13,087: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2020-04-10 19:59:21,168: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-04-10 19:59:21,188: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-04-10 19:59:21,189: topic[/heading] removing connection to http://juan:40653/
+[rospy.internal][INFO] 2020-04-10 19:59:21,189: topic[/heading] removing connection to http://juan:42257/
+[rospy.impl.masterslave][INFO] 2020-04-10 19:59:21,189: signal-2
+[rospy.internal][WARNING] 2020-04-10 19:59:21,190: Unknown error initiating TCP/IP socket to juan:36675 (http://juan:40653/): Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2020-04-10 19:59:21,325: signal_shutdown [atexit]
