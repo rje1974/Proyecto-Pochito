@@ -9,6 +9,8 @@
 		<param name="frame_id" value="map"/>
 	</node>
 
+
+
 	<!-- ****** Fake localization for map and gps ***** -->
 	<node pkg="tf" type="static_transform_publisher" name="map_to_odom" args="0.0 0.0 0.0 0 0 0.0 /map /odom 100"/>
 
