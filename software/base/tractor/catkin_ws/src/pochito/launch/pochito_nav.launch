@@ -19,8 +19,8 @@
 	<node pkg="tf" type="static_transform_publisher" name="gps_transform" respawn="true" args="1.40 0.0 0.55 0 0 0 base_link gps 10"/>
 
 	<!-- Start GPS_Pose Localization-->
-	<!-- Calc heading from GPS-->
-	<node pkg="pochito" type="gps_heading.py" name="gps_heading" output="log"/>
+	<!-- Calc heading from GPS Lo saque porque estaba duplicado con el del driver-->
+	<!-- node pkg="pochito" type="gps_heading.py" name="gps_heading" output="log"/ -->
 
 	<!-- Combines heading from gps /vel message and GPS /fix -->
 	<include file="$(find geodetic_utils)/launch/gps_to_pose.launch"/>
