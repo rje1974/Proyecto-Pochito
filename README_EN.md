@@ -36,7 +36,7 @@ If you want to see something more detailed, you can see it [here](https://github
 
 ## Participation
 
-This is an open project in every way. You are invited to work with the team and must only appear on one of the following platforms: [Join the Whatsapp group](https://chat.whatsapp.com/FK1hUuH3ac3ExXbGrR0gs1) or [to the SLACK group](https://app.slack.com/client/T676UDNG3/GK8UTNMGS), send an [email](mailto:juaneduardoriva@gmail.com) or [a Whatsapp](https://wa.me/5492392520561) to the coordinator.
+This is an open project in every way. You are invited to work with the team and must only appear on one of the following platforms: [Join the Whatsapp group](https://chat.whatsapp.com/FK1hUuH3ac3ExXbGrR0gs1) or [to the SLACK group](https://app.slack.com/client/T676UDNG3/GK8UTNMGS) or send an [email](mailto:juaneduardoriva@gmail.com) to the coordinator.
 
 ## Thanks
 
